@@ -1,0 +1,659 @@
+{
+  "metadata": {
+    "title": "OmniPic — Amélioration de Photos et Vidéos par IA",
+    "description": "La plateforme ultime d'amélioration de photos et de vidéos par intelligence artificielle. Restaurez vos vieilles photos, améliorez la qualité et donnez vie à vos souvenirs."
+  },
+  "navbar": {
+    "enhance": "Améliorer",
+    "livingMemories": "Souvenirs Vivants",
+    "plans": "Forfaits",
+    "support": "Support",
+    "login": "Connexion",
+    "startFree": "Commencer Gratuitement",
+    "new": "Nouveau"
+  },
+  "hero": {
+    "headline": "La seule plateforme d'amélioration de photos et de vidéos dont vous aurez besoin",
+    "subtitle": "Technologie transformatrice par IA qui fait passer vos photos de basse qualité en HD. Restaurez vos vieilles photos, donnez vie à vos souvenirs et élevez votre contenu au niveau professionnel.",
+    "cta": "Commencez Maintenant — C'est Gratuit",
+    "tabs": {
+      "portrait": "Portrait",
+      "landscape": "Paysage",
+      "oldPhoto": "Vieille Photo"
+    },
+    "badges": ["Amélioration Faciale", "Couleur Automatique", "Éclat du Visage", "Amélioration de l'Arrière-plan"],
+    "authentic": "Toutes les améliorations présentées sont 100 % authentiques."
+  },
+  "homeServices": {
+    "title": "Tout ce dont vous avez besoin pour vos photos",
+    "subtitle": "Des outils d'IA professionnels, simples à utiliser.",
+    "tryNow": "Essayer",
+    "items": {
+      "memoriasVivas": {
+        "title": "Souvenirs Vivants",
+        "subtitle": "Revoyez ceux que vous aimez",
+        "description": "Nous reconstruisons avec sensibilité les traits de ceux qui ont marqué votre vie.",
+        "badge": "Émotionnel"
+      },
+      "bringToLife": {
+        "title": "Donnez vie à votre photo",
+        "subtitle": "Une photo fixe devient une vidéo",
+        "description": "Transformez des photos immobiles en vidéos dynamiques avec des mouvements cinématographiques.",
+        "badge": "Vidéo"
+      },
+      "restoreOld": {
+        "title": "Restaurez vos vieilles photos",
+        "subtitle": "Restaurez et revitalisez",
+        "description": "Restaurez et améliorez les photos anciennes, rayées, délavées ou endommagées.",
+        "badge": "Restauration"
+      },
+      "addPeople": {
+        "title": "Ajoutez des personnes à la photo",
+        "subtitle": "Réunissez ceux qui manquaient",
+        "description": "Insérez des personnes dans vos photos avec une IA générative de manière réaliste.",
+        "badge": "IA Générative"
+      },
+      "removeObjects": {
+        "title": "Supprimez des objets de la photo",
+        "subtitle": "Nettoyez la scène",
+        "description": "Supprimez parfaitement les éléments indésirables, comme s'ils n'avaient jamais été là.",
+        "badge": "Nettoyage"
+      },
+      "filtersEffects": {
+        "title": "Filtres et effets photographiques",
+        "subtitle": "Style professionnel",
+        "description": "Appliquez des effets modernes et professionnels en un clic.",
+        "badge": "Effets"
+      }
+    }
+  },
+  "memoriasVivas": {
+    "badge": "Nouveau · IA hyperréaliste",
+    "title": "Souvenirs Vivants — Vous, comme jamais",
+    "description": "Essayez des photos hyperréalistes de vous-même générées par IA. Avec seulement un selfie, créez des séances professionnelles dans n'importe quelle scène, style ou époque.",
+    "cta": "Créer mon shooting IA",
+    "ctaSecondary": "Voir des exemples",
+    "heroBadge": "Par des créateurs, pour des créateurs",
+    "pageTitle": "Shootings IA hyperréalistes de vous-même",
+    "pageSubtitle": "Téléchargez quelques selfies et laissez notre IA créer des centaines de photos professionnelles de vous dans différents styles, scènes et tenues — le tout en qualité studio.",
+    "heroStats": [
+      { "value": "100+", "label": "Styles disponibles" },
+      { "value": "4K", "label": "Qualité de sortie" },
+      { "value": "< 2 min", "label": "Par shooting" }
+    ],
+    "examplesTitle": "Un visage, des looks infinis",
+    "examplesSubtitle": "Chaque photo ci-dessous a été générée par IA à partir de quelques selfies. Zéro maquillage, zéro studio, zéro limite.",
+    "styles": [
+      { "name": "Corporate", "description": "LinkedIn pro", "color": "blue" },
+      { "name": "Fashion Editorial", "description": "Couverture de magazine", "color": "fuchsia" },
+      { "name": "Cinématique", "description": "Style Hollywood", "color": "violet" },
+      { "name": "Vintage 90s", "description": "Nostalgie rétro", "color": "amber" },
+      { "name": "Fantasy Épique", "description": "Monde fictionnel", "color": "emerald" },
+      { "name": "Urbain", "description": "Street style", "color": "rose" }
+    ],
+    "howItWorks": "Comment ça marche en 3 étapes",
+    "steps": [
+      { "title": "Téléchargez 10-20 selfies", "description": "Des photos nettes de votre visage sous différents angles et éclairages." },
+      { "title": "L'IA apprend votre visage", "description": "Notre modèle apprend vos traits uniques en quelques minutes, avec une confidentialité totale." },
+      { "title": "Recevez des centaines de photos", "description": "Choisissez des styles et des scènes et recevez des shootings prêts en 4K à télécharger." }
+    ],
+    "featuresTitle": "Pourquoi Souvenirs Vivants est différent",
+    "features": [
+      { "icon": "Zap", "title": "Résultats en minutes", "description": "Quand d'autres mettent des heures, nous livrons des shootings complets en moins de 2 minutes par style." },
+      { "icon": "Shield", "title": "Confidentialité garantie", "description": "Vos photos et votre modèle ne sont jamais partagés. Supprimés automatiquement sous 24 h." },
+      { "icon": "Sparkles", "title": "Hyperréalisme 4K", "description": "Qualité studio professionnelle — indiscernable d'une vraie photo." },
+      { "icon": "Infinity", "title": "Illimité*", "description": "Générez autant de styles que vous voulez avec votre plan Souvenirs Vivants." }
+    ],
+    "testimonialsTitle": "Les créateurs adorent déjà",
+    "testimonials": [
+      { "name": "Marie Dubois", "handle": "@mariedubois", "text": "J'ai fait un shooting corporate en 2 minutes. C'est déjà ma photo officielle LinkedIn.", "accent": "blue" },
+      { "name": "Jean Martin", "handle": "@jeanmartin", "text": "J'ai économisé 500 € que j'aurais dépensés chez un photographe. Indiscernable d'une vraie photo.", "accent": "violet" }
+    ],
+    "disclaimer": "Souvenirs Vivants est un service de génération d'images par IA qui crée des shootings hyperréalistes à partir de vos propres photos. Les images générées sont artistiques et doivent être utilisées de manière responsable. Aucune photo n'est jamais partagée publiquement.",
+    "faq": [
+      { "question": "Combien de selfies dois-je télécharger ?", "answer": "Nous recommandons 10 à 20 selfies de bonne qualité sous différents angles et éclairages pour les meilleurs résultats." },
+      { "question": "Combien de temps pour générer le shooting ?", "answer": "Après l'upload, l'entraînement prend environ 15 minutes. Chaque style généré ensuite est prêt en moins de 2 minutes." },
+      { "question": "Mes photos sont-elles stockées ?", "answer": "Non. Vos photos originales et le modèle entraîné sont supprimés automatiquement sous 24 heures. Confidentialité totale." },
+      { "question": "Puis-je choisir le style ?", "answer": "Oui ! Nous offrons plus de 100 styles prêts : corporate, fashion, vintage, cinématique, fantasy et bien plus." }
+    ]
+  },
+  "industries": {
+    "title": "Un produit, des possibilités infinies",
+    "subtitle": "Six outils IA qui transforment chaque photo en une histoire à partager.",
+    "items": [
+      { "icon": "Camera", "title": "Vous, comme jamais", "description": "Des séances photo hyperréalistes générées par IA à partir de vos selfies. Tous les looks, instantanément.", "tag": "#SelfReal" },
+      { "icon": "Video", "title": "Vos photos prennent vie", "description": "Transformez des images fixes en vidéos cinématographiques qui arrêtent le scroll.", "tag": "#Reels" },
+      { "icon": "Clock", "title": "Souvenirs restaurés", "description": "Les photos anciennes, décolorées ou déchirées retrouvent leur netteté et leurs couleurs d'origine.", "tag": "#Souvenirs" },
+      { "icon": "UserPlus", "title": "Réunissez qui manquait", "description": "Ajoutez des proches à des photos anciennes ou récentes avec une composition IA photoréaliste.", "tag": "#Famille" },
+      { "icon": "Eraser", "title": "La scène toujours parfaite", "description": "Supprimez touristes, objets et distractions — comme s'ils n'avaient jamais été là.", "tag": "#Clean" },
+      { "icon": "Wand2", "title": "Style de créateur de contenu", "description": "Filtres, lumières et effets pros en un clic pour faire exploser votre feed.", "tag": "#Viral" }
+    ]
+  },
+  "solutions": {
+    "title": "Adieu le flou 👋 Bonjour la haute définition",
+    "subtitle": "Découvrez nos outils d'amélioration par IA",
+    "items": [
+      { "slug": "desfocar-nitidez", "title": "Défloutage et Netteté", "description": "Supprimez le flou et ajoutez une netteté cristalline à vos photos." },
+      { "slug": "restaurador-fotos-antigas", "title": "Restaurateur de Vieilles Photos", "description": "Redonnez vie aux photos endommagées grâce à la restauration par IA." },
+      { "slug": "redutor-ruido", "title": "Réducteur de Bruit", "description": "Éliminez le grain et le bruit tout en conservant tous les détails." },
+      { "slug": "realcador-facial", "title": "Rehausseur Facial", "description": "Mettez en valeur les visages avec des détails naturels et une peau parfaite." },
+      { "slug": "corretor-cor", "title": "Correcteur de Couleurs", "description": "Corrigez les couleurs délavées et redonnez de l'éclat à vos images." },
+      { "slug": "ampliador-imagem", "title": "Agrandisseur d'Image", "description": "Augmentez la résolution jusqu'à 4x sans perdre en qualité." }
+    ],
+    "learnMore": "En savoir plus →"
+  },
+  "testimonials": {
+    "badge": "Adoré des créateurs",
+    "title": "Des millions font confiance, tous sont bluffés",
+    "subtitle": "De vraies histoires de ceux qui ont déjà transformé souvenirs et feeds avec OmniPic.",
+    "counters": [
+      { "value": "50M+", "label": "Utilisateurs actifs" },
+      { "value": "4.9", "label": "Note moyenne" },
+      { "value": "2B+", "label": "Photos transformées" }
+    ],
+    "reviews": [
+      { "name": "Anne Lefèvre", "handle": "@annelefevre", "platform": "Instagram", "rating": 5, "text": "Mon shooting IA semblait si réel que mes amis pensaient que j'avais engagé un photographe. Dingue !", "accent": "violet", "size": "large" },
+      { "name": "Pierre Bernard", "handle": "@pbernard", "platform": "App Store", "rating": 5, "text": "J'ai transformé une vieille photo de ma grand-mère en vidéo. Toute la famille a pleuré.", "accent": "rose", "size": "medium" },
+      { "name": "Caroline Moreau", "handle": "@caromoreau", "platform": "Google Play", "rating": 5, "text": "J'ai restauré des albums vieux de 50 ans. Les détails sont revenus comme hier.", "accent": "emerald", "size": "medium" },
+      { "name": "Lucas Girard", "handle": "@lucasgirard", "platform": "Twitter", "rating": 5, "text": "Je suis photographe depuis 12 ans. Jamais vu une IA livrer une telle netteté.", "accent": "blue", "size": "large" },
+      { "name": "Julie Laurent", "handle": "@julielaurent", "platform": "TikTok", "rating": 5, "text": "J'ai fait 2M de vues sur TikTok juste avec les filtres OmniPic. Accro !", "accent": "fuchsia", "size": "medium" },
+      { "name": "Raphaël Petit", "handle": "@raphpetit", "platform": "YouTube", "rating": 5, "text": "J'ai retiré une voiture qui gâchait le paysage. Parfait, sans aucune trace.", "accent": "cyan", "size": "medium" }
+    ]
+  },
+  "ctaFinal": {
+    "title": "Essayez OmniPic dès maintenant !",
+    "subtitle": "Rejoignez des millions d'utilisateurs qui ont déjà transformé leurs photos grâce à l'IA.",
+    "cta": "Commencer Gratuitement",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "plansModal": {
+    "title": "Débloquez toute la puissance d'OmniPic",
+    "subtitle": "Choisissez le forfait qui vous convient",
+    "limitedTime": "OFFRE À DURÉE LIMITÉE",
+    "bestValue": "MEILLEUR RAPPORT",
+    "save": "Économisez",
+    "perWeek": "/semaine",
+    "perMonth": "/mois",
+    "perYear": "/an",
+    "letsGo": "Commencer maintenant",
+    "selectPlan": "Choisir ce forfait",
+    "close": "Fermer",
+    "cancelAnytime": "Annulez à tout moment",
+    "secureCheckout": "Paiement 100 % sécurisé",
+    "moneyBack": "Garantie 7 jours satisfait ou remboursé",
+    "plans": {
+      "weekly": {
+        "name": "Hebdomadaire",
+        "tagline": "Accès complet pendant 7 jours",
+        "rawPrice": 5.99,
+        "price": "5,99 US$",
+        "period": "semaine",
+        "billedAs": "Facturé chaque semaine",
+        "features": [
+          "Accès complet à toutes les fonctionnalités pendant 7 jours",
+          "Amélioration d'images par IA illimitée",
+          "Tous les modèles d'IA disponibles",
+          "Plusieurs formats (JPG, PNG, TIFF)",
+          "Upload par lot",
+          "Sans filigrane",
+          "Usage commercial autorisé",
+          "Annulable à tout moment"
+        ]
+      },
+      "monthly": {
+        "name": "Mensuel",
+        "tagline": "Pour une utilisation régulière",
+        "rawPrice": 16.99,
+        "price": "16,99 US$",
+        "period": "mois",
+        "billedAs": "Facturé chaque mois",
+        "savingsLabel": "Économisez 34 %",
+        "discountBadge": "34% OFF",
+        "features": [
+          "Accès complet à toutes les fonctionnalités pendant 30 jours",
+          "Amélioration d'images par IA illimitée",
+          "Tous les modèles d'IA disponibles",
+          "Plusieurs formats (JPG, PNG, TIFF)",
+          "Upload par lot",
+          "Sans filigrane",
+          "Usage commercial autorisé",
+          "Annulable à tout moment",
+          "Économisez 34 % par rapport à l'hebdomadaire"
+        ]
+      },
+      "annual": {
+        "name": "Annuel",
+        "tagline": "Le préféré des créateurs",
+        "rawPrice": 179.99,
+        "price": "179,99 US$",
+        "period": "an",
+        "billedAs": "Facturé chaque année",
+        "monthlyEquivalent": "Équivalent à 14,99 US$/mois",
+        "savingsLabel": "Économisez 42 %",
+        "discountBadge": "42% OFF",
+        "badge": "MEILLEUR RAPPORT",
+        "features": [
+          "Accès complet à toutes les fonctionnalités pendant 365 jours",
+          "Amélioration d'images par IA illimitée",
+          "Tous les modèles d'IA disponibles",
+          "Plusieurs formats (JPG, PNG, TIFF)",
+          "Upload par lot",
+          "Sans filigrane",
+          "Usage commercial autorisé",
+          "Annulable à tout moment",
+          "Économisez 42 % par rapport à l'hebdomadaire"
+        ]
+      }
+    }
+  },
+  "auth": {
+    "title": "Bienvenue sur OmniPic",
+    "subtitle": "Connectez-vous ou créez un compte pour commencer",
+    "tabs": {
+      "login": "Connexion",
+      "register": "Inscription"
+    },
+    "fields": {
+      "email": "E-mail",
+      "password": "Mot de passe",
+      "name": "Nom",
+      "confirmPassword": "Confirmer le mot de passe"
+    },
+    "placeholders": {
+      "email": "Votre e-mail",
+      "password": "Votre mot de passe",
+      "name": "Votre nom",
+      "confirmPassword": "Confirmez votre mot de passe"
+    },
+    "login": {
+      "rememberMe": "Se souvenir de moi",
+      "forgotPassword": "Mot de passe oublié ?",
+      "submit": "Se connecter",
+      "or": "Ou continuez avec",
+      "google": "Continuer avec Google",
+      "apple": "Continuer avec Apple",
+      "noAccount": "Vous n'avez pas de compte ?",
+      "createAccount": "Créer un compte"
+    },
+    "register": {
+      "agreeTerms": "J'accepte les Conditions d'Utilisation et la Politique de Confidentialité",
+      "submit": "Créer un Compte",
+      "or": "Ou inscrivez-vous avec",
+      "google": "S'inscrire avec Google",
+      "apple": "S'inscrire avec Apple",
+      "hasAccount": "Vous avez déjà un compte ?",
+      "signIn": "Se connecter"
+    },
+    "forgotPassword": {
+      "title": "Mot de passe oublié ?",
+      "description": "Saisissez votre e-mail et nous vous enverrons les instructions pour le réinitialiser.",
+      "submit": "Envoyer les instructions",
+      "backToLogin": "Retour à la connexion",
+      "sent": "Instructions envoyées ! Vérifiez votre e-mail."
+    },
+    "validation": {
+      "required": "Champ obligatoire",
+      "invalidEmail": "E-mail invalide",
+      "minLength": "Minimum 8 caractères",
+      "passwordMismatch": "Les mots de passe ne correspondent pas",
+      "termsRequired": "Vous devez accepter les conditions"
+    }
+  },
+  "services": {
+    "desfocarNitidez": "Défloutage et Netteté",
+    "desfocarNitidezDesc": "Supprimez le flou et ajoutez une netteté cristalline à vos photos grâce à une IA avancée.",
+    "redutorRuido": "Réducteur de Bruit",
+    "redutorRuidoDesc": "Éliminez le grain et le bruit numérique tout en conservant tous les détails importants.",
+    "restauradorFotos": "Restaurateur de Vieilles Photos",
+    "restauradorFotosDesc": "Redonnez vie aux photos endommagées et anciennes grâce à la restauration par IA.",
+    "ampliadorImagem": "Agrandisseur d'Image",
+    "ampliadorImagemDesc": "Augmentez la résolution de vos images jusqu'à 4x sans perdre en qualité.",
+    "corretorCor": "Correcteur de Couleurs",
+    "corretorCorDesc": "Corrigez les couleurs délavées et redonnez un éclat naturel à vos images.",
+    "realcadorFacial": "Rehausseur Facial",
+    "realcadorFacialDesc": "Mettez en valeur les visages avec des détails naturels, une peau douce et un éclairage parfait.",
+    "aprimoradorFundo": "Améliorateur d'Arrière-plan",
+    "aprimoradorFundoDesc": "Améliorez l'arrière-plan de vos photos grâce à l'IA pour des résultats professionnels.",
+    "melhoradorBaixaQualidade": "Optimiseur Basse Qualité",
+    "melhoradorBaixaQualidadeDesc": "Transformez les photos de basse qualité en images nettes et professionnelles.",
+    "aprimoradorVideo": "Améliorateur Vidéo",
+    "aprimoradorVideoDesc": "Améliorez la qualité de vos vidéos grâce à la mise à l'échelle et à la stabilisation par IA.",
+    "adicionarPessoas": "Ajouter des Personnes à la Photo",
+    "adicionarPessoasDesc": "Ajoutez des personnes à vos photos de manière réaliste et naturelle grâce à l'IA.",
+    "removerObjetos": "Supprimer des Objets de la Photo",
+    "removerObjetosDesc": "Supprimez les objets indésirables de vos photos et reconstruisez automatiquement l'arrière-plan.",
+    "filtrosEfeitos": "Filtres et Effets",
+    "filtrosEfeitosDesc": "Appliquez des filtres et des effets photographiques professionnels grâce à la technologie IA.",
+    "enhanceNow": "Améliorer Maintenant",
+    "howItWorks": "Comment Ça Marche",
+    "step1": "Téléchargez",
+    "step1Desc": "Envoyez votre photo ou vidéo sur la plateforme.",
+    "step2": "L'IA Traite",
+    "step2Desc": "Notre intelligence artificielle analyse et améliore votre média.",
+    "step3": "Téléchargez le Résultat",
+    "step3Desc": "Téléchargez le résultat en haute qualité.",
+    "features": "Fonctionnalités",
+    "faqTitle": "Questions Fréquentes"
+  },
+  "servicePage": {
+    "heroBadge": "IA avancée",
+    "heroCta": "Améliorer maintenant",
+    "heroCtaSecondary": "Voir les exemples",
+    "trustStars": "4,9/5",
+    "trustCount": "+500 k photos améliorées",
+    "beforeAfterTitle": "Voyez la différence par vous-même",
+    "beforeAfterSubtitle": "Faites glisser le curseur pour comparer avant et après",
+    "beforeLabel": "Avant",
+    "afterLabel": "Après",
+    "benefitsTitle": "Pourquoi choisir OmniPic",
+    "benefitsSubtitle": "Une technologie de pointe, des résultats professionnels en quelques secondes",
+    "benefits": {
+      "quality": {
+        "title": "Qualité professionnelle",
+        "desc": "Une IA entraînée sur des millions d'images pour un rendu photoréaliste"
+      },
+      "speed": {
+        "title": "Résultats en quelques secondes",
+        "desc": "Traitement cloud accéléré, sans attente"
+      },
+      "privacy": {
+        "title": "100 % privé",
+        "desc": "Vos photos sont chiffrées puis supprimées après traitement"
+      },
+      "resolution": {
+        "title": "Jusqu'à 4K de résolution",
+        "desc": "Téléchargements HD prêts à imprimer"
+      }
+    },
+    "howItWorksTitle": "Comment ça marche",
+    "howItWorksSubtitle": "3 étapes simples pour transformer vos photos",
+    "stepsNew": {
+      "upload": {
+        "title": "Envoyez votre photo",
+        "desc": "Faites glisser ou sélectionnez l'image à améliorer"
+      },
+      "process": {
+        "title": "L'IA traite",
+        "desc": "Notre intelligence artificielle analyse et améliore chaque détail"
+      },
+      "download": {
+        "title": "Téléchargez le résultat",
+        "desc": "Récupérez la version améliorée en haute résolution"
+      }
+    },
+    "examplesTitle": "Exemples réels d'amélioration",
+    "examplesSubtitle": "Découvrez ce que des utilisateurs comme vous ont créé",
+    "faqTitle": "Questions fréquentes",
+    "faqSubtitle": "Tout ce qu'il faut savoir avant de commencer",
+    "faq": {
+      "q1": "Combien de temps faut-il pour améliorer une photo ?",
+      "a1": "La plupart des photos sont traitées en moins de 30 secondes. Les photos en haute résolution peuvent prendre jusqu'à 1 minute.",
+      "q2": "Mes photos sont-elles en sécurité ?",
+      "a2": "Oui. Nous utilisons un chiffrement de bout en bout et supprimons toutes les images de nos serveurs après traitement.",
+      "q3": "Quelle est la résolution maximale prise en charge ?",
+      "a3": "Vous pouvez envoyer des photos jusqu'à 8K et recevoir des résultats jusqu'à 4K sur tous les forfaits payants.",
+      "q4": "Puis-je utiliser le résultat à des fins commerciales ?",
+      "a4": "Avec le forfait Annuel, vous bénéficiez de tous les droits d'usage commercial des images générées."
+    },
+    "ctaTitle": "Prêt à voir la magie opérer ?",
+    "ctaSubtitle": "Essayez maintenant — la première photo est pour nous",
+    "ctaButton": "Améliorer ma première photo"
+  },
+  "enhancePage": {
+    "title": "Améliorez vos photos grâce à l'intelligence artificielle",
+    "subtitle": "Transformez vos souvenirs en chefs-d'œuvre grâce à nos services avancés d'édition et de restauration.",
+    "cta": "Commencer Maintenant",
+    "tryFree": "Essayer Gratuitement",
+    "selectService": "Choisissez un service pour commencer",
+    "uploadCta": "Envoyer une photo",
+    "loginRequired": "Connectez-vous pour envoyer votre photo",
+    "processing": "Traitement de votre photo en cours...",
+    "result": "Résultat",
+    "download": "Télécharger",
+    "tryAnother": "Essayer un autre"
+  },
+  "supportPage": {
+    "title": "Comment pouvons-nous vous aider ?",
+    "subtitle": "Nous sommes là pour vous. Envoyez votre question et nous vous répondrons sous 24 h.",
+    "companyTitle": "À propos d'OmniPic",
+    "companyDescription": "OmniPic est la plateforme ultime d'amélioration de photos et de vidéos par intelligence artificielle. Notre mission est de démocratiser l'accès aux outils d'édition professionnelle pour tous.",
+    "usefulLinks": "Liens utiles",
+    "blog": "Blog",
+    "resources": "Ressources",
+    "documentation": "Documentation",
+    "tutorials": "Tutoriels",
+    "formTitle": "Envoyez votre message",
+    "fields": {
+      "email": "Votre e-mail",
+      "subject": "Sujet",
+      "message": "Message détaillé"
+    },
+    "placeholders": {
+      "email": "exemple@email.com",
+      "message": "Décrivez comment nous pouvons vous aider..."
+    },
+    "subjects": {
+      "bug": "Bug ou Erreur",
+      "question": "Question",
+      "suggestion": "Suggestion",
+      "billing": "Paiement",
+      "other": "Autre"
+    },
+    "submit": "Envoyer le message",
+    "sending": "Envoi en cours...",
+    "success": "Message envoyé ! Nous vous répondrons sous peu.",
+    "error": "Erreur lors de l'envoi. Veuillez réessayer.",
+    "validation": {
+      "emailRequired": "L'e-mail est obligatoire",
+      "emailInvalid": "E-mail invalide",
+      "subjectRequired": "Sélectionnez un sujet",
+      "messageRequired": "Le message est obligatoire",
+      "messageMin": "Le message doit contenir au moins 10 caractères"
+    }
+  },
+  "smartflow": {
+    "title": "Que souhaitez-vous faire ?",
+    "step1": "Choisissez le service",
+    "step2": "Contexte de la photo",
+    "step3": "Détails spécifiques",
+    "step4": "Téléchargement",
+    "step5": "Traitement",
+    "bringToLife": "Donnez Vie à la Photo",
+    "restoreOld": "Restaurez les Vieilles Photos",
+    "addPeople": "Ajoutez des Personnes à la Photo",
+    "removeObjects": "Supprimez des Objets de la Photo",
+    "filtersEffects": "Filtres et Effets",
+    "livingMemories": "Souvenirs Vivants",
+    "photoType": "Type de photo",
+    "selfie": "Selfie",
+    "group": "Groupe",
+    "professional": "Professionnel",
+    "old": "Ancienne",
+    "currentQuality": "Qualité actuelle",
+    "low": "Basse",
+    "medium": "Moyenne",
+    "high": "Haute",
+    "lighting": "Éclairage",
+    "dark": "Sombre",
+    "normal": "Normal",
+    "bright": "Clair",
+    "motionType": "Type de mouvement",
+    "natural": "Naturel",
+    "cinematic": "Cinématique",
+    "emotional": "Émotionnel",
+    "intensity": "Intensité",
+    "gentle": "Doux",
+    "moderate": "Modéré",
+    "expression": "Expression souhaitée",
+    "smiling": "Souriant",
+    "neutral": "Neutre",
+    "damageLevel": "Niveau de dommage",
+    "light": "Léger",
+    "heavy": "Important",
+    "keepOriginal": "Conserver l'apparence originale ?",
+    "yes": "Oui",
+    "improveSlightly": "Améliorer légèrement",
+    "desiredTone": "Tonalité souhaitée",
+    "realistic": "Réaliste",
+    "slightlyModern": "Légèrement moderne",
+    "angle": "Angle de la photo",
+    "frontal": "Frontal",
+    "lateral": "Latéral",
+    "unknown": "Inconnu",
+    "distance": "Distance",
+    "close": "Proche",
+    "far": "Éloigné",
+    "sceneLighting": "Éclairage de la scène",
+    "warm": "Chaud",
+    "cold": "Froid",
+    "interactionType": "Type d'interaction",
+    "noContact": "Sans contact",
+    "nearby": "À proximité",
+    "hug": "Câlin",
+    "bgComplexity": "Complexité de l'arrière-plan",
+    "simple": "Simple",
+    "complex": "Complexe",
+    "bgPreference": "Préférence",
+    "recreateBg": "Recréer l'arrière-plan",
+    "cleanBg": "Arrière-plan épuré",
+    "baseStyle": "Style de base",
+    "cinema": "Cinéma",
+    "studio": "Studio",
+    "instagram": "Instagram",
+    "vintage": "Vintage",
+    "realismLevel": "Niveau de réalisme",
+    "stylized": "Stylisé",
+    "estimatedAge": "Âge estimé sur la photo",
+    "howToSee": "Comment souhaitez-vous voir la personne",
+    "asToday": "Comme elle serait aujourd'hui",
+    "specificAge": "À un âge spécifique",
+    "desiredAge": "Âge souhaité",
+    "emotionalTone": "Tonalité émotionnelle",
+    "serious": "Sérieux",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "uploadTitle": "Envoyez votre photo",
+    "uploadDescription": "Glissez-déposez votre photo ici ou cliquez pour la sélectionner",
+    "uploadFormats": "JPG, PNG ou WEBP jusqu'à 10 Mo",
+    "faceDetected": "Visage détecté ✓",
+    "resolution": "Résolution",
+    "orientation": "Orientation : OK",
+    "processWithAI": "Traiter avec l'IA",
+    "processing": "Traitement en cours...",
+    "processingMessages": [
+      "Analyse de l'image...",
+      "Détection des visages...",
+      "Application de l'IA...",
+      "Ajustement des détails...",
+      "Finalisation..."
+    ],
+    "results": "Résultats",
+    "chooseThis": "Choisir celle-ci",
+    "downloadHD": "Télécharger en haute résolution",
+    "resolution4K": "Résolution : 4K",
+    "watermark": "Filigrane",
+    "newProject": "Nouveau Projet"
+  },
+  "dashboard": {
+    "welcome": "Bienvenue à nouveau",
+    "credits": "Crédits restants",
+    "projects": "Projets du mois",
+    "currentPlan": "Forfait actuel",
+    "myProjects": "Mes Projets",
+    "livingMemories": "Souvenirs Vivants",
+    "settings": "Paramètres",
+    "home": "Accueil",
+    "newProject": "Nouveau Projet",
+    "recentProjects": "Projets Récents",
+    "noProjects": "Aucun projet pour le moment. Commencez par améliorer votre première photo !",
+    "unlimited": "Illimités",
+    "heroBadge": "Prêt à créer",
+    "heroTitle": "Améliorez vos photos grâce à l'IA",
+    "heroSubtitle": "Choisissez un service, téléchargez votre image et laissez OmniPic transformer vos souvenirs en chefs-d'œuvre en quelques secondes.",
+    "heroCta": "Démarrer un Nouveau Projet",
+    "heroSecondary": "Explorer les services",
+    "trustFast": "Résultats en quelques secondes",
+    "trustSecure": "Confidentialité garantie",
+    "trustQuality": "Qualité 4K"
+  },
+  "legal": {
+    "privacyTitle": "Politique de Confidentialité",
+    "termsTitle": "Conditions d'Utilisation",
+    "cookiesTitle": "Politique des Cookies",
+    "lastUpdated": "Dernière mise à jour",
+    "dataController": "Responsable du Traitement",
+    "dataControllerText": "OmniPic Tecnologia Ltda., immatriculée au CNPJ sous le numéro 00.000.000/0001-00, dont le siège social se trouve à São Paulo, SP, Brésil, est le responsable du traitement de vos données personnelles.",
+    "dataProtectionOfficer": "Délégué à la Protection des Données (DPO)",
+    "dpoText": "Notre Délégué à la Protection des Données peut être contacté à l'adresse e-mail : dpo@omnipic.net",
+    "dataCollection": "Données que Nous Collectons",
+    "dataCollectionText": "Nous collectons les données personnelles suivantes conformément au Règlement Général sur la Protection des Données (RGPD) :\n\n• Données d'identification : nom complet, adresse e-mail\n• Données d'utilisation : images et vidéos envoyées pour traitement\n• Données techniques : adresse IP, type de navigateur, appareil\n• Données de paiement : traitées par des tiers (nous ne stockons aucune donnée de carte bancaire)",
+    "legalBasis": "Base Légale du Traitement",
+    "legalBasisText": "Nous traitons vos données personnelles en nous appuyant sur les bases légales suivantes du RGPD :\n\n• Consentement (Art. 6, 1, a) : pour le traitement des images et les communications marketing\n• Exécution d'un contrat (Art. 6, 1, b) : pour la fourniture de nos services\n• Intérêt légitime (Art. 6, 1, f) : pour l'amélioration des services et la sécurité\n• Respect d'une obligation légale (Art. 6, 1, c) : pour les obligations fiscales et réglementaires",
+    "dataSubjectRights": "Vos Droits en tant que Personne Concernée",
+    "dataSubjectRightsText": "Conformément au RGPD, vous disposez des droits suivants :\n\n• Confirmation de l'existence d'un traitement de données\n• Accès à vos données personnelles\n• Rectification des données incomplètes, inexactes ou obsolètes\n• Anonymisation, blocage ou suppression des données inutiles\n• Portabilité des données vers un autre fournisseur\n• Suppression des données personnelles traitées sur la base du consentement\n• Information sur le partage des données\n• Retrait du consentement",
+    "dataRetention": "Conservation et Suppression des Données",
+    "dataRetentionText": "• Photos traitées : supprimées automatiquement 24 heures après le traitement\n• Projets sauvegardés : conservés tant que le compte est actif\n• Données du compte : conservées jusqu'à la demande de suppression\n• Après la suppression du compte : toutes les données sont supprimées dans un délai de 30 jours",
+    "dataDeletion": "Suppression des Données du Client",
+    "dataDeletionText": "Vous pouvez demander la suppression de vos données à tout moment. Nous proposons les options suivantes :\n\n• Supprimer toutes les photos traitées\n• Supprimer votre compte et toutes les données personnelles\n• Les deux\n\nDélai de suppression : jusqu'à 30 jours après la demande.",
+    "deletionRequestTitle": "Demander la Suppression des Données",
+    "deletionEmail": "E-mail du compte",
+    "deletionType": "Type de demande",
+    "deletionPhotos": "Supprimer les photos",
+    "deletionAccount": "Supprimer le compte",
+    "deletionBoth": "Les deux",
+    "deletionSubmit": "Envoyer la Demande",
+    "deletionSuccess": "Demande envoyée avec succès ! Vous recevrez une confirmation par e-mail.",
+    "termsContent": {
+      "acceptance": "Acceptation des Conditions",
+      "acceptanceText": "En accédant à la plateforme OmniPic et en l'utilisant, vous acceptez ces Conditions d'Utilisation. Si vous n'êtes pas d'accord avec une partie de ces conditions, n'utilisez pas nos services.",
+      "serviceDescription": "Description du Service",
+      "serviceDescriptionText": "OmniPic est une plateforme d'amélioration de photos et de vidéos utilisant l'intelligence artificielle. Nous proposons des services de restauration, d'amélioration de la qualité, de filtres, d'effets et de reconstitution de souvenirs.",
+      "acceptableUse": "Utilisation Acceptable",
+      "acceptableUseText": "Vous vous engagez à :\n\n• Utiliser le service uniquement à des fins légales\n• Ne pas télécharger de contenu illégal, offensant ou portant atteinte aux droits de tiers\n• Ne pas tenter d'accéder à des systèmes ou données non autorisés\n• Ne pas utiliser le service pour créer des deepfakes malveillants ou du contenu trompeur\n• Respecter les droits à l'image des tiers",
+      "intellectualProperty": "Propriété Intellectuelle",
+      "intellectualPropertyText": "• Vous conservez tous les droits sur les photos et les vidéos que vous envoyez\n• Les résultats traités vous appartiennent\n• La technologie, la marque et l'interface d'OmniPic sont la propriété exclusive d'OmniPic Tecnologia Ltda.\n• Vous ne pouvez pas copier, modifier ou distribuer notre technologie",
+      "liability": "Limitation de Responsabilité",
+      "liabilityText": "• Les résultats de l'IA sont des approximations et peuvent ne pas être parfaits\n• Nous ne sommes pas responsables de l'usage que vous faites des résultats\n• Le service Souvenirs Vivants crée des représentations artistiques, et non des portraits exacts\n• Nous ne garantissons pas une disponibilité ininterrompue du service",
+      "termination": "Résiliation",
+      "terminationText": "Nous pouvons suspendre ou résilier votre compte si vous enfreignez ces conditions. Vous pouvez résilier votre compte à tout moment via les paramètres ou en contactant le support.",
+      "applicableLaw": "Loi Applicable",
+      "applicableLawText": "Ces conditions sont régies par la législation de la République fédérative du Brésil. Le tribunal compétent est celui de São Paulo, SP, pour tout litige."
+    },
+    "cookiesContent": {
+      "whatAreCookies": "Qu'est-ce que les Cookies",
+      "whatAreCookiesText": "Les cookies sont de petits fichiers texte stockés sur votre appareil lorsque vous visitez notre site. Ils nous aident à améliorer votre expérience et à fournir des fonctionnalités essentielles.",
+      "typesOfCookies": "Types de Cookies que Nous Utilisons",
+      "essential": "Cookies Essentiels",
+      "essentialText": "Nécessaires au fonctionnement du site. Ils incluent les cookies de session, d'authentification et les préférences linguistiques. Ils ne peuvent pas être désactivés.",
+      "analytics": "Cookies Analytiques",
+      "analyticsText": "Ils nous aident à comprendre comment les visiteurs utilisent notre site, ce qui nous permet d'améliorer l'expérience. Nous utilisons Google Analytics avec anonymisation de l'IP.",
+      "marketing": "Cookies Marketing",
+      "marketingText": "Utilisés pour afficher des publicités pertinentes et mesurer l'efficacité des campagnes publicitaires.",
+      "manageCookies": "Comment Gérer les Cookies",
+      "manageCookiesText": "Vous pouvez gérer vos préférences en matière de cookies à tout moment via la bannière de cookies ou dans les paramètres de votre navigateur. La désactivation de certains cookies peut affecter le fonctionnement du site."
+    }
+  },
+  "cookieBanner": {
+    "message": "Nous utilisons des cookies pour améliorer votre expérience. En poursuivant votre navigation, vous acceptez notre",
+    "cookiePolicy": "Politique des Cookies",
+    "accept": "Tout Accepter",
+    "reject": "Tout Refuser",
+    "customize": "Personnaliser"
+  },
+  "footer": {
+    "description": "Plateforme d'amélioration de photos et de vidéos par intelligence artificielle.",
+    "enhance": "Améliorer",
+    "generativeAI": "IA Générative",
+    "resources": "Ressources",
+    "legal": "Mentions Légales",
+    "support": "Support",
+    "blog": "Blog",
+    "contact": "Support",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation",
+    "cookies": "Politique des Cookies",
+    "copyright": "© 2026 OmniPic. Tous droits réservés.",
+    "madeWith": "Conçu avec IA en France 🇫🇷"
+  }
+}

@@ -1,0 +1,659 @@
+{
+  "metadata": {
+    "title": "OmniPic — AI Photo and Video Enhancement",
+    "description": "The ultimate AI-powered photo and video enhancement platform. Restore old photos, improve quality and bring your memories to life."
+  },
+  "navbar": {
+    "enhance": "Enhance",
+    "livingMemories": "Living Memories",
+    "plans": "Plans",
+    "support": "Support",
+    "login": "Sign In",
+    "startFree": "Start Free",
+    "new": "New"
+  },
+  "hero": {
+    "headline": "The only photo and video enhancement platform you'll ever need",
+    "subtitle": "Transformative AI technology that upgrades your low-quality photos to HD. Restore old photos, bring memories to life and elevate your content to a professional level.",
+    "cta": "Get Started — It's Free",
+    "tabs": {
+      "portrait": "Portrait",
+      "landscape": "Landscape",
+      "oldPhoto": "Old Photo"
+    },
+    "badges": ["Facial Enhancement", "Auto Colour", "Facial Glow", "Background Enhance"],
+    "authentic": "All enhancements shown are 100% authentic."
+  },
+  "homeServices": {
+    "title": "Everything you need for your photos",
+    "subtitle": "Professional AI tools, simple to use.",
+    "tryNow": "Try Now",
+    "items": {
+      "memoriasVivas": {
+        "title": "Living Memories",
+        "subtitle": "See your loved ones again",
+        "description": "We sensitively reconstruct the features of those who have shaped your life.",
+        "badge": "Emotional"
+      },
+      "bringToLife": {
+        "title": "Bring your photo to life",
+        "subtitle": "Still photo becomes video",
+        "description": "Transform still photos into dynamic videos with cinematic movements.",
+        "badge": "Video"
+      },
+      "restoreOld": {
+        "title": "Recover old photos",
+        "subtitle": "Restore and revitalise",
+        "description": "Restore and improve old, scratched, faded or damaged photos.",
+        "badge": "Restoration"
+      },
+      "addPeople": {
+        "title": "Add people to the photo",
+        "subtitle": "Reunite those who were missing",
+        "description": "Insert people into your photos realistically with generative AI.",
+        "badge": "Generative AI"
+      },
+      "removeObjects": {
+        "title": "Remove objects from the photo",
+        "subtitle": "Clean up the scene",
+        "description": "Remove unwanted elements seamlessly, as if they were never there.",
+        "badge": "Clean-up"
+      },
+      "filtersEffects": {
+        "title": "Photographic filters and effects",
+        "subtitle": "Professional style",
+        "description": "Apply modern, professional effects with a single click.",
+        "badge": "Effects"
+      }
+    }
+  },
+  "memoriasVivas": {
+    "badge": "New · Hyper-realistic AI",
+    "title": "Living Memories — You, like you've never seen before",
+    "description": "Try hyper-realistic AI photos of yourself. With just a few selfies, create professional shoots in any setting, style, or era.",
+    "cta": "Create my AI photoshoot",
+    "ctaSecondary": "See examples",
+    "heroBadge": "Made by creators, for creators",
+    "pageTitle": "Hyper-realistic AI photoshoots of yourself",
+    "pageSubtitle": "Upload a few selfies and let our AI create hundreds of professional photos of you in different styles, settings and outfits — all with studio quality.",
+    "heroStats": [
+      { "value": "100+", "label": "Styles available" },
+      { "value": "4K", "label": "Output quality" },
+      { "value": "< 2 min", "label": "Per photoshoot" }
+    ],
+    "examplesTitle": "One face, infinite looks",
+    "examplesSubtitle": "Every photo below was AI-generated from a few selfies. Zero make-up, zero studio, zero limits.",
+    "styles": [
+      { "name": "Corporate", "description": "LinkedIn professional", "color": "blue" },
+      { "name": "Editorial Fashion", "description": "Magazine cover", "color": "fuchsia" },
+      { "name": "Cinematic", "description": "Hollywood style", "color": "violet" },
+      { "name": "90s Vintage", "description": "Retro nostalgia", "color": "amber" },
+      { "name": "Epic Fantasy", "description": "Fiction world", "color": "emerald" },
+      { "name": "Urban", "description": "Street style", "color": "rose" }
+    ],
+    "howItWorks": "How it works in 3 steps",
+    "steps": [
+      { "title": "Upload 10-20 selfies", "description": "Clear photos of your face from different angles and lighting." },
+      { "title": "AI learns your face", "description": "Our model learns your unique features in minutes, with full privacy." },
+      { "title": "Get hundreds of photos", "description": "Pick styles and scenes and receive 4K-ready shoots to download." }
+    ],
+    "featuresTitle": "Why Living Memories is different",
+    "features": [
+      { "icon": "Zap", "title": "Results in minutes", "description": "While others take hours, we deliver complete photoshoots in under 2 minutes per style." },
+      { "icon": "Shield", "title": "Privacy guaranteed", "description": "Your photos and model are never shared. Auto-deleted within 24h." },
+      { "icon": "Sparkles", "title": "4K hyper-realism", "description": "Professional studio quality — indistinguishable from a real photo." },
+      { "icon": "Infinity", "title": "Unlimited*", "description": "Generate as many styles as you want with your Living Memories plan." }
+    ],
+    "testimonialsTitle": "Creators already love it",
+    "testimonials": [
+      { "name": "Sarah Johnson", "handle": "@sarahjohnson", "text": "I made a corporate shoot in 2 minutes. It's already my official LinkedIn photo.", "accent": "blue" },
+      { "name": "James Harrison", "handle": "@jamesharrison", "text": "I saved £500 I would have spent on a photographer. Indistinguishable from real photos.", "accent": "violet" }
+    ],
+    "disclaimer": "Living Memories is an AI image-generation service that creates hyper-realistic photoshoots from your own photos. Generated images are artistic and should be used responsibly. No photo is ever shared publicly.",
+    "faq": [
+      { "question": "How many selfies do I need to upload?", "answer": "We recommend 10-20 good-quality selfies from different angles and lighting for the best results." },
+      { "question": "How long does it take to generate the photoshoot?", "answer": "After upload, training takes about 15 minutes. Every style generated afterwards is ready in under 2 minutes." },
+      { "question": "Are my photos stored?", "answer": "No. Your original photos and trained model are automatically deleted within 24 hours. Full privacy." },
+      { "question": "Can I choose the style?", "answer": "Yes! We offer over 100 ready-made styles: corporate, fashion, vintage, cinematic, fantasy and much more." }
+    ]
+  },
+  "industries": {
+    "title": "One product, endless possibilities",
+    "subtitle": "Six AI tools that turn every photo into a story worth sharing.",
+    "items": [
+      { "icon": "Camera", "title": "You, reimagined", "description": "Hyper-realistic AI photoshoots from your selfies. Try every look, every scene, instantly.", "tag": "#SelfReal" },
+      { "icon": "Video", "title": "Your photos, alive", "description": "Turn still images into cinematic videos that stop the scroll on every feed.", "tag": "#Reels" },
+      { "icon": "Clock", "title": "Memories restored", "description": "Faded, torn or old photos come back to life with original sharpness and colour.", "tag": "#Memories" },
+      { "icon": "UserPlus", "title": "Reunite who was missing", "description": "Add loved ones to old or new photos with photorealistic AI composition.", "tag": "#Family" },
+      { "icon": "Eraser", "title": "Always the perfect shot", "description": "Remove tourists, objects and every distraction — as if they were never there.", "tag": "#Clean" },
+      { "icon": "Wand2", "title": "Creator-grade style", "description": "Pro filters, lighting and effects in one click to make your feed pop.", "tag": "#Viral" }
+    ]
+  },
+  "solutions": {
+    "title": "Goodbye blur 👋 Hello high definition",
+    "subtitle": "Discover our AI-powered enhancement tools",
+    "items": [
+      { "slug": "desfocar-nitidez", "title": "Deblur and Sharpen", "description": "Remove blur and add crystal-clear sharpness to your photos." },
+      { "slug": "restaurador-fotos-antigas", "title": "Old Photo Restorer", "description": "Bring damaged photos back to life with AI restoration." },
+      { "slug": "redutor-ruido", "title": "Noise Reducer", "description": "Eliminate grain and noise whilst keeping every detail." },
+      { "slug": "realcador-facial", "title": "Face Enhancer", "description": "Enhance faces with natural detail and flawless skin." },
+      { "slug": "corretor-cor", "title": "Colour Corrector", "description": "Correct faded colours and bring vibrancy to your images." },
+      { "slug": "ampliador-imagem", "title": "Image Upscaler", "description": "Increase resolution up to 4x without losing quality." }
+    ],
+    "learnMore": "Learn more →"
+  },
+  "testimonials": {
+    "badge": "Loved by creators",
+    "title": "Millions trust it, everyone is amazed",
+    "subtitle": "Real stories from people who already transformed their memories and feeds with OmniPic.",
+    "counters": [
+      { "value": "50M+", "label": "Active users" },
+      { "value": "4.9", "label": "Average rating" },
+      { "value": "2B+", "label": "Photos transformed" }
+    ],
+    "reviews": [
+      { "name": "Emma Wilson", "handle": "@emmawilson", "platform": "Instagram", "rating": 5, "text": "My AI photoshoot looked so real my friends thought I hired a photographer. Unreal!", "accent": "violet", "size": "large" },
+      { "name": "Oliver Bennett", "handle": "@olibennett", "platform": "App Store", "rating": 5, "text": "I turned an old photo of my gran into a video. The whole family cried together.", "accent": "rose", "size": "medium" },
+      { "name": "Charlotte Hughes", "handle": "@charhughes", "platform": "Google Play", "rating": 5, "text": "I restored 50-year-old albums. Every detail came back like it was yesterday.", "accent": "emerald", "size": "medium" },
+      { "name": "William Brown", "handle": "@willbrown", "platform": "Twitter", "rating": 5, "text": "I've been a photographer for 12 years. I've never seen AI deliver sharpness at this level.", "accent": "blue", "size": "large" },
+      { "name": "Olivia Taylor", "handle": "@olitaylor", "platform": "TikTok", "rating": 5, "text": "I went viral on TikTok with 2M views just using OmniPic filters. I'm hooked!", "accent": "fuchsia", "size": "medium" },
+      { "name": "Harry Clarke", "handle": "@harryclarke", "platform": "YouTube", "rating": 5, "text": "I removed a car ruining the landscape of my photo. It looked perfect, no traces.", "accent": "cyan", "size": "medium" }
+    ]
+  },
+  "ctaFinal": {
+    "title": "Try OmniPic now!",
+    "subtitle": "Join millions of users who have already transformed their photos with AI.",
+    "cta": "Start Free",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "plansModal": {
+    "title": "Unlock the full power of OmniPic",
+    "subtitle": "Choose the plan that suits you best",
+    "limitedTime": "LIMITED TIME OFFER",
+    "bestValue": "BEST VALUE",
+    "save": "Save",
+    "perWeek": "/week",
+    "perMonth": "/month",
+    "perYear": "/year",
+    "letsGo": "Get started now",
+    "selectPlan": "Select plan",
+    "close": "Close",
+    "cancelAnytime": "Cancel at any time",
+    "secureCheckout": "100% secure checkout",
+    "moneyBack": "7-day money-back guarantee",
+    "plans": {
+      "weekly": {
+        "name": "Weekly",
+        "tagline": "Full access for 7 days",
+        "rawPrice": 5.99,
+        "price": "US$ 5.99",
+        "period": "week",
+        "billedAs": "Billed weekly",
+        "features": [
+          "Full access to all features for 7 days",
+          "Unlimited image enhancement with AI",
+          "All AI models available",
+          "Multiple formats (JPG, PNG, TIFF)",
+          "Bulk upload",
+          "No watermark",
+          "Commercial use allowed",
+          "Cancel anytime"
+        ]
+      },
+      "monthly": {
+        "name": "Monthly",
+        "tagline": "For regular use",
+        "rawPrice": 16.99,
+        "price": "US$ 16.99",
+        "period": "month",
+        "billedAs": "Billed monthly",
+        "savingsLabel": "Save 34%",
+        "discountBadge": "34% OFF",
+        "features": [
+          "Full access to all features for 30 days",
+          "Unlimited image enhancement with AI",
+          "All AI models available",
+          "Multiple formats (JPG, PNG, TIFF)",
+          "Bulk upload",
+          "No watermark",
+          "Commercial use allowed",
+          "Cancel anytime",
+          "Save 34% compared to weekly"
+        ]
+      },
+      "annual": {
+        "name": "Annual",
+        "tagline": "The creator favourite",
+        "rawPrice": 179.99,
+        "price": "US$ 179.99",
+        "period": "year",
+        "billedAs": "Billed annually",
+        "monthlyEquivalent": "Equivalent to US$ 14.99/month",
+        "savingsLabel": "Save 42%",
+        "discountBadge": "42% OFF",
+        "badge": "BEST VALUE",
+        "features": [
+          "Full access to all features for 365 days",
+          "Unlimited image enhancement with AI",
+          "All AI models available",
+          "Multiple formats (JPG, PNG, TIFF)",
+          "Bulk upload",
+          "No watermark",
+          "Commercial use allowed",
+          "Cancel anytime",
+          "Save 42% compared to weekly"
+        ]
+      }
+    }
+  },
+  "auth": {
+    "title": "Welcome to OmniPic",
+    "subtitle": "Sign in or create an account to get started",
+    "tabs": {
+      "login": "Sign In",
+      "register": "Register"
+    },
+    "fields": {
+      "email": "Email",
+      "password": "Password",
+      "name": "Name",
+      "confirmPassword": "Confirm Password"
+    },
+    "placeholders": {
+      "email": "Your email",
+      "password": "Your password",
+      "name": "Your name",
+      "confirmPassword": "Confirm your password"
+    },
+    "login": {
+      "rememberMe": "Remember me",
+      "forgotPassword": "Forgotten your password?",
+      "submit": "Sign In",
+      "or": "Or continue with",
+      "google": "Continue with Google",
+      "apple": "Continue with Apple",
+      "noAccount": "Don't have an account?",
+      "createAccount": "Create account"
+    },
+    "register": {
+      "agreeTerms": "I agree to the Terms of Service and Privacy Policy",
+      "submit": "Create Account",
+      "or": "Or register with",
+      "google": "Register with Google",
+      "apple": "Register with Apple",
+      "hasAccount": "Already have an account?",
+      "signIn": "Sign In"
+    },
+    "forgotPassword": {
+      "title": "Forgotten your password?",
+      "description": "Enter your email and we'll send you instructions to reset it.",
+      "submit": "Send instructions",
+      "backToLogin": "Back to sign in",
+      "sent": "Instructions sent! Please check your email."
+    },
+    "validation": {
+      "required": "Required field",
+      "invalidEmail": "Invalid email",
+      "minLength": "Minimum of 8 characters",
+      "passwordMismatch": "Passwords do not match",
+      "termsRequired": "You must accept the terms"
+    }
+  },
+  "services": {
+    "desfocarNitidez": "Deblur and Sharpen",
+    "desfocarNitidezDesc": "Remove blur and add crystal-clear sharpness to your photos with advanced AI.",
+    "redutorRuido": "Noise Reducer",
+    "redutorRuidoDesc": "Eliminate grain and digital noise whilst keeping all the important details.",
+    "restauradorFotos": "Old Photo Restorer",
+    "restauradorFotosDesc": "Bring damaged and old photos back to life with AI restoration.",
+    "ampliadorImagem": "Image Upscaler",
+    "ampliadorImagemDesc": "Increase the resolution of your images up to 4x without losing quality.",
+    "corretorCor": "Colour Corrector",
+    "corretorCorDesc": "Correct faded colours and bring natural vibrancy to your images.",
+    "realcadorFacial": "Face Enhancer",
+    "realcadorFacialDesc": "Enhance faces with natural details, smooth skin and perfect lighting.",
+    "aprimoradorFundo": "Background Enhancer",
+    "aprimoradorFundoDesc": "Improve the background of your photos with AI for professional results.",
+    "melhoradorBaixaQualidade": "Low-Quality Enhancer",
+    "melhoradorBaixaQualidadeDesc": "Transform low-quality photos into sharp, professional images.",
+    "aprimoradorVideo": "Video Enhancer",
+    "aprimoradorVideoDesc": "Improve the quality of your videos with AI upscaling and stabilisation.",
+    "adicionarPessoas": "Add People to Photo",
+    "adicionarPessoasDesc": "Add people to your photos realistically and naturally with AI.",
+    "removerObjetos": "Remove Objects from Photo",
+    "removerObjetosDesc": "Remove unwanted objects from your photos and automatically reconstruct the background.",
+    "filtrosEfeitos": "Filters and Effects",
+    "filtrosEfeitosDesc": "Apply professional photographic filters and effects with AI technology.",
+    "enhanceNow": "Enhance Now",
+    "howItWorks": "How It Works",
+    "step1": "Upload",
+    "step1Desc": "Upload your photo or video to the platform.",
+    "step2": "AI Processes",
+    "step2Desc": "Our artificial intelligence analyses and enhances your media.",
+    "step3": "Download the Result",
+    "step3Desc": "Download the result in high quality.",
+    "features": "Features",
+    "faqTitle": "Frequently Asked Questions"
+  },
+  "servicePage": {
+    "heroBadge": "Advanced AI",
+    "heroCta": "Enhance now",
+    "heroCtaSecondary": "See examples",
+    "trustStars": "4.9/5",
+    "trustCount": "500k+ photos enhanced",
+    "beforeAfterTitle": "See the difference with your own eyes",
+    "beforeAfterSubtitle": "Drag the slider to compare before and after",
+    "beforeLabel": "Before",
+    "afterLabel": "After",
+    "benefitsTitle": "Why choose OmniPic",
+    "benefitsSubtitle": "Cutting-edge technology with professional results in seconds",
+    "benefits": {
+      "quality": {
+        "title": "Professional quality",
+        "desc": "AI trained on millions of images for photorealistic results"
+      },
+      "speed": {
+        "title": "Results in seconds",
+        "desc": "Accelerated cloud processing, no waiting around"
+      },
+      "privacy": {
+        "title": "100% private",
+        "desc": "Your photos are encrypted and removed after processing"
+      },
+      "resolution": {
+        "title": "Up to 4K resolution",
+        "desc": "HD downloads ready for print"
+      }
+    },
+    "howItWorksTitle": "How it works",
+    "howItWorksSubtitle": "3 simple steps to transform your photos",
+    "stepsNew": {
+      "upload": {
+        "title": "Upload your photo",
+        "desc": "Drag or select the image you want to enhance"
+      },
+      "process": {
+        "title": "AI processes",
+        "desc": "Our AI analyses and enhances every detail"
+      },
+      "download": {
+        "title": "Download the result",
+        "desc": "Get your enhanced version in high resolution"
+      }
+    },
+    "examplesTitle": "Real enhancement examples",
+    "examplesSubtitle": "See what users like you have created",
+    "faqTitle": "Frequently asked questions",
+    "faqSubtitle": "Everything you need to know before you start",
+    "faq": {
+      "q1": "How long does it take to enhance a photo?",
+      "a1": "Most photos are processed in less than 30 seconds. High-resolution photos can take up to 1 minute.",
+      "q2": "Are my photos safe?",
+      "a2": "Yes. We use end-to-end encryption and delete all images from our servers after processing.",
+      "q3": "What's the maximum resolution supported?",
+      "a3": "You can upload photos up to 8K and receive results up to 4K on all paid plans.",
+      "q4": "Can I use the result commercially?",
+      "a4": "With the Annual plan you get full commercial-use rights for the generated images."
+    },
+    "ctaTitle": "Ready to see the magic happen?",
+    "ctaSubtitle": "Try it now — your first photo is on us",
+    "ctaButton": "Enhance my first photo"
+  },
+  "enhancePage": {
+    "title": "Enhance your photos with artificial intelligence",
+    "subtitle": "Transform your memories into masterpieces with our advanced editing and restoration services.",
+    "cta": "Get Started",
+    "tryFree": "Try for Free",
+    "selectService": "Choose a service to get started",
+    "uploadCta": "Upload photo",
+    "loginRequired": "Sign in to upload your photo",
+    "processing": "Processing your photo...",
+    "result": "Result",
+    "download": "Download",
+    "tryAnother": "Try another"
+  },
+  "supportPage": {
+    "title": "How can we help?",
+    "subtitle": "We're here for you. Send us your query and we'll reply within 24 hours.",
+    "companyTitle": "About OmniPic",
+    "companyDescription": "OmniPic is the ultimate AI-powered photo and video enhancement platform. Our mission is to democratise access to professional editing tools for everyone.",
+    "usefulLinks": "Useful links",
+    "blog": "Blog",
+    "resources": "Resources",
+    "documentation": "Documentation",
+    "tutorials": "Tutorials",
+    "formTitle": "Send us your message",
+    "fields": {
+      "email": "Your email",
+      "subject": "Subject",
+      "message": "Detailed message"
+    },
+    "placeholders": {
+      "email": "example@email.com",
+      "message": "Describe how we can help..."
+    },
+    "subjects": {
+      "bug": "Bug or Error",
+      "question": "Query",
+      "suggestion": "Suggestion",
+      "billing": "Billing",
+      "other": "Other"
+    },
+    "submit": "Send message",
+    "sending": "Sending...",
+    "success": "Message sent! We'll reply shortly.",
+    "error": "Error sending. Please try again.",
+    "validation": {
+      "emailRequired": "Email is required",
+      "emailInvalid": "Invalid email",
+      "subjectRequired": "Please select a subject",
+      "messageRequired": "Message is required",
+      "messageMin": "Message must be at least 10 characters long"
+    }
+  },
+  "smartflow": {
+    "title": "What would you like to do?",
+    "step1": "Choose the service",
+    "step2": "Photo context",
+    "step3": "Specific details",
+    "step4": "Upload",
+    "step5": "Processing",
+    "bringToLife": "Bring Photo to Life",
+    "restoreOld": "Recover Old Photos",
+    "addPeople": "Add People to Photo",
+    "removeObjects": "Remove Objects from Photo",
+    "filtersEffects": "Filters and Effects",
+    "livingMemories": "Living Memories",
+    "photoType": "Photo type",
+    "selfie": "Selfie",
+    "group": "Group",
+    "professional": "Professional",
+    "old": "Old",
+    "currentQuality": "Current quality",
+    "low": "Low",
+    "medium": "Medium",
+    "high": "High",
+    "lighting": "Lighting",
+    "dark": "Dark",
+    "normal": "Normal",
+    "bright": "Bright",
+    "motionType": "Motion type",
+    "natural": "Natural",
+    "cinematic": "Cinematic",
+    "emotional": "Emotional",
+    "intensity": "Intensity",
+    "gentle": "Gentle",
+    "moderate": "Moderate",
+    "expression": "Desired expression",
+    "smiling": "Smiling",
+    "neutral": "Neutral",
+    "damageLevel": "Level of damage",
+    "light": "Light",
+    "heavy": "Heavy",
+    "keepOriginal": "Keep original appearance?",
+    "yes": "Yes",
+    "improveSlightly": "Improve slightly",
+    "desiredTone": "Desired tone",
+    "realistic": "Realistic",
+    "slightlyModern": "Slightly modern",
+    "angle": "Photo angle",
+    "frontal": "Frontal",
+    "lateral": "Side",
+    "unknown": "Unknown",
+    "distance": "Distance",
+    "close": "Close",
+    "far": "Far",
+    "sceneLighting": "Scene lighting",
+    "warm": "Warm",
+    "cold": "Cold",
+    "interactionType": "Interaction type",
+    "noContact": "No contact",
+    "nearby": "Nearby",
+    "hug": "Hug",
+    "bgComplexity": "Background complexity",
+    "simple": "Simple",
+    "complex": "Complex",
+    "bgPreference": "Preference",
+    "recreateBg": "Recreate background",
+    "cleanBg": "Clean background",
+    "baseStyle": "Base style",
+    "cinema": "Cinema",
+    "studio": "Studio",
+    "instagram": "Instagram",
+    "vintage": "Vintage",
+    "realismLevel": "Level of realism",
+    "stylized": "Stylised",
+    "estimatedAge": "Estimated age in the photo",
+    "howToSee": "How you'd like to see the person",
+    "asToday": "As they would look today",
+    "specificAge": "At a specific age",
+    "desiredAge": "Desired age",
+    "emotionalTone": "Emotional tone",
+    "serious": "Serious",
+    "next": "Next",
+    "previous": "Previous",
+    "uploadTitle": "Upload your photo",
+    "uploadDescription": "Drag and drop your photo here or click to select",
+    "uploadFormats": "JPG, PNG or WEBP up to 10MB",
+    "faceDetected": "Face detected ✓",
+    "resolution": "Resolution",
+    "orientation": "Orientation: OK",
+    "processWithAI": "Process with AI",
+    "processing": "Processing...",
+    "processingMessages": [
+      "Analysing image...",
+      "Detecting faces...",
+      "Applying AI...",
+      "Adjusting details...",
+      "Finalising..."
+    ],
+    "results": "Results",
+    "chooseThis": "Choose this one",
+    "downloadHD": "Download in high resolution",
+    "resolution4K": "Resolution: 4K",
+    "watermark": "Watermark",
+    "newProject": "New Project"
+  },
+  "dashboard": {
+    "welcome": "Welcome back",
+    "credits": "Credits remaining",
+    "projects": "Projects this month",
+    "currentPlan": "Current plan",
+    "myProjects": "My Projects",
+    "livingMemories": "Living Memories",
+    "settings": "Settings",
+    "home": "Home",
+    "newProject": "New Project",
+    "recentProjects": "Recent Projects",
+    "noProjects": "No projects yet. Start by enhancing your first photo!",
+    "unlimited": "Unlimited",
+    "heroBadge": "Ready to create",
+    "heroTitle": "Enhance your photos with AI",
+    "heroSubtitle": "Choose a service, upload your image, and let OmniPic turn your memories into masterpieces in seconds.",
+    "heroCta": "Start New Project",
+    "heroSecondary": "Explore services",
+    "trustFast": "Results in seconds",
+    "trustSecure": "Privacy guaranteed",
+    "trustQuality": "4K quality"
+  },
+  "legal": {
+    "privacyTitle": "Privacy Policy",
+    "termsTitle": "Terms of Use",
+    "cookiesTitle": "Cookie Policy",
+    "lastUpdated": "Last updated",
+    "dataController": "Data Controller",
+    "dataControllerText": "OmniPic Technology Ltd., registered in England and Wales under company number 00000000, with its registered office in London, United Kingdom, is the controller of your personal data.",
+    "dataProtectionOfficer": "Data Protection Officer (DPO)",
+    "dpoText": "Our Data Protection Officer can be contacted by email at: dpo@omnipic.net",
+    "dataCollection": "Data We Collect",
+    "dataCollectionText": "We collect the following personal data in accordance with the UK General Data Protection Regulation (UK GDPR) and the Data Protection Act 2018:\n\n• Identification data: full name, email address\n• Usage data: images and videos uploaded for processing\n• Technical data: IP address, browser type, device\n• Payment data: processed by third parties (we do not store card details)",
+    "legalBasis": "Lawful Basis for Processing",
+    "legalBasisText": "We process your personal data on the following lawful bases under the UK GDPR:\n\n• Consent (Art. 6(1)(a)): for image processing and marketing communications\n• Performance of a contract (Art. 6(1)(b)): for providing our services\n• Legitimate interests (Art. 6(1)(f)): for improving our services and security\n• Legal obligation (Art. 6(1)(c)): for tax and regulatory obligations",
+    "dataSubjectRights": "Your Rights as a Data Subject",
+    "dataSubjectRightsText": "Under the UK GDPR and the Data Protection Act 2018, you have the following rights:\n\n• Right to be informed about data processing\n• Right of access to your personal data\n• Right to rectification of incomplete, inaccurate or out-of-date data\n• Right to erasure (the 'right to be forgotten')\n• Right to data portability to another provider\n• Right to object to processing\n• Right to restrict processing\n• Right to withdraw consent at any time",
+    "dataRetention": "Data Retention and Deletion",
+    "dataRetentionText": "• Processed photos: automatically deleted 24 hours after processing\n• Saved projects: retained whilst the account remains active\n• Account data: retained until a deletion request is made\n• After account deletion: all data is removed within 30 days",
+    "dataDeletion": "Customer Data Deletion",
+    "dataDeletionText": "You may request the deletion of your data at any time. We offer the following options:\n\n• Delete all processed photos\n• Delete your account and all personal data\n• Both\n\nDeletion timeframe: within 30 days of the request.",
+    "deletionRequestTitle": "Request Data Deletion",
+    "deletionEmail": "Account email",
+    "deletionType": "Type of request",
+    "deletionPhotos": "Delete photos",
+    "deletionAccount": "Delete account",
+    "deletionBoth": "Both",
+    "deletionSubmit": "Submit Request",
+    "deletionSuccess": "Request submitted successfully! You will receive confirmation by email.",
+    "termsContent": {
+      "acceptance": "Acceptance of the Terms",
+      "acceptanceText": "By accessing and using the OmniPic platform, you agree to these Terms of Use. If you do not agree with any part of these terms, please do not use our services.",
+      "serviceDescription": "Description of the Service",
+      "serviceDescriptionText": "OmniPic is a photo and video enhancement platform using artificial intelligence. We offer restoration, quality improvement, filters, effects and memory reconstruction services.",
+      "acceptableUse": "Acceptable Use",
+      "acceptableUseText": "You agree to:\n\n• Use the service only for lawful purposes\n• Not upload illegal or offensive content, or content that infringes third-party rights\n• Not attempt to access unauthorised systems or data\n• Not use the service to create malicious deepfakes or misleading content\n• Respect the image rights of third parties",
+      "intellectualProperty": "Intellectual Property",
+      "intellectualPropertyText": "• You retain all rights to the photos and videos you upload\n• The processed results belong to you\n• The technology, trade marks and interface of OmniPic are the exclusive property of OmniPic Technology Ltd.\n• You may not copy, modify or distribute our technology",
+      "liability": "Limitation of Liability",
+      "liabilityText": "• AI results are approximations and may not be perfect\n• We are not liable for how you use the results\n• The Living Memories service creates artistic representations, not exact portraits\n• We do not guarantee uninterrupted availability of the service",
+      "termination": "Termination",
+      "terminationText": "We may suspend or terminate your account if you breach these terms. You may terminate your account at any time through the settings or by contacting support.",
+      "applicableLaw": "Governing Law",
+      "applicableLawText": "These terms are governed by the laws of England and Wales. The courts of England and Wales shall have exclusive jurisdiction to resolve any disputes."
+    },
+    "cookiesContent": {
+      "whatAreCookies": "What are Cookies",
+      "whatAreCookiesText": "Cookies are small text files stored on your device when you visit our website. They help us improve your experience and provide essential functionality.",
+      "typesOfCookies": "Types of Cookies We Use",
+      "essential": "Essential Cookies",
+      "essentialText": "Necessary for the operation of the website. These include session, authentication and language preference cookies. They cannot be disabled.",
+      "analytics": "Analytics Cookies",
+      "analyticsText": "Help us understand how visitors use our website, allowing us to improve the experience. We use Google Analytics with IP anonymisation.",
+      "marketing": "Marketing Cookies",
+      "marketingText": "Used to display relevant advertisements and measure the effectiveness of advertising campaigns.",
+      "manageCookies": "How to Manage Cookies",
+      "manageCookiesText": "You can manage your cookie preferences at any time through the cookie banner or in your browser settings. Disabling some cookies may affect the functionality of the website."
+    }
+  },
+  "cookieBanner": {
+    "message": "We use cookies to improve your experience. By continuing to browse, you agree to our",
+    "cookiePolicy": "Cookie Policy",
+    "accept": "Accept All",
+    "reject": "Reject All",
+    "customize": "Customise"
+  },
+  "footer": {
+    "description": "AI-powered photo and video enhancement platform.",
+    "enhance": "Enhance",
+    "generativeAI": "Generative AI",
+    "resources": "Resources",
+    "legal": "Legal",
+    "support": "Support",
+    "blog": "Blog",
+    "contact": "Support",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "cookies": "Cookie Policy",
+    "copyright": "© 2026 OmniPic. All rights reserved.",
+    "madeWith": "Crafted with AI in Britain 🇬🇧"
+  }
+}

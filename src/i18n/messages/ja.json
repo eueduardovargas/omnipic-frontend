@@ -1,0 +1,659 @@
+{
+  "metadata": {
+    "title": "OmniPic — AIによる写真・動画の高画質化",
+    "description": "人工知能による写真と動画の高画質化のための究極のプラットフォーム。古い写真を復元し、品質を向上させ、思い出に命を吹き込みます。"
+  },
+  "navbar": {
+    "enhance": "高画質化",
+    "livingMemories": "生きる思い出",
+    "plans": "プラン",
+    "support": "サポート",
+    "login": "ログイン",
+    "startFree": "無料で始める",
+    "new": "新着"
+  },
+  "hero": {
+    "headline": "必要な写真・動画高画質化プラットフォームはこれ一つ",
+    "subtitle": "AIによる革新的な技術で、低画質の写真をHD画質にアップグレード。古い写真を復元し、思い出に命を吹き込み、コンテンツをプロレベルに引き上げます。",
+    "cta": "今すぐ始める — 無料",
+    "tabs": {
+      "portrait": "ポートレート",
+      "landscape": "風景",
+      "oldPhoto": "古い写真"
+    },
+    "badges": ["顔の強調", "自動カラー", "顔の輝き", "背景の高画質化"],
+    "authentic": "表示されているすべての高画質化結果は100%本物です。"
+  },
+  "homeServices": {
+    "title": "あなたの写真に必要なすべて",
+    "subtitle": "使いやすいプロ仕様のAIツール。",
+    "tryNow": "試してみる",
+    "items": {
+      "memoriasVivas": {
+        "title": "生きる思い出",
+        "subtitle": "愛する人にもう一度会う",
+        "description": "あなたの人生に影響を与えた人々の特徴を繊細に再構築します。",
+        "badge": "感動"
+      },
+      "bringToLife": {
+        "title": "写真に命を吹き込む",
+        "subtitle": "静止画が動画に",
+        "description": "静止した写真を映画のような動きのあるダイナミックな動画に変換します。",
+        "badge": "動画"
+      },
+      "restoreOld": {
+        "title": "古い写真を復元",
+        "subtitle": "復元して蘇らせる",
+        "description": "古い、傷ついた、色あせた、損傷した写真を復元し改善します。",
+        "badge": "復元"
+      },
+      "addPeople": {
+        "title": "写真に人を追加",
+        "subtitle": "その場にいなかった人も一緒に",
+        "description": "生成AIを使って、写真にリアルに人を追加します。",
+        "badge": "生成AI"
+      },
+      "removeObjects": {
+        "title": "写真から物体を削除",
+        "subtitle": "シーンをきれいに",
+        "description": "不要な要素を、最初から存在しなかったかのように完璧に削除します。",
+        "badge": "クリーンアップ"
+      },
+      "filtersEffects": {
+        "title": "写真フィルターとエフェクト",
+        "subtitle": "プロのスタイル",
+        "description": "ワンクリックでモダンでプロフェッショナルなエフェクトを適用します。",
+        "badge": "エフェクト"
+      }
+    }
+  },
+  "memoriasVivas": {
+    "badge": "新着 · 超リアルAI",
+    "title": "生きる思い出 — 見たことのない自分に",
+    "description": "AI で生成された超リアルな自分のフォトを体験。セルフィー数枚だけで、どんなシーン、スタイル、時代でもプロ級のフォトシュートを作成できます。",
+    "cta": "AI フォトシュートを作成",
+    "ctaSecondary": "サンプルを見る",
+    "heroBadge": "クリエイターによる、クリエイターのためのサービス",
+    "pageTitle": "超リアルな自分の AI フォトシュート",
+    "pageSubtitle": "セルフィーを数枚アップロードするだけで、AI があなたのプロ級写真を様々なスタイル、シーン、衣装で何百枚も生成します — すべてスタジオ品質で。",
+    "heroStats": [
+      { "value": "100+", "label": "利用可能なスタイル" },
+      { "value": "4K", "label": "出力品質" },
+      { "value": "2分以下", "label": "1シュートあたり" }
+    ],
+    "examplesTitle": "一つの顔、無限のルック",
+    "examplesSubtitle": "以下のすべての写真はセルフィー数枚から AI が生成したもの。メイクなし、スタジオなし、限界なし。",
+    "styles": [
+      { "name": "コーポレート", "description": "LinkedIn プロフェッショナル", "color": "blue" },
+      { "name": "エディトリアル・ファッション", "description": "雑誌の表紙", "color": "fuchsia" },
+      { "name": "シネマティック", "description": "ハリウッドスタイル", "color": "violet" },
+      { "name": "90年代ビンテージ", "description": "レトロなノスタルジー", "color": "amber" },
+      { "name": "エピック・ファンタジー", "description": "フィクションの世界", "color": "emerald" },
+      { "name": "アーバン", "description": "ストリートスタイル", "color": "rose" }
+    ],
+    "howItWorks": "3ステップの使い方",
+    "steps": [
+      { "title": "10-20枚のセルフィーをアップロード", "description": "異なる角度と照明での、顔の鮮明な写真。" },
+      { "title": "AI があなたの顔を学習", "description": "当社のモデルがあなたのユニークな特徴を数分で学習、プライバシーは完全に保たれます。" },
+      { "title": "何百枚もの写真を受け取る", "description": "スタイルとシーンを選び、ダウンロード可能な4Kフォトシュートを受け取れます。" }
+    ],
+    "featuresTitle": "生きる思い出が違う理由",
+    "features": [
+      { "icon": "Zap", "title": "数分で結果", "description": "他社が数時間かかる間に、1スタイルあたり2分未満で完全なシュートを提供します。" },
+      { "icon": "Shield", "title": "プライバシー保証", "description": "あなたの写真とモデルは共有されません。24時間以内に自動削除されます。" },
+      { "icon": "Sparkles", "title": "4K超リアリズム", "description": "プロのスタジオ品質 — 実際の写真と見分けがつきません。" },
+      { "icon": "Infinity", "title": "無制限*", "description": "生きる思い出プランで好きなだけスタイルを生成できます。" }
+    ],
+    "testimonialsTitle": "クリエイターにすでに愛されて",
+    "testimonials": [
+      { "name": "田中 美咲", "handle": "@misakitanaka", "text": "コーポレートショットを2分で作りました。もう LinkedIn の公式写真になっています。", "accent": "blue" },
+      { "name": "佐藤 健太", "handle": "@kentasato", "text": "カメラマンに使うはずだった5万円を節約できました。実際の写真と見分けがつきません。", "accent": "violet" }
+    ],
+    "disclaimer": "生きる思い出は、あなた自身の写真から超リアルなフォトシュートを作成するAI画像生成サービスです。生成された画像はアート作品であり、責任を持って使用する必要があります。写真が公開されることは決してありません。",
+    "faq": [
+      { "question": "いくつのセルフィーをアップロードする必要がありますか？", "answer": "最良の結果を得るには、異なる角度と照明での高品質なセルフィー10-20枚を推奨します。" },
+      { "question": "フォトシュートの生成にどれくらい時間がかかりますか？", "answer": "アップロード後、トレーニングには約15分かかります。その後に生成される各スタイルは2分以内に完成します。" },
+      { "question": "私の写真は保存されますか？", "answer": "いいえ。あなたの元の写真と訓練されたモデルは24時間以内に自動的に削除されます。完全なプライバシーです。" },
+      { "question": "スタイルを選ぶことはできますか？", "answer": "はい！100以上の既製スタイルをご用意：コーポレート、ファッション、ビンテージ、シネマティック、ファンタジーなど。" }
+    ]
+  },
+  "industries": {
+    "title": "一つの製品、無限の可能性",
+    "subtitle": "すべての写真をシェアしたくなる物語に変える6つのAIツール。",
+    "items": [
+      { "icon": "Camera", "title": "見たことのない自分に", "description": "セルフィーから生成する超リアルなAIフォトシュート。あらゆるルックが瞬時に。", "tag": "#SelfReal" },
+      { "icon": "Video", "title": "写真が動き出す", "description": "静止画をフィードを止めるシネマティック動画に変換。", "tag": "#Reels" },
+      { "icon": "Clock", "title": "蘇る思い出", "description": "色あせた、破れた、古い写真が元の鮮明さと色彩で再び輝きます。", "tag": "#Memories" },
+      { "icon": "UserPlus", "title": "欠けていた人を再び", "description": "古い写真や新しい写真に大切な人をフォトリアルなAI合成で追加。", "tag": "#Family" },
+      { "icon": "Eraser", "title": "いつでも完璧なシーン", "description": "観光客、オブジェクト、気を散らすものを除去 — 最初からなかったように。", "tag": "#Clean" },
+      { "icon": "Wand2", "title": "クリエイター級のスタイル", "description": "ワンクリックでプロ級のフィルター、光、エフェクト。フィードを輝かせる。", "tag": "#Viral" }
+    ]
+  },
+  "solutions": {
+    "title": "さようならボケ 👋 こんにちは高解像度",
+    "subtitle": "AIによる高画質化ツールをご紹介",
+    "items": [
+      { "slug": "desfocar-nitidez", "title": "ぼかし除去とシャープ化", "description": "写真からぼかしを除去し、クリスタルクリアなシャープネスを追加します。" },
+      { "slug": "restaurador-fotos-antigas", "title": "古い写真の復元", "description": "AI復元で損傷した写真を蘇らせます。" },
+      { "slug": "redutor-ruido", "title": "ノイズ除去", "description": "すべてのディテールを保ちながら粒状感とノイズを除去します。" },
+      { "slug": "realcador-facial", "title": "顔の強調", "description": "自然なディテールと完璧な肌で顔を強調します。" },
+      { "slug": "corretor-cor", "title": "色補正", "description": "色あせた色を修正し、画像に鮮やかさをもたらします。" },
+      { "slug": "ampliador-imagem", "title": "画像の拡大", "description": "品質を落とさずに解像度を最大4倍に拡大します。" }
+    ],
+    "learnMore": "もっと詳しく →"
+  },
+  "testimonials": {
+    "badge": "クリエイターに愛されて",
+    "title": "何百万人が信頼し、誰もが驚く",
+    "subtitle": "OmniPicで思い出とフィードを変革した人々のリアルストーリー。",
+    "counters": [
+      { "value": "5000万+", "label": "アクティブユーザー" },
+      { "value": "4.9", "label": "平均評価" },
+      { "value": "20億+", "label": "変革された写真" }
+    ],
+    "reviews": [
+      { "name": "山田 あかり", "handle": "@akariyamada", "platform": "Instagram", "rating": 5, "text": "AIの撮影があまりにリアルで、友達はカメラマンを雇ったと思ったそう。すごい！", "accent": "violet", "size": "large" },
+      { "name": "鈴木 拓海", "handle": "@takumisuzuki", "platform": "App Store", "rating": 5, "text": "祖母の古い写真を動画にしました。家族みんなで涙しました。", "accent": "rose", "size": "medium" },
+      { "name": "高橋 由美", "handle": "@yumitakahashi", "platform": "Google Play", "rating": 5, "text": "50年前のアルバムを復元しました。ディテールが昨日のように蘇りました。", "accent": "emerald", "size": "medium" },
+      { "name": "伊藤 正人", "handle": "@masatoitoh", "platform": "Twitter", "rating": 5, "text": "フォトグラファー歴12年。AIがこれほどの鮮明さを実現するのは初めて見ました。", "accent": "blue", "size": "large" },
+      { "name": "渡辺 えり", "handle": "@eriwatanabe", "platform": "TikTok", "rating": 5, "text": "OmniPicのフィルターだけでTikTokが200万再生にバズりました。ハマってます！", "accent": "fuchsia", "size": "medium" },
+      { "name": "中村 隆", "handle": "@takanakamura", "platform": "YouTube", "rating": 5, "text": "写真の風景を邪魔していた車を消しました。完璧、痕跡なしです。", "accent": "cyan", "size": "medium" }
+    ]
+  },
+  "ctaFinal": {
+    "title": "今すぐOmniPicを試してみよう！",
+    "subtitle": "AIで写真を変革した何百万人ものユーザーに加わりましょう。",
+    "cta": "無料で始める",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "plansModal": {
+    "title": "OmniPicのすべての力を解き放つ",
+    "subtitle": "あなたにぴったりのプランを選ぼう",
+    "limitedTime": "期間限定オファー",
+    "bestValue": "ベストバリュー",
+    "save": "節約",
+    "perWeek": "/週",
+    "perMonth": "/月",
+    "perYear": "/年",
+    "letsGo": "今すぐ始める",
+    "selectPlan": "プランを選択",
+    "close": "閉じる",
+    "cancelAnytime": "いつでもキャンセル可能",
+    "secureCheckout": "100%安全な決済",
+    "moneyBack": "7日間返金保証",
+    "plans": {
+      "weekly": {
+        "name": "週間プラン",
+        "tagline": "7日間の全機能アクセス",
+        "rawPrice": 5.99,
+        "price": "US$5.99",
+        "period": "週",
+        "billedAs": "毎週請求",
+        "features": [
+          "7日間すべての機能にフルアクセス",
+          "AIによる画像強化が無制限",
+          "すべてのAIモデルが利用可能",
+          "複数の形式（JPG、PNG、TIFF）",
+          "一括アップロード",
+          "透かしなし",
+          "商用利用可能",
+          "いつでもキャンセル可能"
+        ]
+      },
+      "monthly": {
+        "name": "月間プラン",
+        "tagline": "定期利用に最適",
+        "rawPrice": 16.99,
+        "price": "US$16.99",
+        "period": "月",
+        "billedAs": "毎月請求",
+        "savingsLabel": "34%お得",
+        "discountBadge": "34% OFF",
+        "features": [
+          "30日間すべての機能にフルアクセス",
+          "AIによる画像強化が無制限",
+          "すべてのAIモデルが利用可能",
+          "複数の形式（JPG、PNG、TIFF）",
+          "一括アップロード",
+          "透かしなし",
+          "商用利用可能",
+          "いつでもキャンセル可能",
+          "週間プランより34%お得"
+        ]
+      },
+      "annual": {
+        "name": "年間プラン",
+        "tagline": "クリエイターに選ばれています",
+        "rawPrice": 179.99,
+        "price": "US$179.99",
+        "period": "年",
+        "billedAs": "毎年請求",
+        "monthlyEquivalent": "月あたりUS$14.99相当",
+        "savingsLabel": "42%お得",
+        "discountBadge": "42% OFF",
+        "badge": "ベストバリュー",
+        "features": [
+          "365日間すべての機能にフルアクセス",
+          "AIによる画像強化が無制限",
+          "すべてのAIモデルが利用可能",
+          "複数の形式（JPG、PNG、TIFF）",
+          "一括アップロード",
+          "透かしなし",
+          "商用利用可能",
+          "いつでもキャンセル可能",
+          "週間プランより42%お得"
+        ]
+      }
+    }
+  },
+  "auth": {
+    "title": "OmniPicへようこそ",
+    "subtitle": "開始するにはログインまたはアカウントを作成してください",
+    "tabs": {
+      "login": "ログイン",
+      "register": "登録"
+    },
+    "fields": {
+      "email": "メール",
+      "password": "パスワード",
+      "name": "名前",
+      "confirmPassword": "パスワードの確認"
+    },
+    "placeholders": {
+      "email": "メールアドレス",
+      "password": "パスワード",
+      "name": "お名前",
+      "confirmPassword": "パスワードを確認してください"
+    },
+    "login": {
+      "rememberMe": "ログイン状態を保持",
+      "forgotPassword": "パスワードをお忘れですか？",
+      "submit": "ログイン",
+      "or": "または、次で続行",
+      "google": "Googleで続行",
+      "apple": "Appleで続行",
+      "noAccount": "アカウントをお持ちでないですか？",
+      "createAccount": "アカウントを作成"
+    },
+    "register": {
+      "agreeTerms": "利用規約とプライバシーポリシーに同意します",
+      "submit": "アカウントを作成",
+      "or": "または、次で登録",
+      "google": "Googleで登録",
+      "apple": "Appleで登録",
+      "hasAccount": "すでにアカウントをお持ちですか？",
+      "signIn": "ログイン"
+    },
+    "forgotPassword": {
+      "title": "パスワードをお忘れですか？",
+      "description": "メールアドレスを入力すると、リセット手順をお送りします。",
+      "submit": "手順を送信",
+      "backToLogin": "ログインに戻る",
+      "sent": "手順を送信しました！メールをご確認ください。"
+    },
+    "validation": {
+      "required": "必須項目",
+      "invalidEmail": "無効なメールアドレス",
+      "minLength": "最低8文字",
+      "passwordMismatch": "パスワードが一致しません",
+      "termsRequired": "利用規約に同意する必要があります"
+    }
+  },
+  "services": {
+    "desfocarNitidez": "ぼかし除去とシャープ化",
+    "desfocarNitidezDesc": "高度なAIで写真からぼかしを除去し、クリスタルクリアなシャープネスを追加します。",
+    "redutorRuido": "ノイズ除去",
+    "redutorRuidoDesc": "重要なディテールをすべて保ちながら粒状感とデジタルノイズを除去します。",
+    "restauradorFotos": "古い写真の復元",
+    "restauradorFotosDesc": "AI復元で損傷した古い写真を蘇らせます。",
+    "ampliadorImagem": "画像の拡大",
+    "ampliadorImagemDesc": "品質を落とさずに画像の解像度を最大4倍に拡大します。",
+    "corretorCor": "色補正",
+    "corretorCorDesc": "色あせた色を修正し、画像に自然な鮮やかさをもたらします。",
+    "realcadorFacial": "顔の強調",
+    "realcadorFacialDesc": "自然なディテール、滑らかな肌、完璧な照明で顔を強調します。",
+    "aprimoradorFundo": "背景の高画質化",
+    "aprimoradorFundoDesc": "AIで写真の背景を改善し、プロの結果を得ます。",
+    "melhoradorBaixaQualidade": "低画質の改善",
+    "melhoradorBaixaQualidadeDesc": "低画質の写真を鮮明でプロフェッショナルな画像に変換します。",
+    "aprimoradorVideo": "動画の高画質化",
+    "aprimoradorVideoDesc": "AIアップスケーリングと手ブレ補正で動画の品質を向上させます。",
+    "adicionarPessoas": "写真に人を追加",
+    "adicionarPessoasDesc": "AIで自然かつリアルに写真に人を追加します。",
+    "removerObjetos": "写真から物体を削除",
+    "removerObjetosDesc": "写真から不要な物体を削除し、背景を自動的に再構築します。",
+    "filtrosEfeitos": "フィルターとエフェクト",
+    "filtrosEfeitosDesc": "AI技術でプロの写真フィルターとエフェクトを適用します。",
+    "enhanceNow": "今すぐ高画質化",
+    "howItWorks": "仕組み",
+    "step1": "アップロード",
+    "step1Desc": "写真や動画をプラットフォームにアップロードします。",
+    "step2": "AI処理",
+    "step2Desc": "私たちの人工知能がメディアを分析し高画質化します。",
+    "step3": "結果をダウンロード",
+    "step3Desc": "高品質な結果をダウンロードします。",
+    "features": "機能",
+    "faqTitle": "よくある質問"
+  },
+  "servicePage": {
+    "heroBadge": "高度なAI",
+    "heroCta": "今すぐ高画質化",
+    "heroCtaSecondary": "例を見る",
+    "trustStars": "4.9/5",
+    "trustCount": "50万枚以上の写真を高画質化",
+    "beforeAfterTitle": "違いを自分の目で確かめよう",
+    "beforeAfterSubtitle": "スライダーをドラッグしてビフォーアフターを比較",
+    "beforeLabel": "Before",
+    "afterLabel": "After",
+    "benefitsTitle": "OmniPicが選ばれる理由",
+    "benefitsSubtitle": "最先端のテクノロジーで数秒でプロ品質",
+    "benefits": {
+      "quality": {
+        "title": "プロ品質",
+        "desc": "数百万枚の画像で学習したAIがフォトリアルな結果を実現"
+      },
+      "speed": {
+        "title": "数秒で結果",
+        "desc": "高速クラウド処理で待ち時間なし"
+      },
+      "privacy": {
+        "title": "完全プライベート",
+        "desc": "写真は暗号化され、処理後に削除されます"
+      },
+      "resolution": {
+        "title": "最大4K解像度",
+        "desc": "印刷に最適な高精細ダウンロード"
+      }
+    },
+    "howItWorksTitle": "使い方",
+    "howItWorksSubtitle": "3ステップで写真を変身",
+    "stepsNew": {
+      "upload": {
+        "title": "写真をアップロード",
+        "desc": "高画質化したい画像をドラッグまたは選択"
+      },
+      "process": {
+        "title": "AIが処理",
+        "desc": "AIがあらゆる細部を分析し改善"
+      },
+      "download": {
+        "title": "結果をダウンロード",
+        "desc": "高解像度で強化された写真を取得"
+      }
+    },
+    "examplesTitle": "実際の高画質化事例",
+    "examplesSubtitle": "あなたと同じユーザーの作品をチェック",
+    "faqTitle": "よくある質問",
+    "faqSubtitle": "始める前に知っておきたいこと",
+    "faq": {
+      "q1": "写真の高画質化にはどれくらい時間がかかりますか？",
+      "a1": "ほとんどの写真は30秒以内で処理されます。高解像度の写真は最大1分かかる場合があります。",
+      "q2": "写真は安全ですか？",
+      "a2": "はい。エンドツーエンド暗号化を使用し、処理後はすべての画像をサーバーから削除します。",
+      "q3": "対応する最大解像度は？",
+      "a3": "8Kまでの写真をアップロードでき、すべての有料プランで最大4Kの結果を取得できます。",
+      "q4": "結果を商用利用できますか？",
+      "a4": "年間プランでは、生成された画像の完全な商用利用権が付与されます。"
+    },
+    "ctaTitle": "魔法を体験する準備はできましたか？",
+    "ctaSubtitle": "今すぐお試しください — 最初の1枚は無料です",
+    "ctaButton": "最初の写真を高画質化"
+  },
+  "enhancePage": {
+    "title": "人工知能で写真を高画質化",
+    "subtitle": "高度な編集および復元サービスで、思い出を傑作に変えましょう。",
+    "cta": "今すぐ始める",
+    "tryFree": "無料で試す",
+    "selectService": "開始するサービスを選択してください",
+    "uploadCta": "写真をアップロード",
+    "loginRequired": "写真をアップロードするにはログインしてください",
+    "processing": "写真を処理中...",
+    "result": "結果",
+    "download": "ダウンロード",
+    "tryAnother": "別のものを試す"
+  },
+  "supportPage": {
+    "title": "どのようにお手伝いできますか？",
+    "subtitle": "私たちはあなたのためにここにいます。質問を送信してください、24時間以内に返信します。",
+    "companyTitle": "OmniPicについて",
+    "companyDescription": "OmniPicは人工知能による写真と動画の高画質化のための究極のプラットフォームです。私たちの使命は、すべての人にプロ仕様の編集ツールへのアクセスを民主化することです。",
+    "usefulLinks": "便利なリンク",
+    "blog": "ブログ",
+    "resources": "リソース",
+    "documentation": "ドキュメント",
+    "tutorials": "チュートリアル",
+    "formTitle": "メッセージを送信",
+    "fields": {
+      "email": "メールアドレス",
+      "subject": "件名",
+      "message": "詳細メッセージ"
+    },
+    "placeholders": {
+      "email": "example@email.com",
+      "message": "どのようにお手伝いできるか教えてください..."
+    },
+    "subjects": {
+      "bug": "バグまたはエラー",
+      "question": "質問",
+      "suggestion": "提案",
+      "billing": "支払い",
+      "other": "その他"
+    },
+    "submit": "メッセージを送信",
+    "sending": "送信中...",
+    "success": "メッセージが送信されました！まもなく返信します。",
+    "error": "送信エラー。もう一度お試しください。",
+    "validation": {
+      "emailRequired": "メールアドレスは必須です",
+      "emailInvalid": "無効なメールアドレス",
+      "subjectRequired": "件名を選択してください",
+      "messageRequired": "メッセージは必須です",
+      "messageMin": "メッセージは10文字以上である必要があります"
+    }
+  },
+  "smartflow": {
+    "title": "何をしたいですか？",
+    "step1": "サービスを選択",
+    "step2": "写真のコンテキスト",
+    "step3": "詳細",
+    "step4": "アップロード",
+    "step5": "処理",
+    "bringToLife": "写真に命を吹き込む",
+    "restoreOld": "古い写真を復元",
+    "addPeople": "写真に人を追加",
+    "removeObjects": "写真から物体を削除",
+    "filtersEffects": "フィルターとエフェクト",
+    "livingMemories": "生きる思い出",
+    "photoType": "写真の種類",
+    "selfie": "セルフィー",
+    "group": "グループ",
+    "professional": "プロフェッショナル",
+    "old": "古い",
+    "currentQuality": "現在の品質",
+    "low": "低",
+    "medium": "中",
+    "high": "高",
+    "lighting": "照明",
+    "dark": "暗い",
+    "normal": "通常",
+    "bright": "明るい",
+    "motionType": "動きの種類",
+    "natural": "自然",
+    "cinematic": "シネマティック",
+    "emotional": "感動的",
+    "intensity": "強度",
+    "gentle": "穏やか",
+    "moderate": "中程度",
+    "expression": "希望する表情",
+    "smiling": "笑顔",
+    "neutral": "ニュートラル",
+    "damageLevel": "損傷レベル",
+    "light": "軽い",
+    "heavy": "重い",
+    "keepOriginal": "元の外観を保持しますか？",
+    "yes": "はい",
+    "improveSlightly": "少し改善",
+    "desiredTone": "希望するトーン",
+    "realistic": "リアリスティック",
+    "slightlyModern": "少しモダン",
+    "angle": "写真の角度",
+    "frontal": "正面",
+    "lateral": "横",
+    "unknown": "不明",
+    "distance": "距離",
+    "close": "近い",
+    "far": "遠い",
+    "sceneLighting": "シーンの照明",
+    "warm": "暖かい",
+    "cold": "冷たい",
+    "interactionType": "相互作用の種類",
+    "noContact": "接触なし",
+    "nearby": "近く",
+    "hug": "ハグ",
+    "bgComplexity": "背景の複雑さ",
+    "simple": "シンプル",
+    "complex": "複雑",
+    "bgPreference": "好み",
+    "recreateBg": "背景を再作成",
+    "cleanBg": "クリーンな背景",
+    "baseStyle": "ベーススタイル",
+    "cinema": "映画",
+    "studio": "スタジオ",
+    "instagram": "Instagram",
+    "vintage": "ヴィンテージ",
+    "realismLevel": "リアリズムレベル",
+    "stylized": "スタイライズド",
+    "estimatedAge": "写真内の推定年齢",
+    "howToSee": "その人をどのように見たいか",
+    "asToday": "今日どのように見えるか",
+    "specificAge": "特定の年齢で",
+    "desiredAge": "希望する年齢",
+    "emotionalTone": "感情的なトーン",
+    "serious": "真面目",
+    "next": "次へ",
+    "previous": "前へ",
+    "uploadTitle": "写真をアップロード",
+    "uploadDescription": "ここに写真をドラッグ＆ドロップするか、クリックして選択してください",
+    "uploadFormats": "JPG、PNG、WEBP、10MBまで",
+    "faceDetected": "顔を検出 ✓",
+    "resolution": "解像度",
+    "orientation": "向き: OK",
+    "processWithAI": "AIで処理",
+    "processing": "処理中...",
+    "processingMessages": [
+      "画像を分析中...",
+      "顔を検出中...",
+      "AIを適用中...",
+      "詳細を調整中...",
+      "完了処理中..."
+    ],
+    "results": "結果",
+    "chooseThis": "これを選択",
+    "downloadHD": "高解像度でダウンロード",
+    "resolution4K": "解像度: 4K",
+    "watermark": "透かし",
+    "newProject": "新しいプロジェクト"
+  },
+  "dashboard": {
+    "welcome": "おかえりなさい",
+    "credits": "残りクレジット",
+    "projects": "今月のプロジェクト",
+    "currentPlan": "現在のプラン",
+    "myProjects": "マイプロジェクト",
+    "livingMemories": "リビングメモリーズ",
+    "settings": "設定",
+    "home": "ホーム",
+    "newProject": "新しいプロジェクト",
+    "recentProjects": "最近のプロジェクト",
+    "noProjects": "まだプロジェクトがありません。最初の写真の高画質化から始めましょう！",
+    "unlimited": "無制限",
+    "heroBadge": "作成準備完了",
+    "heroTitle": "AIで写真を高画質化",
+    "heroSubtitle": "サービスを選んで画像をアップロードするだけで、OmniPicが数秒であなたの思い出を傑作に変えます。",
+    "heroCta": "新しいプロジェクトを開始",
+    "heroSecondary": "サービスを見る",
+    "trustFast": "数秒で結果",
+    "trustSecure": "プライバシー保証",
+    "trustQuality": "4K画質"
+  },
+  "legal": {
+    "privacyTitle": "プライバシーポリシー",
+    "termsTitle": "利用規約",
+    "cookiesTitle": "Cookieポリシー",
+    "lastUpdated": "最終更新日",
+    "dataController": "データ管理者",
+    "dataControllerText": "OmniPic Tecnologia Ltda.（CNPJ 00.000.000/0001-00、ブラジル、サンパウロ州サンパウロに本社を置く）は、お客様の個人データの管理者です。",
+    "dataProtectionOfficer": "データ保護責任者（DPO）",
+    "dpoText": "私たちのデータ保護責任者には以下のメールでご連絡いただけます: dpo@omnipic.net",
+    "dataCollection": "収集するデータ",
+    "dataCollectionText": "ブラジル一般データ保護法（法律第13.709/2018号 — LGPD）に従い、以下の個人データを収集します：\n\n• 識別データ：氏名、メールアドレス\n• 使用データ：処理のためにアップロードされた画像と動画\n• 技術データ：IPアドレス、ブラウザの種類、デバイス\n• 支払いデータ：第三者によって処理されます（カードデータは保存されません）",
+    "legalBasis": "処理の法的根拠",
+    "legalBasisText": "LGPDの以下の法的仮説に基づいてお客様の個人データを処理します：\n\n• 同意（第7条 I）：画像処理およびマーケティング通信のため\n• 契約の履行（第7条 V）：サービス提供のため\n• 正当な利益（第7条 IX）：サービスの改善とセキュリティのため\n• 法的義務の遵守（第7条 II）：税務および規制上の義務のため",
+    "dataSubjectRights": "データ主体としての権利",
+    "dataSubjectRightsText": "LGPDに基づき、お客様には以下の権利があります：\n\n• データ処理の存在の確認\n• 個人データへのアクセス\n• 不完全、不正確、または古いデータの修正\n• 不要なデータの匿名化、ブロック、または削除\n• 他のプロバイダーへのデータの移転\n• 同意に基づいて処理された個人データの削除\n• データ共有に関する情報\n• 同意の撤回",
+    "dataRetention": "データの保持と削除",
+    "dataRetentionText": "• 処理された写真：処理後24時間で自動的に削除\n• 保存されたプロジェクト：アカウントがアクティブである限り保持\n• アカウントデータ：削除要求まで保持\n• アカウント削除後：すべてのデータは30日以内に削除されます",
+    "dataDeletion": "顧客データの削除",
+    "dataDeletionText": "いつでもデータの削除を要求できます。以下のオプションを提供しています：\n\n• 処理されたすべての写真を削除\n• アカウントとすべての個人データを削除\n• 両方\n\n削除期限：要求から30日以内。",
+    "deletionRequestTitle": "データ削除を要求",
+    "deletionEmail": "アカウントのメールアドレス",
+    "deletionType": "要求の種類",
+    "deletionPhotos": "写真を削除",
+    "deletionAccount": "アカウントを削除",
+    "deletionBoth": "両方",
+    "deletionSubmit": "要求を送信",
+    "deletionSuccess": "要求が正常に送信されました！メールで確認を受け取ります。",
+    "termsContent": {
+      "acceptance": "規約の承諾",
+      "acceptanceText": "OmniPicプラットフォームにアクセスして使用することにより、お客様はこれらの利用規約に同意したことになります。これらの規約のいかなる部分にも同意しない場合は、当社のサービスを利用しないでください。",
+      "serviceDescription": "サービスの説明",
+      "serviceDescriptionText": "OmniPicは人工知能を使用した写真と動画の高画質化プラットフォームです。復元、品質向上、フィルター、エフェクト、思い出の再構築などのサービスを提供しています。",
+      "acceptableUse": "許容される使用",
+      "acceptableUseText": "お客様は以下に同意します：\n\n• 合法的な目的のみにサービスを使用する\n• 違法、攻撃的、または第三者の権利を侵害するコンテンツをアップロードしない\n• 許可されていないシステムやデータへのアクセスを試みない\n• 悪意のあるディープフェイクや誤解を招くコンテンツを作成するためにサービスを使用しない\n• 第三者の肖像権を尊重する",
+      "intellectualProperty": "知的財産",
+      "intellectualPropertyText": "• アップロードする写真と動画のすべての権利をお客様が保持します\n• 処理された結果はお客様の所有物です\n• OmniPicの技術、ブランド、インターフェースはOmniPic Tecnologia Ltda.の独占的財産です\n• 当社の技術をコピー、変更、配布することはできません",
+      "liability": "責任の制限",
+      "liabilityText": "• AIの結果は近似値であり、完璧ではない場合があります\n• 結果の使用についての責任は負いません\n• 生きる思い出サービスは芸術的表現を作成するものであり、正確な肖像ではありません\n• サービスの中断のない提供を保証しません",
+      "termination": "解約",
+      "terminationText": "これらの規約に違反した場合、お客様のアカウントを停止または終了する場合があります。お客様は設定またはサポートへの要求を通じていつでもアカウントを終了できます。",
+      "applicableLaw": "準拠法",
+      "applicableLawText": "これらの規約はブラジル連邦共和国の法律に準拠します。紛争を解決するため、サンパウロ州サンパウロの裁判所を管轄とします。"
+    },
+    "cookiesContent": {
+      "whatAreCookies": "Cookieとは",
+      "whatAreCookiesText": "Cookieは、当社のウェブサイトを訪問したときにデバイスに保存される小さなテキストファイルです。これらはお客様のエクスペリエンスを向上させ、基本的な機能を提供するのに役立ちます。",
+      "typesOfCookies": "使用するCookieの種類",
+      "essential": "必須Cookie",
+      "essentialText": "サイトの機能に必要です。セッション、認証、言語設定Cookieを含みます。無効にすることはできません。",
+      "analytics": "分析Cookie",
+      "analyticsText": "訪問者がサイトをどのように使用しているかを理解するのに役立ち、エクスペリエンスを向上させることができます。IP匿名化付きのGoogle Analyticsを使用しています。",
+      "marketing": "マーケティングCookie",
+      "marketingText": "関連する広告を表示し、広告キャンペーンの効果を測定するために使用されます。",
+      "manageCookies": "Cookieの管理方法",
+      "manageCookiesText": "いつでもCookieバナーやブラウザの設定からCookie設定を管理できます。一部のCookieを無効にすると、サイトの機能に影響する可能性があります。"
+    }
+  },
+  "cookieBanner": {
+    "message": "エクスペリエンスを向上させるためにCookieを使用しています。閲覧を続けることで、以下に同意したことになります",
+    "cookiePolicy": "Cookieポリシー",
+    "accept": "すべて受け入れる",
+    "reject": "すべて拒否",
+    "customize": "カスタマイズ"
+  },
+  "footer": {
+    "description": "人工知能による写真と動画の高画質化プラットフォーム。",
+    "enhance": "高画質化",
+    "generativeAI": "生成AI",
+    "resources": "リソース",
+    "legal": "法的情報",
+    "support": "サポート",
+    "blog": "ブログ",
+    "contact": "サポート",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "cookies": "Cookieポリシー",
+    "copyright": "© 2026 OmniPic. All rights reserved.",
+    "madeWith": "日本でAIを使って作成 🇯🇵"
+  }
+}

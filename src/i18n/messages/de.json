@@ -1,0 +1,639 @@
+{
+  "metadata": {
+    "title": "OmniPic — KI-Foto- und Videoverbesserung",
+    "description": "Die ultimative Plattform zur Verbesserung von Fotos und Videos mit künstlicher Intelligenz. Restaurieren Sie alte Fotos, verbessern Sie die Qualität und erwecken Sie Ihre Erinnerungen zum Leben."
+  },
+  "navbar": {
+    "enhance": "Verbessern",
+    "livingMemories": "Lebendige Erinnerungen",
+    "plans": "Pläne",
+    "support": "Support",
+    "login": "Anmelden",
+    "startFree": "Kostenlos starten",
+    "new": "Neu"
+  },
+  "hero": {
+    "headline": "Die einzige Plattform zur Foto- und Videoverbesserung, die Sie brauchen",
+    "subtitle": "Transformative KI-Technologie, die Ihre Fotos in HD-Qualität bringt. Restaurieren Sie alte Fotos, erwecken Sie Erinnerungen zum Leben und heben Sie Ihre Inhalte auf professionelles Niveau.",
+    "cta": "Jetzt starten — Kostenlos",
+    "tabs": {
+      "portrait": "Porträt",
+      "landscape": "Landschaft",
+      "oldPhoto": "Altes Foto"
+    },
+    "badges": ["Gesichtsverbesserung", "Automatische Farbe", "Gesichtslicht", "Hintergrund verbessern"],
+    "authentic": "Alle gezeigten Verbesserungen sind 100% authentisch."
+  },
+  "homeServices": {
+    "title": "Alles, was Sie für Ihre Fotos brauchen",
+    "subtitle": "Professionelle KI-Tools, einfach zu bedienen.",
+    "tryNow": "Ausprobieren",
+    "items": {
+      "memoriasVivas": {
+        "title": "Lebendige Erinnerungen",
+        "subtitle": "Sehen Sie, wen Sie lieben",
+        "description": "Wir rekonstruieren mit Sensibilität die Züge derer, die Ihr Leben geprägt haben.",
+        "badge": "Emotional"
+      },
+      "bringToLife": {
+        "title": "Erwecken Sie Ihr Foto zum Leben",
+        "subtitle": "Standbild wird Video",
+        "description": "Verwandeln Sie Standfotos in dynamische Videos mit kinematischen Bewegungen.",
+        "badge": "Video"
+      },
+      "restoreOld": {
+        "title": "Stellen Sie alte Fotos wieder her",
+        "subtitle": "Restaurieren und beleben",
+        "description": "Stellen Sie alte, verkratzte, verblichene oder beschädigte Fotos wieder her.",
+        "badge": "Restaurierung"
+      },
+      "addPeople": {
+        "title": "Personen zum Foto hinzufügen",
+        "subtitle": "Vereinen Sie alle",
+        "description": "Fügen Sie Personen mit generativer KI realistisch zu Ihren Fotos hinzu.",
+        "badge": "Generative KI"
+      },
+      "removeObjects": {
+        "title": "Objekte aus dem Foto entfernen",
+        "subtitle": "Säubern Sie die Szene",
+        "description": "Entfernen Sie unerwünschte Elemente perfekt, als wären sie nie da gewesen.",
+        "badge": "Reinigung"
+      },
+      "filtersEffects": {
+        "title": "Fotofilter und -effekte",
+        "subtitle": "Professioneller Stil",
+        "description": "Wenden Sie moderne und professionelle Effekte mit einem Klick an.",
+        "badge": "Effekte"
+      }
+    }
+  },
+  "memoriasVivas": {
+    "badge": "Neu · Hyperrealistische KI",
+    "title": "Lebendige Erinnerungen — Du, wie du dich nie gesehen hast",
+    "description": "Probier hyperrealistische KI-Fotos von dir selbst. Mit nur ein paar Selfies erstelle professionelle Shootings in jeder Szene, jedem Stil oder jeder Ära.",
+    "cta": "Mein KI-Shooting erstellen",
+    "ctaSecondary": "Beispiele ansehen",
+    "heroBadge": "Von Kreativen für Kreative",
+    "pageTitle": "Hyperrealistische KI-Fotoshootings von dir",
+    "pageSubtitle": "Lade ein paar Selfies hoch und lass unsere KI Hunderte von professionellen Fotos von dir in verschiedenen Stilen, Szenen und Outfits erstellen — alles in Studioqualität.",
+    "heroStats": [
+      { "value": "100+", "label": "Verfügbare Stile" },
+      { "value": "4K", "label": "Ausgabequalität" },
+      { "value": "< 2 Min", "label": "Pro Shooting" }
+    ],
+    "examplesTitle": "Ein Gesicht, unendliche Looks",
+    "examplesSubtitle": "Jedes Foto unten wurde von KI aus wenigen Selfies generiert. Null Make-up, null Studio, null Grenzen.",
+    "styles": [
+      { "name": "Corporate", "description": "LinkedIn-professionell", "color": "blue" },
+      { "name": "Editorial Fashion", "description": "Magazin-Cover", "color": "fuchsia" },
+      { "name": "Kinoreif", "description": "Hollywood-Stil", "color": "violet" },
+      { "name": "90er Vintage", "description": "Retro-Nostalgie", "color": "amber" },
+      { "name": "Epische Fantasy", "description": "Fiction-Welt", "color": "emerald" },
+      { "name": "Urban", "description": "Street Style", "color": "rose" }
+    ],
+    "howItWorks": "So funktioniert es in 3 Schritten",
+    "steps": [
+      { "title": "Lade 10-20 Selfies hoch", "description": "Scharfe Fotos deines Gesichts aus verschiedenen Winkeln und Lichtverhältnissen." },
+      { "title": "KI lernt dein Gesicht", "description": "Unser Modell lernt deine einzigartigen Züge in Minuten, mit voller Privatsphäre." },
+      { "title": "Erhalte Hunderte Fotos", "description": "Wähle Stile und Szenen und erhalte 4K-fertige Shootings zum Download." }
+    ],
+    "featuresTitle": "Warum Lebendige Erinnerungen anders ist",
+    "features": [
+      { "icon": "Zap", "title": "Ergebnisse in Minuten", "description": "Während andere Stunden brauchen, liefern wir komplette Shootings in unter 2 Minuten pro Stil." },
+      { "icon": "Shield", "title": "Garantierte Privatsphäre", "description": "Deine Fotos und dein Modell werden nie geteilt. Automatisch in 24 Std. gelöscht." },
+      { "icon": "Sparkles", "title": "4K-Hyperrealismus", "description": "Professionelle Studioqualität — von echten Fotos nicht zu unterscheiden." },
+      { "icon": "Infinity", "title": "Unbegrenzt*", "description": "Generiere so viele Stile wie du willst mit deinem Lebendige Erinnerungen-Plan." }
+    ],
+    "testimonialsTitle": "Kreative lieben es schon",
+    "testimonials": [
+      { "name": "Maria Silva", "handle": "@mariasilva", "text": "Ich habe ein Corporate-Shooting in 2 Minuten gemacht. Das ist schon mein offizielles LinkedIn-Foto.", "accent": "blue" },
+      { "name": "João Santos", "handle": "@joaosantos", "text": "Ich habe 500 € gespart, die ich für einen Fotografen ausgegeben hätte. Nicht von echten Fotos zu unterscheiden.", "accent": "violet" }
+    ],
+    "disclaimer": "Lebendige Erinnerungen ist ein KI-Bildgenerierungs-Service, der hyperrealistische Shootings aus deinen eigenen Fotos erstellt. Generierte Bilder sind künstlerisch und sollten verantwortungsvoll verwendet werden. Kein Foto wird jemals öffentlich geteilt.",
+    "faq": [
+      { "question": "Wie viele Selfies muss ich hochladen?", "answer": "Wir empfehlen 10-20 qualitativ hochwertige Selfies aus verschiedenen Winkeln und Lichtverhältnissen für beste Ergebnisse." },
+      { "question": "Wie lange dauert die Generierung eines Shootings?", "answer": "Nach dem Upload dauert das Training etwa 15 Minuten. Jeder danach generierte Stil ist in unter 2 Minuten fertig." },
+      { "question": "Werden meine Fotos gespeichert?", "answer": "Nein. Deine Originalfotos und das trainierte Modell werden automatisch innerhalb von 24 Stunden gelöscht. Volle Privatsphäre." },
+      { "question": "Kann ich den Stil wählen?", "answer": "Ja! Wir bieten über 100 fertige Stile: Corporate, Fashion, Vintage, kinoreif, Fantasy und vieles mehr." }
+    ]
+  },
+  "industries": {
+    "title": "Ein Produkt, unendliche Möglichkeiten",
+    "subtitle": "Sechs KI-Tools, die jedes Foto in eine teilenswerte Geschichte verwandeln.",
+    "items": [
+      { "icon": "Camera", "title": "Du, neu erfunden", "description": "Hyperrealistische KI-Fotoshootings aus deinen Selfies. Jeder Look, jede Szene — sofort.", "tag": "#SelfReal" },
+      { "icon": "Video", "title": "Deine Fotos lebendig", "description": "Verwandle Standbilder in filmische Videos, die im Feed sofort auffallen.", "tag": "#Reels" },
+      { "icon": "Clock", "title": "Erinnerungen restauriert", "description": "Alte, verblasste oder zerrissene Fotos strahlen wieder in Originalschärfe und -farbe.", "tag": "#Erinnerungen" },
+      { "icon": "UserPlus", "title": "Fehlende wieder vereinen", "description": "Füge geliebte Menschen in alte oder neue Fotos ein — fotorealistisch mit KI.", "tag": "#Familie" },
+      { "icon": "Eraser", "title": "Die Szene immer perfekt", "description": "Entferne Touristen, Objekte und Ablenkungen — als wären sie nie dagewesen.", "tag": "#Clean" },
+      { "icon": "Wand2", "title": "Creator-Stil", "description": "Profi-Filter, Licht und Effekte mit einem Klick, um deinen Feed zum Strahlen zu bringen.", "tag": "#Viral" }
+    ]
+  },
+  "solutions": {
+    "title": "Tschüss Unschärfe 👋 Hallo HD",
+    "subtitle": "Lernen Sie unsere KI-Verbesserungstools kennen",
+    "items": [
+      { "slug": "desfocar-nitidez", "title": "Unschärfe und Schärfe", "description": "Entfernen Sie Unschärfe und fügen Sie kristallklare Schärfe zu Ihren Fotos hinzu." },
+      { "slug": "restaurador-fotos-antigas", "title": "Restaurator alter Fotos", "description": "Erwecken Sie beschädigte Fotos mit KI-Restaurierung wieder zum Leben." },
+      { "slug": "redutor-ruido", "title": "Rauschunterdrücker", "description": "Eliminieren Sie Körnung und Rauschen unter Beibehaltung aller Details." },
+      { "slug": "realcador-facial", "title": "Gesichtsverstärker", "description": "Verstärken Sie Gesichter mit natürlichen Details und perfekter Haut." },
+      { "slug": "corretor-cor", "title": "Farbkorrektor", "description": "Korrigieren Sie verblasste Farben und bringen Sie Lebendigkeit in Ihre Bilder." },
+      { "slug": "ampliador-imagem", "title": "Bildvergrößerer", "description": "Erhöhen Sie die Auflösung um bis zu 4x ohne Qualitätsverlust." }
+    ],
+    "learnMore": "Mehr erfahren →"
+  },
+  "testimonials": {
+    "badge": "Von Kreativen geliebt",
+    "title": "Millionen vertrauen, alle sind beeindruckt",
+    "subtitle": "Echte Geschichten von Menschen, die ihre Erinnerungen und Feeds schon mit OmniPic verwandelt haben.",
+    "counters": [
+      { "value": "50M+", "label": "Aktive Nutzer" },
+      { "value": "4.9", "label": "Durchschnittsbewertung" },
+      { "value": "2B+", "label": "Transformierte Fotos" }
+    ],
+    "reviews": [
+      { "name": "Ana Costa", "handle": "@anacosta", "platform": "Instagram", "rating": 5, "text": "Mein KI-Shooting sah so echt aus, dass meine Freunde dachten, ich hätte einen Fotografen engagiert. Unreal!", "accent": "violet", "size": "large" },
+      { "name": "Pedro Oliveira", "handle": "@peuoliveira", "platform": "App Store", "rating": 5, "text": "Ich habe ein altes Foto meiner Oma in ein Video verwandelt. Die ganze Familie hat geweint.", "accent": "rose", "size": "medium" },
+      { "name": "Carla Mendes", "handle": "@carlamendes", "platform": "Google Play", "rating": 5, "text": "Ich habe 50 Jahre alte Alben restauriert. Jedes Detail kam zurück wie gestern.", "accent": "emerald", "size": "medium" },
+      { "name": "Lucas Ferreira", "handle": "@lucasferreira", "platform": "Twitter", "rating": 5, "text": "Ich bin seit 12 Jahren Fotograf. Noch nie hat eine KI diese Schärfe geliefert.", "accent": "blue", "size": "large" },
+      { "name": "Juliana Lima", "handle": "@julilima", "platform": "TikTok", "rating": 5, "text": "Ich ging auf TikTok mit 2M Aufrufen viral, nur mit OmniPic-Filtern. Ich bin süchtig!", "accent": "fuchsia", "size": "medium" },
+      { "name": "Rafael Santos", "handle": "@rafasantos", "platform": "YouTube", "rating": 5, "text": "Ich habe ein Auto entfernt, das die Landschaft ruinierte. Perfekt, ohne Spuren.", "accent": "cyan", "size": "medium" }
+    ]
+  },
+  "ctaFinal": {
+    "title": "Probieren Sie OmniPic jetzt aus!",
+    "subtitle": "Schließen Sie sich Millionen von Nutzern an, die ihre Fotos bereits mit KI transformiert haben.",
+    "cta": "Kostenlos starten",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "plansModal": {
+    "title": "Schalten Sie die volle Kraft von OmniPic frei",
+    "subtitle": "Wählen Sie den Plan, der zu Ihnen passt",
+    "limitedTime": "ZEITLICH BEGRENZTES ANGEBOT",
+    "bestValue": "BESTES ANGEBOT",
+    "save": "Sparen Sie",
+    "perWeek": "/Woche",
+    "perMonth": "/Monat",
+    "perYear": "/Jahr",
+    "letsGo": "Jetzt starten",
+    "selectPlan": "Plan wählen",
+    "close": "Schließen",
+    "cancelAnytime": "Jederzeit kündbar",
+    "secureCheckout": "100% sicherer Checkout",
+    "moneyBack": "7 Tage Geld-zurück-Garantie",
+    "plans": {
+      "weekly": {
+        "name": "Wöchentlich",
+        "tagline": "Voller Zugriff für 7 Tage",
+        "rawPrice": 5.99,
+        "price": "US$ 5,99",
+        "period": "Woche",
+        "billedAs": "Wöchentlich abgerechnet",
+        "features": [
+          "Voller Zugriff auf alle Funktionen für 7 Tage",
+          "Unbegrenzte Bildverbesserung mit KI",
+          "Alle KI-Modelle verfügbar",
+          "Mehrere Formate (JPG, PNG, TIFF)",
+          "Stapel-Upload",
+          "Kein Wasserzeichen",
+          "Kommerzielle Nutzung erlaubt",
+          "Jederzeit kündbar"
+        ]
+      },
+      "monthly": {
+        "name": "Monatlich",
+        "tagline": "Für die regelmäßige Nutzung",
+        "rawPrice": 16.99,
+        "price": "US$ 16,99",
+        "period": "Monat",
+        "billedAs": "Monatlich abgerechnet",
+        "savingsLabel": "Sparen Sie 34%",
+        "discountBadge": "34% OFF",
+        "features": [
+          "Voller Zugriff auf alle Funktionen für 30 Tage",
+          "Unbegrenzte Bildverbesserung mit KI",
+          "Alle KI-Modelle verfügbar",
+          "Mehrere Formate (JPG, PNG, TIFF)",
+          "Stapel-Upload",
+          "Kein Wasserzeichen",
+          "Kommerzielle Nutzung erlaubt",
+          "Jederzeit kündbar",
+          "Sparen Sie 34% gegenüber wöchentlich"
+        ]
+      },
+      "annual": {
+        "name": "Jährlich",
+        "tagline": "Der Favorit der Creator",
+        "rawPrice": 179.99,
+        "price": "US$ 179,99",
+        "period": "Jahr",
+        "billedAs": "Jährlich abgerechnet",
+        "monthlyEquivalent": "Entspricht US$ 14,99/Monat",
+        "savingsLabel": "Sparen Sie 42%",
+        "discountBadge": "42% OFF",
+        "badge": "BESTES ANGEBOT",
+        "features": [
+          "Voller Zugriff auf alle Funktionen für 365 Tage",
+          "Unbegrenzte Bildverbesserung mit KI",
+          "Alle KI-Modelle verfügbar",
+          "Mehrere Formate (JPG, PNG, TIFF)",
+          "Stapel-Upload",
+          "Kein Wasserzeichen",
+          "Kommerzielle Nutzung erlaubt",
+          "Jederzeit kündbar",
+          "Sparen Sie 42% gegenüber wöchentlich"
+        ]
+      }
+    }
+  },
+  "auth": {
+    "title": "Willkommen bei OmniPic",
+    "subtitle": "Melden Sie sich an oder erstellen Sie ein Konto, um zu beginnen",
+    "tabs": { "login": "Anmelden", "register": "Registrieren" },
+    "fields": { "email": "E-Mail", "password": "Passwort", "name": "Name", "confirmPassword": "Passwort bestätigen" },
+    "placeholders": { "email": "Ihre E-Mail", "password": "Ihr Passwort", "name": "Ihr Name", "confirmPassword": "Bestätigen Sie Ihr Passwort" },
+    "login": {
+      "rememberMe": "Angemeldet bleiben",
+      "forgotPassword": "Passwort vergessen?",
+      "submit": "Anmelden",
+      "or": "Oder fortfahren mit",
+      "google": "Mit Google fortfahren",
+      "apple": "Mit Apple fortfahren",
+      "noAccount": "Noch kein Konto?",
+      "createAccount": "Konto erstellen"
+    },
+    "register": {
+      "agreeTerms": "Ich stimme den Nutzungsbedingungen und der Datenschutzrichtlinie zu",
+      "submit": "Konto erstellen",
+      "or": "Oder registrieren mit",
+      "google": "Mit Google registrieren",
+      "apple": "Mit Apple registrieren",
+      "hasAccount": "Bereits ein Konto?",
+      "signIn": "Anmelden"
+    },
+    "forgotPassword": {
+      "title": "Passwort vergessen?",
+      "description": "Geben Sie Ihre E-Mail ein und wir senden Ihnen Anweisungen zum Zurücksetzen.",
+      "submit": "Anweisungen senden",
+      "backToLogin": "Zurück zur Anmeldung",
+      "sent": "Anweisungen gesendet! Überprüfen Sie Ihre E-Mail."
+    },
+    "validation": {
+      "required": "Pflichtfeld",
+      "invalidEmail": "Ungültige E-Mail",
+      "minLength": "Mindestens 8 Zeichen",
+      "passwordMismatch": "Passwörter stimmen nicht überein",
+      "termsRequired": "Sie müssen die Bedingungen akzeptieren"
+    }
+  },
+  "services": {
+    "desfocarNitidez": "Unschärfe und Schärfe",
+    "desfocarNitidezDesc": "Entfernen Sie Unschärfe und fügen Sie kristallklare Schärfe zu Ihren Fotos mit fortschrittlicher KI hinzu.",
+    "redutorRuido": "Rauschunterdrücker",
+    "redutorRuidoDesc": "Eliminieren Sie Körnung und digitales Rauschen unter Beibehaltung aller wichtigen Details.",
+    "restauradorFotos": "Restaurator alter Fotos",
+    "restauradorFotosDesc": "Erwecken Sie beschädigte und alte Fotos mit KI-Restaurierung wieder zum Leben.",
+    "ampliadorImagem": "Bildvergrößerer",
+    "ampliadorImagemDesc": "Erhöhen Sie die Auflösung Ihrer Bilder um bis zu 4x ohne Qualitätsverlust.",
+    "corretorCor": "Farbkorrektor",
+    "corretorCorDesc": "Korrigieren Sie verblasste Farben und bringen Sie natürliche Lebendigkeit in Ihre Bilder.",
+    "realcadorFacial": "Gesichtsverstärker",
+    "realcadorFacialDesc": "Verstärken Sie Gesichter mit natürlichen Details, glatter Haut und perfekter Beleuchtung.",
+    "aprimoradorFundo": "Hintergrundverstärker",
+    "aprimoradorFundoDesc": "Verbessern Sie den Hintergrund Ihrer Fotos mit KI für professionelle Ergebnisse.",
+    "melhoradorBaixaQualidade": "Verbesserer für niedrige Qualität",
+    "melhoradorBaixaQualidadeDesc": "Verwandeln Sie Fotos niedriger Qualität in scharfe, professionelle Bilder.",
+    "aprimoradorVideo": "Video-Verbesserer",
+    "aprimoradorVideoDesc": "Verbessern Sie die Qualität Ihrer Videos mit KI-Upscaling und Stabilisierung.",
+    "adicionarPessoas": "Personen zum Foto hinzufügen",
+    "adicionarPessoasDesc": "Fügen Sie Personen mit KI realistisch und natürlich zu Ihren Fotos hinzu.",
+    "removerObjetos": "Objekte aus dem Foto entfernen",
+    "removerObjetosDesc": "Entfernen Sie unerwünschte Objekte aus Ihren Fotos und rekonstruieren Sie den Hintergrund automatisch.",
+    "filtrosEfeitos": "Filter und Effekte",
+    "filtrosEfeitosDesc": "Wenden Sie professionelle Fotofilter und -effekte mit KI-Technologie an.",
+    "enhanceNow": "Jetzt verbessern",
+    "howItWorks": "So funktioniert's",
+    "step1": "Hochladen",
+    "step1Desc": "Laden Sie Ihr Foto oder Video auf die Plattform hoch.",
+    "step2": "KI verarbeitet",
+    "step2Desc": "Unsere künstliche Intelligenz analysiert und verbessert Ihre Medien.",
+    "step3": "Ergebnis herunterladen",
+    "step3Desc": "Laden Sie das Ergebnis in hoher Qualität herunter.",
+    "features": "Funktionen",
+    "faqTitle": "Häufig gestellte Fragen"
+  },
+  "servicePage": {
+    "heroBadge": "Fortschrittliche KI",
+    "heroCta": "Jetzt verbessern",
+    "heroCtaSecondary": "Beispiele ansehen",
+    "trustStars": "4,9/5",
+    "trustCount": "Über 500.000 Fotos verbessert",
+    "beforeAfterTitle": "Sehen Sie den Unterschied mit eigenen Augen",
+    "beforeAfterSubtitle": "Schieben Sie den Regler, um vorher und nachher zu vergleichen",
+    "beforeLabel": "Vorher",
+    "afterLabel": "Nachher",
+    "benefitsTitle": "Warum OmniPic wählen",
+    "benefitsSubtitle": "Modernste Technologie mit professionellen Ergebnissen in Sekunden",
+    "benefits": {
+      "quality": {
+        "title": "Professionelle Qualität",
+        "desc": "KI auf Millionen von Bildern für fotorealistische Ergebnisse trainiert"
+      },
+      "speed": {
+        "title": "Ergebnisse in Sekunden",
+        "desc": "Beschleunigte Cloud-Verarbeitung, kein Warten"
+      },
+      "privacy": {
+        "title": "100% privat",
+        "desc": "Ihre Fotos werden verschlüsselt und nach der Verarbeitung gelöscht"
+      },
+      "resolution": {
+        "title": "Bis zu 4K Auflösung",
+        "desc": "HD-Downloads, druckbereit"
+      }
+    },
+    "howItWorksTitle": "So funktioniert es",
+    "howItWorksSubtitle": "3 einfache Schritte, um Ihre Fotos zu verwandeln",
+    "stepsNew": {
+      "upload": {
+        "title": "Foto hochladen",
+        "desc": "Ziehen oder wählen Sie das Bild aus, das Sie verbessern möchten"
+      },
+      "process": {
+        "title": "KI verarbeitet",
+        "desc": "Unsere KI analysiert und verbessert jedes Detail"
+      },
+      "download": {
+        "title": "Ergebnis herunterladen",
+        "desc": "Erhalten Sie die verbesserte Version in hoher Auflösung"
+      }
+    },
+    "examplesTitle": "Echte Verbesserungsbeispiele",
+    "examplesSubtitle": "Sehen Sie, was Nutzer wie Sie erstellt haben",
+    "faqTitle": "Häufig gestellte Fragen",
+    "faqSubtitle": "Alles, was Sie vor dem Start wissen müssen",
+    "faq": {
+      "q1": "Wie lange dauert es, ein Foto zu verbessern?",
+      "a1": "Die meisten Fotos werden in weniger als 30 Sekunden verarbeitet. Hochauflösende Fotos können bis zu 1 Minute dauern.",
+      "q2": "Sind meine Fotos sicher?",
+      "a2": "Ja. Wir verwenden Ende-zu-Ende-Verschlüsselung und löschen alle Bilder nach der Verarbeitung von unseren Servern.",
+      "q3": "Was ist die maximal unterstützte Auflösung?",
+      "a3": "Sie können Fotos bis zu 8K hochladen und Ergebnisse bis zu 4K in allen kostenpflichtigen Plänen erhalten.",
+      "q4": "Darf ich das Ergebnis kommerziell nutzen?",
+      "a4": "Mit dem Jahresplan erhalten Sie volle kommerzielle Nutzungsrechte für die generierten Bilder."
+    },
+    "ctaTitle": "Bereit, die Magie zu erleben?",
+    "ctaSubtitle": "Jetzt testen — Ihr erstes Foto geht auf uns",
+    "ctaButton": "Mein erstes Foto verbessern"
+  },
+  "enhancePage": {
+    "title": "Verbessern Sie Ihre Fotos mit künstlicher Intelligenz",
+    "subtitle": "Verwandeln Sie Ihre Erinnerungen in Meisterwerke mit unseren fortschrittlichen Bearbeitungs- und Restaurierungsdiensten.",
+    "cta": "Jetzt starten",
+    "tryFree": "Kostenlos ausprobieren",
+    "selectService": "Wählen Sie einen Service zum Starten",
+    "uploadCta": "Foto hochladen",
+    "loginRequired": "Melden Sie sich an, um Ihr Foto hochzuladen",
+    "processing": "Ihr Foto wird verarbeitet...",
+    "result": "Ergebnis",
+    "download": "Herunterladen",
+    "tryAnother": "Anderes versuchen"
+  },
+  "supportPage": {
+    "title": "Wie können wir helfen?",
+    "subtitle": "Wir sind für Sie da. Senden Sie uns Ihre Frage und wir antworten innerhalb von 24 Stunden.",
+    "companyTitle": "Über OmniPic",
+    "companyDescription": "OmniPic ist die ultimative Plattform für die Verbesserung von Fotos und Videos mit künstlicher Intelligenz.",
+    "usefulLinks": "Nützliche Links",
+    "blog": "Blog",
+    "resources": "Ressourcen",
+    "documentation": "Dokumentation",
+    "tutorials": "Tutorials",
+    "formTitle": "Senden Sie Ihre Nachricht",
+    "fields": { "email": "Ihre E-Mail", "subject": "Betreff", "message": "Detaillierte Nachricht" },
+    "placeholders": { "email": "beispiel@email.com", "message": "Beschreiben Sie, wie wir helfen können..." },
+    "subjects": {
+      "bug": "Fehler",
+      "question": "Frage",
+      "suggestion": "Vorschlag",
+      "billing": "Zahlung",
+      "other": "Andere"
+    },
+    "submit": "Nachricht senden",
+    "sending": "Wird gesendet...",
+    "success": "Nachricht gesendet! Wir antworten in Kürze.",
+    "error": "Fehler beim Senden. Bitte versuchen Sie es erneut.",
+    "validation": {
+      "emailRequired": "E-Mail ist erforderlich",
+      "emailInvalid": "Ungültige E-Mail",
+      "subjectRequired": "Betreff auswählen",
+      "messageRequired": "Nachricht ist erforderlich",
+      "messageMin": "Nachricht muss mindestens 10 Zeichen lang sein"
+    }
+  },
+  "smartflow": {
+    "title": "Was möchten Sie tun?",
+    "step1": "Service wählen",
+    "step2": "Fotokontext",
+    "step3": "Spezifische Details",
+    "step4": "Hochladen",
+    "step5": "Verarbeitung",
+    "bringToLife": "Foto zum Leben erwecken",
+    "restoreOld": "Alte Fotos wiederherstellen",
+    "addPeople": "Personen zum Foto hinzufügen",
+    "removeObjects": "Objekte aus dem Foto entfernen",
+    "filtersEffects": "Filter und Effekte",
+    "livingMemories": "Lebendige Erinnerungen",
+    "photoType": "Fototyp",
+    "selfie": "Selfie",
+    "group": "Gruppe",
+    "professional": "Professionell",
+    "old": "Alt",
+    "currentQuality": "Aktuelle Qualität",
+    "low": "Niedrig",
+    "medium": "Mittel",
+    "high": "Hoch",
+    "lighting": "Beleuchtung",
+    "dark": "Dunkel",
+    "normal": "Normal",
+    "bright": "Hell",
+    "motionType": "Bewegungstyp",
+    "natural": "Natürlich",
+    "cinematic": "Kinematisch",
+    "emotional": "Emotional",
+    "intensity": "Intensität",
+    "gentle": "Sanft",
+    "moderate": "Mittel",
+    "expression": "Gewünschter Ausdruck",
+    "smiling": "Lächelnd",
+    "neutral": "Neutral",
+    "damageLevel": "Schadensgrad",
+    "light": "Leicht",
+    "heavy": "Schwer",
+    "keepOriginal": "Originalaussehen beibehalten?",
+    "yes": "Ja",
+    "improveSlightly": "Leicht verbessern",
+    "desiredTone": "Gewünschter Ton",
+    "realistic": "Realistisch",
+    "slightlyModern": "Leicht modern",
+    "angle": "Fotowinkel",
+    "frontal": "Frontal",
+    "lateral": "Seitlich",
+    "unknown": "Unbekannt",
+    "distance": "Entfernung",
+    "close": "Nah",
+    "far": "Fern",
+    "sceneLighting": "Szenenbeleuchtung",
+    "warm": "Warm",
+    "cold": "Kalt",
+    "interactionType": "Interaktionstyp",
+    "noContact": "Kein Kontakt",
+    "nearby": "In der Nähe",
+    "hug": "Umarmung",
+    "bgComplexity": "Hintergrundkomplexität",
+    "simple": "Einfach",
+    "complex": "Komplex",
+    "bgPreference": "Präferenz",
+    "recreateBg": "Hintergrund neu erstellen",
+    "cleanBg": "Sauberer Hintergrund",
+    "baseStyle": "Basisstil",
+    "cinema": "Kino",
+    "studio": "Studio",
+    "instagram": "Instagram",
+    "vintage": "Vintage",
+    "realismLevel": "Realismusniveau",
+    "stylized": "Stilisiert",
+    "estimatedAge": "Geschätztes Alter im Foto",
+    "howToSee": "Wie möchten Sie die Person sehen",
+    "asToday": "Wie sie heute aussehen würde",
+    "specificAge": "In einem bestimmten Alter",
+    "desiredAge": "Gewünschtes Alter",
+    "emotionalTone": "Emotionaler Ton",
+    "serious": "Ernst",
+    "next": "Weiter",
+    "previous": "Zurück",
+    "uploadTitle": "Foto hochladen",
+    "uploadDescription": "Ziehen Sie Ihr Foto hierher oder klicken Sie zum Auswählen",
+    "uploadFormats": "JPG, PNG oder WEBP bis 10MB",
+    "faceDetected": "Gesicht erkannt ✓",
+    "resolution": "Auflösung",
+    "orientation": "Ausrichtung: OK",
+    "processWithAI": "Mit KI verarbeiten",
+    "processing": "Verarbeitung...",
+    "processingMessages": [
+      "Bild wird analysiert...",
+      "Gesichter werden erkannt...",
+      "KI wird angewendet...",
+      "Details werden angepasst...",
+      "Wird abgeschlossen..."
+    ],
+    "results": "Ergebnisse",
+    "chooseThis": "Diese wählen",
+    "downloadHD": "In hoher Auflösung herunterladen",
+    "resolution4K": "Auflösung: 4K",
+    "watermark": "Wasserzeichen",
+    "newProject": "Neues Projekt"
+  },
+  "dashboard": {
+    "welcome": "Willkommen zurück",
+    "credits": "Verbleibende Credits",
+    "projects": "Projekte des Monats",
+    "currentPlan": "Aktueller Plan",
+    "myProjects": "Meine Projekte",
+    "livingMemories": "Lebende Erinnerungen",
+    "settings": "Einstellungen",
+    "home": "Startseite",
+    "newProject": "Neues Projekt",
+    "recentProjects": "Letzte Projekte",
+    "noProjects": "Noch keine Projekte. Beginnen Sie damit, Ihr erstes Foto zu verbessern!",
+    "unlimited": "Unbegrenzt",
+    "heroBadge": "Bereit zum Erstellen",
+    "heroTitle": "Verbessern Sie Ihre Fotos mit KI",
+    "heroSubtitle": "Wählen Sie einen Service, laden Sie Ihr Bild hoch und lassen Sie OmniPic Ihre Erinnerungen in Sekunden in Meisterwerke verwandeln.",
+    "heroCta": "Neues Projekt starten",
+    "heroSecondary": "Services entdecken",
+    "trustFast": "Ergebnisse in Sekunden",
+    "trustSecure": "Datenschutz garantiert",
+    "trustQuality": "4K-Qualität"
+  },
+  "legal": {
+    "privacyTitle": "Datenschutzrichtlinie",
+    "termsTitle": "Nutzungsbedingungen",
+    "cookiesTitle": "Cookie-Richtlinie",
+    "lastUpdated": "Letzte Aktualisierung",
+    "dataController": "Datenverantwortlicher",
+    "dataControllerText": "OmniPic Technology GmbH, mit Sitz in Berlin, Deutschland, ist der Verantwortliche für Ihre personenbezogenen Daten gemäß DSGVO.",
+    "dataProtectionOfficer": "Datenschutzbeauftragter",
+    "dpoText": "Unser Datenschutzbeauftragter ist erreichbar unter: dpo@omnipic.net",
+    "dataCollection": "Daten, die wir sammeln",
+    "dataCollectionText": "Wir sammeln folgende personenbezogene Daten gemäß DSGVO:\n\n• Identifikationsdaten: Name, E-Mail-Adresse\n• Nutzungsdaten: hochgeladene Bilder und Videos\n• Technische Daten: IP-Adresse, Browser, Gerät\n• Zahlungsdaten: von Drittanbietern verarbeitet",
+    "legalBasis": "Rechtsgrundlage der Verarbeitung",
+    "legalBasisText": "Wir verarbeiten Ihre personenbezogenen Daten auf Grundlage der DSGVO:\n\n• Einwilligung (Art. 6 Abs. 1 lit. a)\n• Vertragserfüllung (Art. 6 Abs. 1 lit. b)\n• Berechtigtes Interesse (Art. 6 Abs. 1 lit. f)\n• Rechtliche Verpflichtung (Art. 6 Abs. 1 lit. c)",
+    "dataSubjectRights": "Ihre Rechte als betroffene Person",
+    "dataSubjectRightsText": "Gemäß DSGVO haben Sie folgende Rechte:\n\n• Auskunftsrecht\n• Recht auf Berichtigung\n• Recht auf Löschung\n• Recht auf Einschränkung\n• Recht auf Datenübertragbarkeit\n• Widerspruchsrecht\n• Beschwerderecht bei der Aufsichtsbehörde",
+    "dataRetention": "Datenaufbewahrung und Löschung",
+    "dataRetentionText": "• Verarbeitete Fotos: automatisch nach 24 Stunden gelöscht\n• Gespeicherte Projekte: solange das Konto aktiv ist\n• Kontodaten: bis zur Löschungsanfrage\n• Nach Kontolöschung: alle Daten innerhalb von 30 Tagen entfernt",
+    "dataDeletion": "Löschung von Kundendaten",
+    "dataDeletionText": "Sie können jederzeit die Löschung Ihrer Daten beantragen:\n\n• Alle verarbeiteten Fotos löschen\n• Konto und alle persönlichen Daten löschen\n• Beides\n\nLöschfrist: bis zu 30 Tage nach der Anfrage.",
+    "deletionRequestTitle": "Datenlöschung beantragen",
+    "deletionEmail": "Konto-E-Mail",
+    "deletionType": "Art der Anfrage",
+    "deletionPhotos": "Fotos löschen",
+    "deletionAccount": "Konto löschen",
+    "deletionBoth": "Beides",
+    "deletionSubmit": "Anfrage senden",
+    "deletionSuccess": "Anfrage erfolgreich gesendet! Sie erhalten eine Bestätigung per E-Mail.",
+    "termsContent": {
+      "acceptance": "Annahme der Bedingungen",
+      "acceptanceText": "Mit dem Zugriff auf und der Nutzung der OmniPic-Plattform erklären Sie sich mit diesen Nutzungsbedingungen einverstanden.",
+      "serviceDescription": "Servicebeschreibung",
+      "serviceDescriptionText": "OmniPic ist eine Plattform zur Verbesserung von Fotos und Videos mittels künstlicher Intelligenz.",
+      "acceptableUse": "Akzeptable Nutzung",
+      "acceptableUseText": "Sie verpflichten sich:\n\n• Den Service nur für rechtmäßige Zwecke zu nutzen\n• Keine illegalen oder anstößigen Inhalte hochzuladen\n• Keine unbefugten Systeme zu nutzen\n• Keine bösartigen Deepfakes zu erstellen\n• Bildrechte Dritter zu respektieren",
+      "intellectualProperty": "Geistiges Eigentum",
+      "intellectualPropertyText": "• Sie behalten alle Rechte an Ihren Fotos und Videos\n• Verarbeitete Ergebnisse sind Ihr Eigentum\n• OmniPic-Technologie ist Eigentum von OmniPic Technology GmbH\n• Sie dürfen unsere Technologie nicht kopieren",
+      "liability": "Haftungsbeschränkung",
+      "liabilityText": "• KI-Ergebnisse sind Annäherungen\n• Wir haften nicht für Ihre Nutzung der Ergebnisse\n• Lebendige Erinnerungen erstellt künstlerische Darstellungen\n• Keine Garantie für ununterbrochene Verfügbarkeit",
+      "termination": "Kündigung",
+      "terminationText": "Wir können Ihr Konto bei Verstoß gegen diese Bedingungen sperren oder kündigen.",
+      "applicableLaw": "Anwendbares Recht",
+      "applicableLawText": "Diese Bedingungen unterliegen deutschem Recht. Gerichtsstand ist Berlin."
+    },
+    "cookiesContent": {
+      "whatAreCookies": "Was sind Cookies",
+      "whatAreCookiesText": "Cookies sind kleine Textdateien, die auf Ihrem Gerät gespeichert werden, wenn Sie unsere Website besuchen.",
+      "typesOfCookies": "Arten von Cookies, die wir verwenden",
+      "essential": "Wesentliche Cookies",
+      "essentialText": "Notwendig für den Betrieb der Website. Können nicht deaktiviert werden.",
+      "analytics": "Analyse-Cookies",
+      "analyticsText": "Helfen uns zu verstehen, wie Besucher unsere Website nutzen.",
+      "marketing": "Marketing-Cookies",
+      "marketingText": "Werden verwendet, um relevante Werbung anzuzeigen.",
+      "manageCookies": "Cookies verwalten",
+      "manageCookiesText": "Sie können Ihre Cookie-Einstellungen jederzeit über das Cookie-Banner verwalten."
+    }
+  },
+  "cookieBanner": {
+    "message": "Wir verwenden Cookies, um Ihre Erfahrung zu verbessern. Mit der weiteren Nutzung stimmen Sie unserer",
+    "cookiePolicy": "Cookie-Richtlinie",
+    "accept": "Alle akzeptieren",
+    "reject": "Alle ablehnen",
+    "customize": "Anpassen"
+  },
+  "footer": {
+    "description": "Plattform zur Verbesserung von Fotos und Videos mit künstlicher Intelligenz.",
+    "enhance": "Verbessern",
+    "generativeAI": "Generative KI",
+    "resources": "Ressourcen",
+    "legal": "Rechtliches",
+    "support": "Support",
+    "blog": "Blog",
+    "contact": "Support",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "cookies": "Cookie-Richtlinie",
+    "copyright": "© 2026 OmniPic. Alle Rechte vorbehalten.",
+    "madeWith": "Mit KI in Deutschland gemacht 🇩🇪"
+  }
+}

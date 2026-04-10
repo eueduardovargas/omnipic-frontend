@@ -1,0 +1,659 @@
+{
+  "metadata": {
+    "title": "OmniPic — AI 照片和视频增强",
+    "description": "终极的 AI 照片和视频增强平台。修复旧照片，提升质量，让您的回忆焕发生机。"
+  },
+  "navbar": {
+    "enhance": "增强",
+    "livingMemories": "生动记忆",
+    "plans": "套餐",
+    "support": "支持",
+    "login": "登录",
+    "startFree": "免费开始",
+    "new": "新"
+  },
+  "hero": {
+    "headline": "您唯一需要的照片和视频增强平台",
+    "subtitle": "变革性的 AI 技术，将低质量照片升级至高清。修复旧照片，让回忆重焕生机，将您的内容提升到专业水平。",
+    "cta": "立即开始 — 免费使用",
+    "tabs": {
+      "portrait": "人像",
+      "landscape": "风景",
+      "oldPhoto": "旧照片"
+    },
+    "badges": ["面部增强", "自动上色", "面部提亮", "背景增强"],
+    "authentic": "所有展示的增强效果均为 100% 真实。"
+  },
+  "homeServices": {
+    "title": "您照片所需的一切",
+    "subtitle": "专业的 AI 工具，简单易用。",
+    "tryNow": "立即试用",
+    "items": {
+      "memoriasVivas": {
+        "title": "生动记忆",
+        "subtitle": "再见所爱之人",
+        "description": "我们以敏锐细腻的方式重建影响您人生的人的面容特征。",
+        "badge": "情感"
+      },
+      "bringToLife": {
+        "title": "让照片动起来",
+        "subtitle": "静态照片变视频",
+        "description": "将静止的照片转化为具有电影级动感的动态视频。",
+        "badge": "视频"
+      },
+      "restoreOld": {
+        "title": "修复旧照片",
+        "subtitle": "还原与重生",
+        "description": "修复和改善旧的、划痕、褪色或受损的照片。",
+        "badge": "修复"
+      },
+      "addPeople": {
+        "title": "在照片中添加人物",
+        "subtitle": "团聚所爱之人",
+        "description": "使用生成式 AI 以逼真的方式在照片中添加人物。",
+        "badge": "生成式 AI"
+      },
+      "removeObjects": {
+        "title": "移除照片中的物体",
+        "subtitle": "清理画面",
+        "description": "完美移除不需要的元素，仿佛它们从未存在过。",
+        "badge": "清理"
+      },
+      "filtersEffects": {
+        "title": "照片滤镜和特效",
+        "subtitle": "专业风格",
+        "description": "一键应用现代专业的效果。",
+        "badge": "特效"
+      }
+    }
+  },
+  "memoriasVivas": {
+    "badge": "新 · 超写实 AI",
+    "title": "生动记忆 — 前所未见的你",
+    "description": "体验 AI 生成的超写实自拍照。只需几张自拍，即可在任何场景、风格或年代创作专业级写真。",
+    "cta": "创建我的 AI 写真",
+    "ctaSecondary": "查看示例",
+    "heroBadge": "由创作者打造，为创作者服务",
+    "pageTitle": "超写实 AI 自拍写真",
+    "pageSubtitle": "上传几张自拍，让我们的 AI 为你创作数百张不同风格、场景和服装的专业照片——全部达到工作室品质。",
+    "heroStats": [
+      { "value": "100+", "label": "可用风格" },
+      { "value": "4K", "label": "输出质量" },
+      { "value": "< 2 分钟", "label": "每次写真" }
+    ],
+    "examplesTitle": "一张面孔，无限造型",
+    "examplesSubtitle": "以下每张照片都是 AI 从几张自拍生成的。零化妆，零工作室，零限制。",
+    "styles": [
+      { "name": "商务", "description": "LinkedIn 专业", "color": "blue" },
+      { "name": "时尚大片", "description": "杂志封面", "color": "fuchsia" },
+      { "name": "电影感", "description": "好莱坞风格", "color": "violet" },
+      { "name": "90 年代复古", "description": "怀旧复古", "color": "amber" },
+      { "name": "史诗奇幻", "description": "虚构世界", "color": "emerald" },
+      { "name": "都市", "description": "街头风格", "color": "rose" }
+    ],
+    "howItWorks": "3 步使用方法",
+    "steps": [
+      { "title": "上传 10-20 张自拍", "description": "不同角度和光线下的清晰面部照片。" },
+      { "title": "AI 学习你的面孔", "description": "我们的模型在几分钟内学会你的独特特征，完全保护隐私。" },
+      { "title": "获得数百张照片", "description": "选择风格和场景，获得可下载的 4K 写真。" }
+    ],
+    "featuresTitle": "生动记忆为何与众不同",
+    "features": [
+      { "icon": "Zap", "title": "几分钟出结果", "description": "别人需要数小时，我们每种风格在 2 分钟内交付完整写真。" },
+      { "icon": "Shield", "title": "隐私保障", "description": "你的照片和模型永不共享。24 小时内自动删除。" },
+      { "icon": "Sparkles", "title": "4K 超写实", "description": "专业工作室品质——与真实照片无异。" },
+      { "icon": "Infinity", "title": "无限*", "description": "使用生动记忆套餐，生成任意数量的风格。" }
+    ],
+    "testimonialsTitle": "创作者已经爱上",
+    "testimonials": [
+      { "name": "李明", "handle": "@liming", "text": "我在 2 分钟内完成了商务写真。已经成为我 LinkedIn 的官方照片。", "accent": "blue" },
+      { "name": "王芳", "handle": "@wangfang", "text": "我省下了原本要付给摄影师的 3000 元。与真实照片无法区分。", "accent": "violet" }
+    ],
+    "disclaimer": "生动记忆是一项 AI 图像生成服务，根据你自己的照片创建超写实写真。生成的图像是艺术性的，应负责任地使用。照片永远不会被公开分享。",
+    "faq": [
+      { "question": "我需要上传多少张自拍？", "answer": "我们建议上传 10-20 张不同角度和光线的高质量自拍，以获得最佳效果。" },
+      { "question": "生成写真需要多长时间？", "answer": "上传后，训练大约需要 15 分钟。之后生成的每种风格在 2 分钟内完成。" },
+      { "question": "我的照片会被储存吗？", "answer": "不会。你的原始照片和训练后的模型会在 24 小时内自动删除。完全隐私。" },
+      { "question": "我可以选择风格吗？", "answer": "可以！我们提供 100 多种现成风格：商务、时尚、复古、电影感、奇幻等等。" }
+    ]
+  },
+  "industries": {
+    "title": "一款产品，无限可能",
+    "subtitle": "六款 AI 工具，让每张照片都成为值得分享的故事。",
+    "items": [
+      { "icon": "Camera", "title": "前所未见的你", "description": "从自拍生成超写实 AI 写真。每种风格、每种场景，瞬间呈现。", "tag": "#SelfReal" },
+      { "icon": "Video", "title": "照片活起来", "description": "将静态照片变成令人停住滑动的电影级视频。", "tag": "#Reels" },
+      { "icon": "Clock", "title": "修复的回忆", "description": "褪色、撕裂或陈旧的照片重现原始清晰度和色彩。", "tag": "#回忆" },
+      { "icon": "UserPlus", "title": "重聚缺席的人", "description": "以照片级真实的 AI 合成为旧照或新照添加亲人。", "tag": "#家人" },
+      { "icon": "Eraser", "title": "场景永远完美", "description": "移除游客、物体和干扰——就像从未存在过一样。", "tag": "#Clean" },
+      { "icon": "Wand2", "title": "创作者级风格", "description": "一键专业级滤镜、灯光和效果，让你的动态爆红。", "tag": "#Viral" }
+    ]
+  },
+  "solutions": {
+    "title": "告别模糊 👋 你好高清",
+    "subtitle": "了解我们的 AI 增强工具",
+    "items": [
+      { "slug": "desfocar-nitidez", "title": "去模糊和锐化", "description": "去除照片中的模糊并添加水晶般清晰的锐度。" },
+      { "slug": "restaurador-fotos-antigas", "title": "旧照片修复器", "description": "使用 AI 修复让受损的照片重焕生机。" },
+      { "slug": "redutor-ruido", "title": "降噪器", "description": "消除颗粒和噪点，同时保留所有细节。" },
+      { "slug": "realcador-facial", "title": "面部增强器", "description": "以自然的细节和完美的肌肤增强面部。" },
+      { "slug": "corretor-cor", "title": "色彩校正器", "description": "修正褪色的颜色，为您的图像带来鲜艳度。" },
+      { "slug": "ampliador-imagem", "title": "图像放大器", "description": "将分辨率提升至 4 倍而不失真。" }
+    ],
+    "learnMore": "了解更多 →"
+  },
+  "testimonials": {
+    "badge": "创作者的最爱",
+    "title": "数百万人的信赖，所有人的惊艳",
+    "subtitle": "用 OmniPic 改变回忆和动态的人们的真实故事。",
+    "counters": [
+      { "value": "5000万+", "label": "活跃用户" },
+      { "value": "4.9", "label": "平均评分" },
+      { "value": "20亿+", "label": "变革照片" }
+    ],
+    "reviews": [
+      { "name": "张伟", "handle": "@zhangwei", "platform": "Instagram", "rating": 5, "text": "我的 AI 写真看起来太真实了，朋友们以为我请了摄影师。太惊人了！", "accent": "violet", "size": "large" },
+      { "name": "刘洋", "handle": "@liuyang", "platform": "App Store", "rating": 5, "text": "我把奶奶的旧照片变成视频。全家人一起哭了。", "accent": "rose", "size": "medium" },
+      { "name": "陈晨", "handle": "@chenchen", "platform": "Google Play", "rating": 5, "text": "我修复了 50 年前的相册。每个细节都回来了，就像昨天一样。", "accent": "emerald", "size": "medium" },
+      { "name": "赵鹏", "handle": "@zhaopeng", "platform": "Twitter", "rating": 5, "text": "我做摄影师 12 年了。从未见过 AI 呈现如此清晰度。", "accent": "blue", "size": "large" },
+      { "name": "孙丽", "handle": "@sunli", "platform": "TikTok", "rating": 5, "text": "我只用 OmniPic 滤镜就在 TikTok 上爆红，获得 200 万播放。上瘾了！", "accent": "fuchsia", "size": "medium" },
+      { "name": "周杰", "handle": "@zhoujie", "platform": "YouTube", "rating": 5, "text": "我移除了破坏照片风景的汽车。完美，没有痕迹。", "accent": "cyan", "size": "medium" }
+    ]
+  },
+  "ctaFinal": {
+    "title": "立即体验 OmniPic！",
+    "subtitle": "加入数百万已用 AI 改造照片的用户行列。",
+    "cta": "免费开始",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "plansModal": {
+    "title": "解锁 OmniPic 的全部力量",
+    "subtitle": "选择最适合你的套餐",
+    "limitedTime": "限时优惠",
+    "bestValue": "最超值",
+    "save": "立省",
+    "perWeek": "/周",
+    "perMonth": "/月",
+    "perYear": "/年",
+    "letsGo": "立即开始",
+    "selectPlan": "选择套餐",
+    "close": "关闭",
+    "cancelAnytime": "随时取消",
+    "secureCheckout": "100% 安全支付",
+    "moneyBack": "7 天无理由退款",
+    "plans": {
+      "weekly": {
+        "name": "周套餐",
+        "tagline": "7 天完整访问",
+        "rawPrice": 5.99,
+        "price": "US$5.99",
+        "period": "周",
+        "billedAs": "按周计费",
+        "features": [
+          "7 天完整访问所有功能",
+          "无限 AI 图像增强",
+          "所有 AI 模型可用",
+          "多种格式（JPG、PNG、TIFF）",
+          "批量上传",
+          "无水印",
+          "允许商业使用",
+          "随时取消"
+        ]
+      },
+      "monthly": {
+        "name": "月套餐",
+        "tagline": "适合日常使用",
+        "rawPrice": 16.99,
+        "price": "US$16.99",
+        "period": "月",
+        "billedAs": "按月计费",
+        "savingsLabel": "立省 34%",
+        "discountBadge": "34% OFF",
+        "features": [
+          "30 天完整访问所有功能",
+          "无限 AI 图像增强",
+          "所有 AI 模型可用",
+          "多种格式（JPG、PNG、TIFF）",
+          "批量上传",
+          "无水印",
+          "允许商业使用",
+          "随时取消",
+          "比周套餐节省 34%"
+        ]
+      },
+      "annual": {
+        "name": "年套餐",
+        "tagline": "创作者的最爱",
+        "rawPrice": 179.99,
+        "price": "US$179.99",
+        "period": "年",
+        "billedAs": "按年计费",
+        "monthlyEquivalent": "相当于 US$14.99/月",
+        "savingsLabel": "立省 42%",
+        "discountBadge": "42% OFF",
+        "badge": "最超值",
+        "features": [
+          "365 天完整访问所有功能",
+          "无限 AI 图像增强",
+          "所有 AI 模型可用",
+          "多种格式（JPG、PNG、TIFF）",
+          "批量上传",
+          "无水印",
+          "允许商业使用",
+          "随时取消",
+          "比周套餐节省 42%"
+        ]
+      }
+    }
+  },
+  "auth": {
+    "title": "欢迎来到 OmniPic",
+    "subtitle": "登录或创建账户以开始使用",
+    "tabs": {
+      "login": "登录",
+      "register": "注册"
+    },
+    "fields": {
+      "email": "邮箱",
+      "password": "密码",
+      "name": "姓名",
+      "confirmPassword": "确认密码"
+    },
+    "placeholders": {
+      "email": "您的邮箱",
+      "password": "您的密码",
+      "name": "您的姓名",
+      "confirmPassword": "确认您的密码"
+    },
+    "login": {
+      "rememberMe": "记住我",
+      "forgotPassword": "忘记密码？",
+      "submit": "登录",
+      "or": "或使用以下方式继续",
+      "google": "使用 Google 继续",
+      "apple": "使用 Apple 继续",
+      "noAccount": "还没有账户？",
+      "createAccount": "创建账户"
+    },
+    "register": {
+      "agreeTerms": "我同意服务条款和隐私政策",
+      "submit": "创建账户",
+      "or": "或使用以下方式注册",
+      "google": "使用 Google 注册",
+      "apple": "使用 Apple 注册",
+      "hasAccount": "已有账户？",
+      "signIn": "登录"
+    },
+    "forgotPassword": {
+      "title": "忘记密码？",
+      "description": "输入您的邮箱，我们将发送重置说明。",
+      "submit": "发送说明",
+      "backToLogin": "返回登录",
+      "sent": "说明已发送！请检查您的邮箱。"
+    },
+    "validation": {
+      "required": "必填项",
+      "invalidEmail": "无效邮箱",
+      "minLength": "至少 8 个字符",
+      "passwordMismatch": "密码不匹配",
+      "termsRequired": "您必须接受条款"
+    }
+  },
+  "services": {
+    "desfocarNitidez": "去模糊和锐化",
+    "desfocarNitidezDesc": "使用先进的 AI 去除照片中的模糊并添加水晶般清晰的锐度。",
+    "redutorRuido": "降噪器",
+    "redutorRuidoDesc": "消除颗粒和数字噪点，同时保留所有重要细节。",
+    "restauradorFotos": "旧照片修复器",
+    "restauradorFotosDesc": "使用 AI 修复让受损的旧照片重焕生机。",
+    "ampliadorImagem": "图像放大器",
+    "ampliadorImagemDesc": "将图像分辨率提升至 4 倍而不失真。",
+    "corretorCor": "色彩校正器",
+    "corretorCorDesc": "修正褪色的颜色，为您的图像带来自然的鲜艳度。",
+    "realcadorFacial": "面部增强器",
+    "realcadorFacialDesc": "以自然的细节、柔滑的肌肤和完美的光线增强面部。",
+    "aprimoradorFundo": "背景增强器",
+    "aprimoradorFundoDesc": "使用 AI 改善照片背景以获得专业效果。",
+    "melhoradorBaixaQualidade": "低质量照片改善器",
+    "melhoradorBaixaQualidadeDesc": "将低质量照片转变为清晰的专业图像。",
+    "aprimoradorVideo": "视频增强器",
+    "aprimoradorVideoDesc": "通过 AI 升级和稳定改善您视频的质量。",
+    "adicionarPessoas": "在照片中添加人物",
+    "adicionarPessoasDesc": "使用 AI 以逼真自然的方式在照片中添加人物。",
+    "removerObjetos": "从照片中移除物体",
+    "removerObjetosDesc": "从照片中移除不需要的物体并自动重建背景。",
+    "filtrosEfeitos": "滤镜和特效",
+    "filtrosEfeitosDesc": "使用 AI 技术应用专业的照片滤镜和特效。",
+    "enhanceNow": "立即增强",
+    "howItWorks": "工作原理",
+    "step1": "上传",
+    "step1Desc": "将您的照片或视频上传到平台。",
+    "step2": "AI 处理",
+    "step2Desc": "我们的人工智能分析并增强您的媒体。",
+    "step3": "下载结果",
+    "step3Desc": "下载高质量的结果。",
+    "features": "功能",
+    "faqTitle": "常见问题"
+  },
+  "servicePage": {
+    "heroBadge": "先进 AI",
+    "heroCta": "立即增强",
+    "heroCtaSecondary": "查看示例",
+    "trustStars": "4.9/5",
+    "trustCount": "50 万+ 张照片已增强",
+    "beforeAfterTitle": "亲眼看到差异",
+    "beforeAfterSubtitle": "拖动滑块对比前后效果",
+    "beforeLabel": "之前",
+    "afterLabel": "之后",
+    "benefitsTitle": "为什么选择 OmniPic",
+    "benefitsSubtitle": "尖端技术，几秒钟即可获得专业级效果",
+    "benefits": {
+      "quality": {
+        "title": "专业品质",
+        "desc": "基于数百万张图片训练的 AI，带来照片级真实效果"
+      },
+      "speed": {
+        "title": "几秒出结果",
+        "desc": "云端加速处理，无需等待"
+      },
+      "privacy": {
+        "title": "100% 隐私",
+        "desc": "您的照片经过加密，处理后自动删除"
+      },
+      "resolution": {
+        "title": "最高 4K 分辨率",
+        "desc": "高清下载，随时可打印"
+      }
+    },
+    "howItWorksTitle": "如何使用",
+    "howItWorksSubtitle": "3 个简单步骤，改变您的照片",
+    "stepsNew": {
+      "upload": {
+        "title": "上传照片",
+        "desc": "拖拽或选择要增强的图片"
+      },
+      "process": {
+        "title": "AI 处理",
+        "desc": "我们的 AI 分析并提升每一个细节"
+      },
+      "download": {
+        "title": "下载结果",
+        "desc": "获取高分辨率的增强版本"
+      }
+    },
+    "examplesTitle": "真实增强示例",
+    "examplesSubtitle": "看看和您一样的用户创造了什么",
+    "faqTitle": "常见问题",
+    "faqSubtitle": "开始之前您需要了解的一切",
+    "faq": {
+      "q1": "增强一张照片需要多长时间？",
+      "a1": "大多数照片可在 30 秒内处理完成。高分辨率照片最多可能需要 1 分钟。",
+      "q2": "我的照片安全吗？",
+      "a2": "是的。我们使用端到端加密，处理后立即从服务器删除所有图片。",
+      "q3": "支持的最大分辨率是多少？",
+      "a3": "您可以上传最高 8K 的照片，在所有付费套餐中获得最高 4K 的结果。",
+      "q4": "我可以将结果用于商业用途吗？",
+      "a4": "年度套餐为您提供生成图片的完整商业使用权。"
+    },
+    "ctaTitle": "准备好见证奇迹了吗？",
+    "ctaSubtitle": "立即试用 — 首张照片免费",
+    "ctaButton": "增强我的第一张照片"
+  },
+  "enhancePage": {
+    "title": "使用人工智能增强您的照片",
+    "subtitle": "通过我们先进的编辑和修复服务，将您的回忆转化为杰作。",
+    "cta": "立即开始",
+    "tryFree": "免费试用",
+    "selectService": "选择一项服务开始",
+    "uploadCta": "上传照片",
+    "loginRequired": "请登录以上传照片",
+    "processing": "正在处理您的照片...",
+    "result": "结果",
+    "download": "下载",
+    "tryAnother": "试试另一个"
+  },
+  "supportPage": {
+    "title": "我们如何帮助您？",
+    "subtitle": "我们在这里为您服务。提交您的问题，我们将在 24 小时内回复。",
+    "companyTitle": "关于 OmniPic",
+    "companyDescription": "OmniPic 是终极的人工智能照片和视频增强平台。我们的使命是让专业编辑工具的使用民主化。",
+    "usefulLinks": "有用的链接",
+    "blog": "博客",
+    "resources": "资源",
+    "documentation": "文档",
+    "tutorials": "教程",
+    "formTitle": "发送您的消息",
+    "fields": {
+      "email": "您的邮箱",
+      "subject": "主题",
+      "message": "详细消息"
+    },
+    "placeholders": {
+      "email": "example@email.com",
+      "message": "描述我们如何帮助您..."
+    },
+    "subjects": {
+      "bug": "Bug 或错误",
+      "question": "问题",
+      "suggestion": "建议",
+      "billing": "支付",
+      "other": "其他"
+    },
+    "submit": "发送消息",
+    "sending": "正在发送...",
+    "success": "消息已发送！我们将尽快回复。",
+    "error": "发送失败。请重试。",
+    "validation": {
+      "emailRequired": "邮箱是必填项",
+      "emailInvalid": "无效邮箱",
+      "subjectRequired": "请选择主题",
+      "messageRequired": "消息是必填项",
+      "messageMin": "消息至少需要 10 个字符"
+    }
+  },
+  "smartflow": {
+    "title": "您想做什么？",
+    "step1": "选择服务",
+    "step2": "照片情境",
+    "step3": "具体详情",
+    "step4": "上传",
+    "step5": "处理",
+    "bringToLife": "让照片动起来",
+    "restoreOld": "修复旧照片",
+    "addPeople": "在照片中添加人物",
+    "removeObjects": "从照片中移除物体",
+    "filtersEffects": "滤镜和特效",
+    "livingMemories": "生动记忆",
+    "photoType": "照片类型",
+    "selfie": "自拍",
+    "group": "团体",
+    "professional": "专业",
+    "old": "旧",
+    "currentQuality": "当前质量",
+    "low": "低",
+    "medium": "中",
+    "high": "高",
+    "lighting": "光线",
+    "dark": "暗",
+    "normal": "正常",
+    "bright": "亮",
+    "motionType": "动作类型",
+    "natural": "自然",
+    "cinematic": "电影感",
+    "emotional": "情感",
+    "intensity": "强度",
+    "gentle": "轻柔",
+    "moderate": "中等",
+    "expression": "期望的表情",
+    "smiling": "微笑",
+    "neutral": "中性",
+    "damageLevel": "损坏程度",
+    "light": "轻",
+    "heavy": "重",
+    "keepOriginal": "保持原始外观？",
+    "yes": "是",
+    "improveSlightly": "轻微改善",
+    "desiredTone": "期望的色调",
+    "realistic": "写实",
+    "slightlyModern": "略微现代",
+    "angle": "照片角度",
+    "frontal": "正面",
+    "lateral": "侧面",
+    "unknown": "未知",
+    "distance": "距离",
+    "close": "近",
+    "far": "远",
+    "sceneLighting": "场景光线",
+    "warm": "暖",
+    "cold": "冷",
+    "interactionType": "互动类型",
+    "noContact": "无接触",
+    "nearby": "靠近",
+    "hug": "拥抱",
+    "bgComplexity": "背景复杂度",
+    "simple": "简单",
+    "complex": "复杂",
+    "bgPreference": "偏好",
+    "recreateBg": "重建背景",
+    "cleanBg": "干净背景",
+    "baseStyle": "基础风格",
+    "cinema": "电影",
+    "studio": "摄影棚",
+    "instagram": "Instagram",
+    "vintage": "复古",
+    "realismLevel": "写实程度",
+    "stylized": "风格化",
+    "estimatedAge": "照片中的估计年龄",
+    "howToSee": "您希望如何看到这个人",
+    "asToday": "今天的样子",
+    "specificAge": "特定年龄",
+    "desiredAge": "期望的年龄",
+    "emotionalTone": "情感基调",
+    "serious": "严肃",
+    "next": "下一步",
+    "previous": "上一步",
+    "uploadTitle": "上传您的照片",
+    "uploadDescription": "将照片拖放到此处或点击选择",
+    "uploadFormats": "JPG、PNG 或 WEBP，最大 10MB",
+    "faceDetected": "检测到人脸 ✓",
+    "resolution": "分辨率",
+    "orientation": "方向：正常",
+    "processWithAI": "使用 AI 处理",
+    "processing": "正在处理...",
+    "processingMessages": [
+      "正在分析图像...",
+      "正在检测人脸...",
+      "正在应用 AI...",
+      "正在调整细节...",
+      "即将完成..."
+    ],
+    "results": "结果",
+    "chooseThis": "选择此项",
+    "downloadHD": "下载高分辨率",
+    "resolution4K": "分辨率：4K",
+    "watermark": "水印",
+    "newProject": "新项目"
+  },
+  "dashboard": {
+    "welcome": "欢迎回来",
+    "credits": "剩余积分",
+    "projects": "本月项目",
+    "currentPlan": "当前套餐",
+    "myProjects": "我的项目",
+    "livingMemories": "生动回忆",
+    "settings": "设置",
+    "home": "首页",
+    "newProject": "新项目",
+    "recentProjects": "最近的项目",
+    "noProjects": "还没有项目。开始增强您的第一张照片吧！",
+    "unlimited": "无限",
+    "heroBadge": "准备创作",
+    "heroTitle": "用人工智能优化您的照片",
+    "heroSubtitle": "选择一项服务，上传图片，让 OmniPic 在几秒钟内将您的回忆变成杰作。",
+    "heroCta": "开始新项目",
+    "heroSecondary": "探索服务",
+    "trustFast": "几秒即得结果",
+    "trustSecure": "隐私有保障",
+    "trustQuality": "4K 画质"
+  },
+  "legal": {
+    "privacyTitle": "隐私政策",
+    "termsTitle": "使用条款",
+    "cookiesTitle": "Cookie 政策",
+    "lastUpdated": "最后更新",
+    "dataController": "数据控制者",
+    "dataControllerText": "OmniPic Tecnologia Ltda.，CNPJ 编号 00.000.000/0001-00，总部位于巴西圣保罗州圣保罗，是您个人数据的控制者。",
+    "dataProtectionOfficer": "数据保护官（DPO）",
+    "dpoText": "您可以通过以下邮箱联系我们的数据保护官：dpo@omnipic.net",
+    "dataCollection": "我们收集的数据",
+    "dataCollectionText": "根据《巴西通用数据保护法》（第 13.709/2018 号法律 — LGPD）的规定，我们收集以下个人数据：\n\n• 身份数据：全名、电子邮件地址\n• 使用数据：上传用于处理的图像和视频\n• 技术数据：IP 地址、浏览器类型、设备\n• 支付数据：由第三方处理（我们不存储卡片数据）",
+    "legalBasis": "处理的法律依据",
+    "legalBasisText": "我们根据 LGPD 的以下法律假设处理您的个人数据：\n\n• 同意（第 7 条 I 款）：用于图像处理和营销通信\n• 合同履行（第 7 条 V 款）：用于提供我们的服务\n• 正当利益（第 7 条 IX 款）：用于改善服务和安全\n• 履行法律义务（第 7 条 II 款）：用于税务和监管义务",
+    "dataSubjectRights": "您作为数据主体的权利",
+    "dataSubjectRightsText": "根据 LGPD，您享有以下权利：\n\n• 确认数据处理的存在\n• 访问您的个人数据\n• 更正不完整、不准确或过时的数据\n• 匿名化、屏蔽或删除不必要的数据\n• 将数据转移到其他提供商\n• 删除基于同意处理的个人数据\n• 获取有关数据共享的信息\n• 撤回同意",
+    "dataRetention": "数据保留和删除",
+    "dataRetentionText": "• 已处理的照片：在处理后 24 小时自动删除\n• 已保存的项目：在账户保持活跃期间保留\n• 账户数据：保留至请求删除为止\n• 账户删除后：所有数据将在 30 天内删除",
+    "dataDeletion": "客户数据删除",
+    "dataDeletionText": "您可以随时请求删除您的数据。我们提供以下选项：\n\n• 删除所有已处理的照片\n• 删除您的账户和所有个人数据\n• 两者都删除\n\n删除期限：请求后 30 天内。",
+    "deletionRequestTitle": "请求删除数据",
+    "deletionEmail": "账户邮箱",
+    "deletionType": "请求类型",
+    "deletionPhotos": "删除照片",
+    "deletionAccount": "删除账户",
+    "deletionBoth": "两者",
+    "deletionSubmit": "提交请求",
+    "deletionSuccess": "请求已成功提交！您将通过邮件收到确认。",
+    "termsContent": {
+      "acceptance": "条款接受",
+      "acceptanceText": "访问和使用 OmniPic 平台即表示您同意这些使用条款。如果您不同意这些条款的任何部分，请勿使用我们的服务。",
+      "serviceDescription": "服务描述",
+      "serviceDescriptionText": "OmniPic 是一个使用人工智能进行照片和视频增强的平台。我们提供修复、质量改善、滤镜、特效和记忆重建服务。",
+      "acceptableUse": "可接受的使用",
+      "acceptableUseText": "您同意：\n\n• 仅将服务用于合法目的\n• 不上传非法、冒犯性或侵犯第三方权利的内容\n• 不试图访问未经授权的系统或数据\n• 不使用服务创建恶意深度伪造或误导性内容\n• 尊重第三方的肖像权",
+      "intellectualProperty": "知识产权",
+      "intellectualPropertyText": "• 您保留上传的照片和视频的所有权利\n• 处理后的结果归您所有\n• OmniPic 的技术、品牌和界面是 OmniPic Tecnologia Ltda. 的专有财产\n• 您不得复制、修改或分发我们的技术",
+      "liability": "责任限制",
+      "liabilityText": "• AI 结果为近似值，可能并不完美\n• 我们不对您使用结果的方式负责\n• 生动记忆服务创建艺术表现，而非精确的肖像\n• 我们不保证服务的不间断可用性",
+      "termination": "终止",
+      "terminationText": "如果您违反这些条款，我们可能会暂停或终止您的账户。您可以通过设置或请求支持随时终止您的账户。",
+      "applicableLaw": "适用法律",
+      "applicableLawText": "这些条款受巴西联邦共和国法律管辖。圣保罗州圣保罗法院为解决任何争议的管辖法院。"
+    },
+    "cookiesContent": {
+      "whatAreCookies": "什么是 Cookie",
+      "whatAreCookiesText": "Cookie 是当您访问我们网站时存储在您设备上的小型文本文件。它们帮助我们改善您的体验并提供基本功能。",
+      "typesOfCookies": "我们使用的 Cookie 类型",
+      "essential": "必需 Cookie",
+      "essentialText": "网站运行所必需的。包括会话、身份验证和语言偏好 Cookie。不能被禁用。",
+      "analytics": "分析 Cookie",
+      "analyticsText": "帮助我们了解访问者如何使用我们的网站，从而改善体验。我们使用带 IP 匿名化的 Google Analytics。",
+      "marketing": "营销 Cookie",
+      "marketingText": "用于展示相关广告并衡量广告活动的效果。",
+      "manageCookies": "如何管理 Cookie",
+      "manageCookiesText": "您可以随时通过 Cookie 横幅或浏览器设置管理您的 Cookie 偏好。禁用某些 Cookie 可能会影响网站的功能。"
+    }
+  },
+  "cookieBanner": {
+    "message": "我们使用 Cookie 来改善您的体验。继续浏览即表示您同意我们的",
+    "cookiePolicy": "Cookie 政策",
+    "accept": "接受全部",
+    "reject": "拒绝全部",
+    "customize": "自定义"
+  },
+  "footer": {
+    "description": "基于人工智能的照片和视频增强平台。",
+    "enhance": "增强",
+    "generativeAI": "生成式 AI",
+    "resources": "资源",
+    "legal": "法律",
+    "support": "支持",
+    "blog": "博客",
+    "contact": "支持",
+    "privacy": "隐私政策",
+    "terms": "使用条款",
+    "cookies": "Cookie 政策",
+    "copyright": "© 2026 OmniPic. 保留所有权利。",
+    "madeWith": "在中国用 AI 制作 🇨🇳"
+  }
+}

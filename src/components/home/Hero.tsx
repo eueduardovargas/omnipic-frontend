@@ -16,6 +16,18 @@ export default function Hero({ locale }: HeroProps) {
   const tabs = [t('tabs.portrait'), t('tabs.landscape'), t('tabs.oldPhoto')];
   const badges: string[] = t.raw('badges');
 
+  // Image URLs for each tab
+  const beforeImages = [
+    `https://placehold.co/800x600/141414/666666?text=${encodeURIComponent(tabs[0])}+Antes`,
+    `https://placehold.co/800x600/141414/666666?text=${encodeURIComponent(tabs[1])}+Antes`,
+    'https://files.manuscdn.com/user_upload_by_module/session_file/310519663383332386/bqtyDmQVURyKynlK.jpg'
+  ];
+  const afterImages = [
+    `https://placehold.co/800x600/141414/7C3AED?text=${encodeURIComponent(tabs[0])}+Depois`,
+    `https://placehold.co/800x600/141414/7C3AED?text=${encodeURIComponent(tabs[1])}+Depois`,
+    'https://files.manuscdn.com/user_upload_by_module/session_file/310519663383332386/EuZTIHsbOhFfbEkY.png'
+  ];
+
   return (
     <section className="relative min-h-screen flex items-center pt-20 pb-16 px-4 overflow-hidden">
       {/* Background gradient */}
@@ -82,8 +94,8 @@ export default function Hero({ locale }: HeroProps) {
             </div>
 
             <BeforeAfterSlider
-              beforeSrc={`https://placehold.co/800x600/141414/666666?text=${encodeURIComponent(tabs[activeTab])}+Antes`}
-              afterSrc={`https://placehold.co/800x600/141414/7C3AED?text=${encodeURIComponent(tabs[activeTab])}+Depois`}
+              beforeSrc={beforeImages[activeTab]}
+              afterSrc={afterImages[activeTab]}
               height="h-[350px] md:h-[450px]"
             />
 

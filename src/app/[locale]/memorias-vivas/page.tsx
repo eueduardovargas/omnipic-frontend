@@ -156,21 +156,15 @@ export default function MemoriasVivasPage() {
             </p>
 
             {/* CTA buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
+            <div className="flex justify-center mb-16">
               <Link
-                href={processarHref}
+                href="#exemplos"
                 className="group inline-flex items-center gap-2 bg-gradient-to-r from-violet-500 to-fuchsia-500 hover:from-violet-400 hover:to-fuchsia-400 text-white font-semibold px-8 py-4 rounded-btn text-lg transition-all hover:shadow-2xl hover:shadow-violet-500/40 hover:scale-[1.02]"
               >
                 <Camera className="w-5 h-5" />
                 {t('cta')}
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
-              <a
-                href="#exemplos"
-                className="inline-flex items-center gap-2 glass-card px-8 py-4 rounded-btn text-white/90 hover:bg-white/10 transition-colors font-medium"
-              >
-                {t('ctaSecondary')}
-              </a>
             </div>
 
             {/* Stats */}
@@ -219,8 +213,11 @@ export default function MemoriasVivasPage() {
             {styles.map((style, i) => {
               const c = colorStyles[style.color];
               return (
-                <motion.div
+                <Link
+                  href={`/${locale}/memorias-vivas/${style.name.toLowerCase().replace(/\s+/g, '-')}`}
                   key={i}
+                >
+                <motion.div
                   className={`group relative aspect-[3/4] rounded-3xl overflow-hidden border ${c.border} bg-white/5 backdrop-blur-xl hover:-translate-y-1 transition-all duration-300 cursor-pointer`}
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}
@@ -259,6 +256,7 @@ export default function MemoriasVivasPage() {
                     <ArrowRight className="w-4 h-4 text-white" />
                   </div>
                 </motion.div>
+                </Link>
               );
             })}
           </div>

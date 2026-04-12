@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useRef, useCallback } from 'react';
+import { useState, useRef, useCallback, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { GripVertical } from 'lucide-react';
 
@@ -22,8 +22,21 @@ export default function BeforeAfterSlider({
   hideLabels = false,
 }: BeforeAfterSliderProps) {
   const [sliderPosition, setSliderPosition] = useState(50);
+  const [isHovering, setIsHovering] = useState(false);
+  const [isTouching, setIsTouching] = useState(false);
+  const [isDesktop, setIsDesktop] = useState(true);
   const containerRef = useRef<HTMLDivElement>(null);
   const isDragging = useRef(false);
+
+  // Detect if device is desktop or mobile
+  useEffect(() => {
+    const checkDesktop = () => {
+      setIsDesktop(window.innerWidth >= 768);
+    };
+    checkDesktop();
+    window.addEventListener('resize', checkDesktop);
+    return () => window.removeEventListener('resize', checkDesktop);
+  }, []);
 
   const updatePosition = useCallback((clientX: number) => {
     if (!containerRef.current) return;
@@ -33,39 +46,63 @@ export default function BeforeAfterSlider({
     setSliderPosition(percentage);
   }, []);
 
-  const handleMove = useCallback(
-    (e: React.MouseEvent | React.TouchEvent) => {
-      if (!isDragging.current) return;
-      const clientX = 'touches' in e ? e.touches[0].clientX : e.clientX;
-      updatePosition(clientX);
+  // Desktop: Hover movement
+  const handleMouseMove = useCallback(
+    (e: React.MouseEvent) => {
+      if (!isDesktop || !isHovering) return;
+      updatePosition(e.clientX);
     },
-    [updatePosition]
+    [isDesktop, isHovering, updatePosition]
   );
 
-  const handleStart = useCallback(
-    (e: React.MouseEvent | React.TouchEvent) => {
+  const handleMouseEnter = useCallback(() => {
+    if (isDesktop) {
+      setIsHovering(true);
+    }
+  }, [isDesktop]);
+
+  const handleMouseLeave = useCallback(() => {
+    setIsHovering(false);
+  }, []);
+
+  // Mobile: Touch drag
+  const handleTouchStart = useCallback(
+    (e: React.TouchEvent) => {
+      if (isDesktop) return;
+      setIsTouching(true);
       isDragging.current = true;
-      const clientX = 'touches' in e ? e.touches[0].clientX : e.clientX;
+      const clientX = e.touches[0].clientX;
       updatePosition(clientX);
     },
-    [updatePosition]
+    [isDesktop, updatePosition]
   );
 
-  const handleEnd = useCallback(() => {
+  const handleTouchMove = useCallback(
+    (e: React.TouchEvent) => {
+      if (!isDragging.current || isDesktop) return;
+      const clientX = e.touches[0].clientX;
+      updatePosition(clientX);
+    },
+    [isDesktop, updatePosition]
+  );
+
+  const handleTouchEnd = useCallback(() => {
     isDragging.current = false;
+    setIsTouching(false);
   }, []);
 
   return (
     <motion.div
       ref={containerRef}
-      className={`relative ${height} w-full overflow-hidden rounded-card select-none cursor-ew-resize`}
-      onMouseDown={handleStart}
-      onMouseMove={handleMove}
-      onMouseUp={handleEnd}
-      onMouseLeave={handleEnd}
-      onTouchStart={handleStart}
-      onTouchMove={handleMove}
-      onTouchEnd={handleEnd}
+      className={`relative ${height} w-full overflow-hidden rounded-card select-none ${
+        isDesktop ? 'cursor-ew-resize' : 'cursor-grab active:cursor-grabbing'
+      }`}
+      onMouseMove={handleMouseMove}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+      onTouchStart={handleTouchStart}
+      onTouchMove={handleTouchMove}
+      onTouchEnd={handleTouchEnd}
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
@@ -96,14 +133,20 @@ export default function BeforeAfterSlider({
       )}
 
       {/* Slider handle */}
-      <div
+      <motion.div
         className="absolute top-0 bottom-0 w-1 bg-white shadow-lg"
         style={{ left: `${sliderPosition}%`, transform: 'translateX(-50%)' }}
+        animate={{ scale: isHovering || isTouching ? 1.1 : 1 }}
+        transition={{ type: 'spring', stiffness: 300, damping: 30 }}
       >
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-xl">
+        <motion.div
+          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-xl"
+          animate={{ scale: isHovering || isTouching ? 1.2 : 1 }}
+          transition={{ type: 'spring', stiffness: 300, damping: 30 }}
+        >
           <GripVertical className="w-5 h-5 text-gray-800" />
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
     </motion.div>
   );
 }

@@ -98,8 +98,6 @@ export default function Hero({ locale }: HeroProps) {
               afterSrc={afterImages[activeTab]}
               height="h-[350px] md:h-[450px]"
             />
-
-            <p className="text-center text-muted/60 text-xs mt-4">{t('authentic')}</p>
           </motion.div>
         </div>
       </div>

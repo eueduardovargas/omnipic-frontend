@@ -1,8 +1,8 @@
 'use client';
 
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { useParams } from 'next/navigation';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import {
   Upload,
   Sparkles,
@@ -15,6 +15,8 @@ import {
   Wand2,
   Download,
   Share2,
+  Pause,
+  Play,
 } from 'lucide-react';
 import Link from 'next/link';
 
@@ -166,12 +168,27 @@ export default function StyleDetailPage() {
 
   const c = colorStyles[style.color];
   const [carouselIndex, setCarouselIndex] = useState(0);
+  const [isAutoPlay, setIsAutoPlay] = useState(true);
   const [uploadedImage, setUploadedImage] = useState<string | null>(null);
   const [customPrompt, setCustomPrompt] = useState('');
   const [isGenerating, setIsGenerating] = useState(false);
   const [generatedImage, setGeneratedImage] = useState<string | null>(null);
   const [additionalImages, setAdditionalImages] = useState<string[]>([]);
   const fileInputRef = useRef<HTMLInputElement>(null);
+  const autoPlayRef = useRef<NodeJS.Timeout>();
+
+  // Auto-play carousel
+  useEffect(() => {
+    if (!isAutoPlay) return;
+
+    autoPlayRef.current = setInterval(() => {
+      setCarouselIndex((prev) => (prev + 1) % style.exampleImages.length);
+    }, 4000); // Change image every 4 seconds
+
+    return () => {
+      if (autoPlayRef.current) clearInterval(autoPlayRef.current);
+    };
+  }, [isAutoPlay, style.exampleImages.length]);
 
   const handleImageUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
@@ -211,10 +228,12 @@ export default function StyleDetailPage() {
   };
 
   const nextSlide = () => {
+    setIsAutoPlay(false);
     setCarouselIndex((prev) => (prev + 1) % style.exampleImages.length);
   };
 
   const prevSlide = () => {
+    setIsAutoPlay(false);
     setCarouselIndex((prev) => (prev - 1 + style.exampleImages.length) % style.exampleImages.length);
   };
 
@@ -272,441 +291,265 @@ export default function StyleDetailPage() {
             </p>
           </div>
 
-          {/* Carousel */}
-          <div className={`relative rounded-3xl border ${c.border} bg-gradient-to-br from-white/5 to-white/[0.02] backdrop-blur-2xl overflow-hidden shadow-2xl`}>
-            <div className="relative aspect-[3/4] md:aspect-video overflow-hidden bg-gradient-to-br from-slate-900 to-black">
-              <motion.img
-                key={carouselIndex}
-                src={style.exampleImages[carouselIndex]}
-                alt={`Example ${carouselIndex + 1}`}
-                className="w-full h-full object-cover"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ duration: 0.5 }}
-              />
-              
-              {/* Carousel controls */}
-              <button
-                onClick={prevSlide}
-                className="absolute left-4 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-md flex items-center justify-center transition-all duration-300 border border-white/20 hover:border-white/40 group"
-              >
-                <ChevronLeft className="w-6 h-6 text-white group-hover:scale-110 transition-transform" />
-              </button>
-              <button
-                onClick={nextSlide}
-                className="absolute right-4 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-md flex items-center justify-center transition-all duration-300 border border-white/20 hover:border-white/40 group"
-              >
-                <ChevronRight className="w-6 h-6 text-white group-hover:scale-110 transition-transform" />
-              </button>
+          {/* Stories-style carousel feed */}
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            {/* Main carousel - Stories Feed */}
+            <div className="lg:col-span-2">
+              <div className={`relative rounded-3xl border ${c.border} bg-gradient-to-br from-white/5 to-white/[0.02] backdrop-blur-2xl overflow-hidden shadow-2xl`}>
+                {/* Carousel container */}
+                <div className="relative aspect-[9/16] md:aspect-[4/5] overflow-hidden bg-gradient-to-br from-slate-900 to-black">
+                  <AnimatePresence mode="wait">
+                    <motion.div
+                      key={carouselIndex}
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      exit={{ opacity: 0 }}
+                      transition={{ duration: 0.5 }}
+                      className="absolute inset-0"
+                    >
+                      <img
+                        src={style.exampleImages[carouselIndex]}
+                        alt={`Example ${carouselIndex + 1}`}
+                        className="w-full h-full object-cover"
+                      />
+                      {/* Gradient overlay */}
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+                    </motion.div>
+                  </AnimatePresence>
 
-              {/* Carousel indicators */}
-              <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-2 z-10">
-                {style.exampleImages.map((_, i) => (
-                  <motion.button
-                    key={i}
-                    onClick={() => setCarouselIndex(i)}
-                    className={`rounded-full transition-all duration-300 ${
-                      i === carouselIndex
-                        ? `bg-gradient-to-r ${c.accent} w-8 h-2`
-                        : 'bg-white/30 hover:bg-white/50 w-2 h-2'
-                    }`}
-                    whileHover={{ scale: 1.2 }}
-                  />
-                ))}
-              </div>
-            </div>
-          </div>
-        </motion.div>
-
-        {/* Main content grid */}
-        <div className="hidden md:grid md:grid-cols-3 gap-8 mb-12">
-          {/* Left: Upload section */}
-          <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: 0.2 }}
-            className={`rounded-2xl border ${c.border} bg-gradient-to-br from-white/5 to-white/[0.02] backdrop-blur-xl p-8 shadow-xl`}
-          >
-            <h2 className="text-xl font-bold mb-6 flex items-center gap-3 text-white">
-              <div className={`w-10 h-10 rounded-lg bg-gradient-to-br ${c.accent} flex items-center justify-center`}>
-                <Upload className="w-5 h-5 text-white" />
-              </div>
-              Sua Foto
-            </h2>
-
-            {!uploadedImage ? (
-              <button
-                onClick={() => fileInputRef.current?.click()}
-                className={`w-full aspect-square rounded-2xl border-2 border-dashed ${c.border} bg-gradient-to-br from-white/5 to-white/[0.02] hover:from-white/10 hover:to-white/5 transition-all duration-300 flex flex-col items-center justify-center cursor-pointer group`}
-              >
-                <div className={`w-16 h-16 rounded-full bg-gradient-to-br ${c.accent} opacity-20 group-hover:opacity-30 transition-opacity mb-4 flex items-center justify-center`}>
-                  <ImageIcon className="w-8 h-8 text-white" />
-                </div>
-                <span className="text-white font-semibold mb-2">
-                  Clique para upload
-                </span>
-                <span className="text-white/50 text-sm">
-                  PNG, JPG até 10MB
-                </span>
-              </button>
-            ) : (
-              <div className="relative aspect-square rounded-2xl overflow-hidden border border-white/10">
-                <img
-                  src={uploadedImage}
-                  alt="Uploaded"
-                  className="w-full h-full object-cover"
-                />
-                <button
-                  onClick={() => {
-                    setUploadedImage(null);
-                    fileInputRef.current!.value = '';
-                  }}
-                  className="absolute top-3 right-3 bg-red-500/90 hover:bg-red-600 text-white px-3 py-1 rounded-lg text-sm transition-all duration-300 font-medium"
-                >
-                  Trocar
-                </button>
-              </div>
-            )}
-
-            <input
-              ref={fileInputRef}
-              type="file"
-              accept="image/*"
-              onChange={handleImageUpload}
-              className="hidden"
-            />
-
-            {/* Mini prompt */}
-            <div className="mt-6">
-              <h3 className="text-sm font-bold mb-3 flex items-center gap-2 text-white">
-                <Sparkles className="w-4 h-4" />
-                Mini Comando
-              </h3>
-              <textarea
-                value={customPrompt}
-                onChange={(e) => setCustomPrompt(e.target.value)}
-                placeholder={style.prompt}
-                className="w-full h-20 bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white text-sm placeholder-white/40 focus:outline-none focus:border-white/30 focus:bg-white/10 transition-all duration-300 resize-none"
-              />
-            </div>
-
-            {/* Generate button */}
-            <button
-              onClick={handleGenerate}
-              disabled={!uploadedImage || isGenerating}
-              className={`w-full mt-6 py-3 rounded-xl font-bold flex items-center justify-center gap-2 transition-all duration-300 text-sm ${
-                uploadedImage && !isGenerating
-                  ? `bg-gradient-to-r ${c.accent} hover:shadow-lg hover:shadow-violet-500/30 text-white hover:scale-[1.02]`
-                  : 'bg-white/10 text-white/50 cursor-not-allowed'
-              }`}
-            >
-              {isGenerating ? (
-                <>
-                  <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
-                  Gerando...
-                </>
-              ) : (
-                <>
-                  <Zap className="w-4 h-4" />
-                  Gerar Imagem
-                </>
-              )}
-            </button>
-          </motion.div>
-
-          {/* Middle: Tips section */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.3 }}
-            className={`rounded-2xl border ${c.border} bg-gradient-to-br from-white/5 to-white/[0.02] backdrop-blur-xl p-8 shadow-xl`}
-          >
-            <h3 className="text-xl font-bold mb-6 text-white flex items-center gap-3">
-              <div className={`w-10 h-10 rounded-lg bg-gradient-to-br ${c.accent} flex items-center justify-center`}>
-                <Check className="w-5 h-5 text-white" />
-              </div>
-              Dicas
-            </h3>
-            <ul className="space-y-4">
-              {style.tips.map((tip, i) => (
-                <motion.li
-                  key={i}
-                  className="flex gap-3"
-                  initial={{ opacity: 0, x: -10 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: 0.4 + i * 0.1 }}
-                >
-                  <div className={`w-5 h-5 rounded-full bg-gradient-to-br ${c.accent} flex items-center justify-center flex-shrink-0 mt-0.5`}>
-                    <Check className="w-3 h-3 text-white" />
+                  {/* Progress bar */}
+                  <div className="absolute top-0 left-0 right-0 h-1 bg-white/10 z-20">
+                    <motion.div
+                      className={`h-full bg-gradient-to-r ${c.accent}`}
+                      initial={{ width: '0%' }}
+                      animate={{ width: isAutoPlay ? '100%' : `${((carouselIndex + 1) / style.exampleImages.length) * 100}%` }}
+                      transition={{ duration: isAutoPlay ? 4 : 0.3 }}
+                    />
                   </div>
-                  <span className="text-white/80 text-sm leading-relaxed">{tip}</span>
-                </motion.li>
-              ))}
-            </ul>
-          </motion.div>
 
-          {/* Right: Generated images */}
-          <motion.div
-            initial={{ opacity: 0, x: 20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: 0.4 }}
-            className={`rounded-2xl border ${c.border} bg-gradient-to-br from-white/5 to-white/[0.02] backdrop-blur-xl p-8 shadow-xl`}
-          >
-            <h3 className="text-xl font-bold mb-6 text-white flex items-center gap-3">
-              <div className={`w-10 h-10 rounded-lg bg-gradient-to-br ${c.accent} flex items-center justify-center`}>
-                <Wand2 className="w-5 h-5 text-white" />
-              </div>
-              Sua Imagem
-            </h3>
-            
-            {generatedImage ? (
-              <div className="space-y-4">
-                <motion.div
-                  className="relative group"
-                  initial={{ opacity: 0, scale: 0.9 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                >
-                  <img
-                    src={generatedImage}
-                    alt="Generated"
-                    className="w-full rounded-xl object-cover aspect-square"
-                  />
-                  <div className="absolute inset-0 rounded-xl bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-3">
-                    <button className="w-10 h-10 rounded-full bg-white/20 hover:bg-white/30 backdrop-blur-md flex items-center justify-center transition-all">
-                      <Download className="w-5 h-5 text-white" />
-                    </button>
-                    <button className="w-10 h-10 rounded-full bg-white/20 hover:bg-white/30 backdrop-blur-md flex items-center justify-center transition-all">
-                      <Share2 className="w-5 h-5 text-white" />
-                    </button>
-                  </div>
-                </motion.div>
-
-                {additionalImages.length === 0 && (
+                  {/* Navigation buttons */}
                   <button
-                    onClick={handleGenerateMore}
-                    disabled={isGenerating}
-                    className={`w-full py-3 rounded-xl font-bold flex items-center justify-center gap-2 transition-all duration-300 text-sm border ${
-                      !isGenerating
-                        ? 'bg-white/5 hover:bg-white/10 border-white/20 hover:border-white/40 text-white'
-                        : 'bg-white/5 border-white/20 text-white/50 cursor-not-allowed'
-                    }`}
+                    onClick={prevSlide}
+                    className="absolute left-4 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-md flex items-center justify-center transition-all duration-300 border border-white/20 hover:border-white/40 group z-20"
                   >
-                    {isGenerating ? (
-                      <>
-                        <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
-                        Gerando...
-                      </>
+                    <ChevronLeft className="w-6 h-6 text-white group-hover:scale-110 transition-transform" />
+                  </button>
+                  <button
+                    onClick={nextSlide}
+                    className="absolute right-4 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-md flex items-center justify-center transition-all duration-300 border border-white/20 hover:border-white/40 group z-20"
+                  >
+                    <ChevronRight className="w-6 h-6 text-white group-hover:scale-110 transition-transform" />
+                  </button>
+
+                  {/* Play/Pause button */}
+                  <button
+                    onClick={() => setIsAutoPlay(!isAutoPlay)}
+                    className="absolute bottom-6 right-6 w-12 h-12 rounded-full bg-white/20 hover:bg-white/30 backdrop-blur-md flex items-center justify-center transition-all duration-300 border border-white/30 z-20"
+                  >
+                    {isAutoPlay ? (
+                      <Pause className="w-5 h-5 text-white" />
                     ) : (
-                      <>
-                        <Wand2 className="w-4 h-4" />
-                        Gerar Outros Modelos
-                      </>
+                      <Play className="w-5 h-5 text-white" />
                     )}
                   </button>
-                )}
 
-                {additionalImages.length > 0 && (
-                  <div className="space-y-3 pt-4 border-t border-white/10">
-                    {additionalImages.map((img, i) => (
-                      <motion.div
-                        key={i}
-                        className="relative group"
-                        initial={{ opacity: 0, scale: 0.9 }}
-                        animate={{ opacity: 1, scale: 1 }}
-                        transition={{ delay: i * 0.1 }}
-                      >
-                        <img
-                          src={img}
-                          alt={`Model ${i + 1}`}
-                          className="w-full rounded-lg object-cover aspect-square"
-                        />
-                        <div className="absolute inset-0 rounded-lg bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-2">
-                          <button className="w-8 h-8 rounded-full bg-white/20 hover:bg-white/30 backdrop-blur-md flex items-center justify-center transition-all">
-                            <Download className="w-4 h-4 text-white" />
-                          </button>
-                          <button className="w-8 h-8 rounded-full bg-white/20 hover:bg-white/30 backdrop-blur-md flex items-center justify-center transition-all">
-                            <Share2 className="w-4 h-4 text-white" />
-                          </button>
-                        </div>
-                      </motion.div>
-                    ))}
+                  {/* Image counter */}
+                  <div className="absolute bottom-6 left-6 text-white/80 text-sm font-medium z-20 bg-black/40 backdrop-blur-md px-3 py-1 rounded-full">
+                    {carouselIndex + 1} / {style.exampleImages.length}
                   </div>
-                )}
+                </div>
+
+                {/* Carousel indicators - dots */}
+                <div className="flex items-center justify-center gap-2 p-6 bg-gradient-to-r from-white/5 to-white/[0.02] border-t border-white/10">
+                  {style.exampleImages.map((_, i) => (
+                    <motion.button
+                      key={i}
+                      onClick={() => {
+                        setIsAutoPlay(false);
+                        setCarouselIndex(i);
+                      }}
+                      className={`rounded-full transition-all duration-300 ${
+                        i === carouselIndex
+                          ? `bg-gradient-to-r ${c.accent} w-8 h-2`
+                          : 'bg-white/30 hover:bg-white/50 w-2 h-2'
+                      }`}
+                      whileHover={{ scale: 1.2 }}
+                    />
+                  ))}
+                </div>
               </div>
-            ) : (
-              <div className="aspect-square rounded-xl border-2 border-dashed border-white/20 flex items-center justify-center bg-gradient-to-br from-white/5 to-white/[0.02]">
-                <p className="text-white/50 text-sm text-center">
-                  Faça upload e gere<br />sua primeira imagem
-                </p>
-              </div>
-            )}
-          </motion.div>
-        </div>
-
-        {/* Mobile layout */}
-        <div className="md:hidden space-y-6">
-          {/* Upload section */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className={`rounded-2xl border ${c.border} bg-gradient-to-br from-white/5 to-white/[0.02] backdrop-blur-xl p-6 shadow-xl`}
-          >
-            <h2 className="text-lg font-bold mb-4 flex items-center gap-2 text-white">
-              <Upload className="w-5 h-5" />
-              Sua Foto
-            </h2>
-
-            {!uploadedImage ? (
-              <button
-                onClick={() => fileInputRef.current?.click()}
-                className={`w-full aspect-square rounded-2xl border-2 border-dashed ${c.border} bg-gradient-to-br from-white/5 to-white/[0.02] hover:from-white/10 hover:to-white/5 transition-all duration-300 flex flex-col items-center justify-center cursor-pointer group`}
-              >
-                <ImageIcon className="w-12 h-12 text-white/40 group-hover:text-white/60 transition-colors mb-3" />
-                <span className="text-white font-semibold">
-                  Clique para upload
-                </span>
-              </button>
-            ) : (
-              <div className="relative aspect-square rounded-2xl overflow-hidden border border-white/10">
-                <img
-                  src={uploadedImage}
-                  alt="Uploaded"
-                  className="w-full h-full object-cover"
-                />
-                <button
-                  onClick={() => {
-                    setUploadedImage(null);
-                    fileInputRef.current!.value = '';
-                  }}
-                  className="absolute top-2 right-2 bg-red-500/90 hover:bg-red-600 text-white px-3 py-1 rounded-lg text-sm transition-all duration-300"
-                >
-                  Trocar
-                </button>
-              </div>
-            )}
-
-            <input
-              ref={fileInputRef}
-              type="file"
-              accept="image/*"
-              onChange={handleImageUpload}
-              className="hidden"
-            />
-
-            {/* Mini prompt */}
-            <div className="mt-4">
-              <h3 className="text-sm font-bold mb-2 flex items-center gap-2 text-white">
-                <Sparkles className="w-4 h-4" />
-                Mini Comando
-              </h3>
-              <textarea
-                value={customPrompt}
-                onChange={(e) => setCustomPrompt(e.target.value)}
-                placeholder={style.prompt}
-                className="w-full h-20 bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white text-sm placeholder-white/40 focus:outline-none focus:border-white/30 transition-all duration-300 resize-none"
-              />
             </div>
 
-            {/* Generate button */}
-            <button
-              onClick={handleGenerate}
-              disabled={!uploadedImage || isGenerating}
-              className={`w-full mt-4 py-3 rounded-xl font-bold flex items-center justify-center gap-2 transition-all duration-300 text-sm ${
-                uploadedImage && !isGenerating
-                  ? `bg-gradient-to-r ${c.accent} hover:shadow-lg text-white`
-                  : 'bg-white/10 text-white/50 cursor-not-allowed'
-              }`}
-            >
-              {isGenerating ? (
-                <>
-                  <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
-                  Gerando...
-                </>
-              ) : (
-                <>
-                  <Zap className="w-4 h-4" />
-                  Gerar Imagem
-                </>
-              )}
-            </button>
-          </motion.div>
+            {/* Right sidebar - Upload and tips */}
+            <div className="space-y-6">
+              {/* Upload section */}
+              <motion.div
+                initial={{ opacity: 0, x: 20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.2 }}
+                className={`rounded-2xl border ${c.border} bg-gradient-to-br from-white/5 to-white/[0.02] backdrop-blur-xl p-6 shadow-xl`}
+              >
+                <h2 className="text-lg font-bold mb-4 flex items-center gap-2 text-white">
+                  <Upload className="w-5 h-5" />
+                  Sua Foto
+                </h2>
 
-          {/* Dicas */}
-          <div className={`rounded-2xl border ${c.border} bg-gradient-to-br from-white/5 to-white/[0.02] backdrop-blur-xl p-6 shadow-xl`}>
-            <h3 className="text-lg font-bold mb-4 text-white flex items-center gap-2">
-              <Check className="w-5 h-5" />
-              Dicas
-            </h3>
-            <ul className="space-y-3">
-              {style.tips.map((tip, i) => (
-                <li key={i} className="flex gap-3">
-                  <div className={`w-5 h-5 rounded-full bg-gradient-to-br ${c.accent} flex items-center justify-center flex-shrink-0 mt-0.5`}>
-                    <Check className="w-3 h-3 text-white" />
+                {!uploadedImage ? (
+                  <button
+                    onClick={() => fileInputRef.current?.click()}
+                    className={`w-full aspect-square rounded-xl border-2 border-dashed ${c.border} bg-gradient-to-br from-white/5 to-white/[0.02] hover:from-white/10 hover:to-white/5 transition-all duration-300 flex flex-col items-center justify-center cursor-pointer group`}
+                  >
+                    <ImageIcon className="w-8 h-8 text-white/40 group-hover:text-white/60 transition-colors mb-2" />
+                    <span className="text-white font-semibold text-sm">Upload</span>
+                  </button>
+                ) : (
+                  <div className="relative aspect-square rounded-xl overflow-hidden border border-white/10">
+                    <img
+                      src={uploadedImage}
+                      alt="Uploaded"
+                      className="w-full h-full object-cover"
+                    />
+                    <button
+                      onClick={() => {
+                        setUploadedImage(null);
+                        fileInputRef.current!.value = '';
+                      }}
+                      className="absolute top-2 right-2 bg-red-500/90 hover:bg-red-600 text-white px-2 py-1 rounded-lg text-xs transition-all"
+                    >
+                      Trocar
+                    </button>
                   </div>
-                  <span className="text-white/80 text-sm">{tip}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
+                )}
 
-          {/* Generated images */}
-          {generatedImage && (
-            <div className={`rounded-2xl border ${c.border} bg-gradient-to-br from-white/5 to-white/[0.02] backdrop-blur-xl p-6 shadow-xl`}>
-              <h3 className="text-lg font-bold mb-4 text-white flex items-center gap-2">
-                <Wand2 className="w-5 h-5" />
-                Sua Imagem
-              </h3>
-              
-              <motion.img
-                src={generatedImage}
-                alt="Generated"
-                className="w-full rounded-lg object-cover aspect-square cursor-pointer hover:opacity-80 transition-opacity mb-4"
-                initial={{ opacity: 0, scale: 0.9 }}
-                animate={{ opacity: 1, scale: 1 }}
-              />
+                <input
+                  ref={fileInputRef}
+                  type="file"
+                  accept="image/*"
+                  onChange={handleImageUpload}
+                  className="hidden"
+                />
 
-              {additionalImages.length === 0 && (
+                {/* Mini prompt */}
+                <div className="mt-4">
+                  <h3 className="text-xs font-bold mb-2 flex items-center gap-2 text-white">
+                    <Sparkles className="w-3 h-3" />
+                    Mini Comando
+                  </h3>
+                  <textarea
+                    value={customPrompt}
+                    onChange={(e) => setCustomPrompt(e.target.value)}
+                    placeholder={style.prompt}
+                    className="w-full h-16 bg-white/5 border border-white/10 rounded-lg px-3 py-2 text-white text-xs placeholder-white/40 focus:outline-none focus:border-white/30 transition-all resize-none"
+                  />
+                </div>
+
+                {/* Generate button */}
                 <button
-                  onClick={handleGenerateMore}
-                  disabled={isGenerating}
-                  className={`w-full py-3 rounded-xl font-bold flex items-center justify-center gap-2 transition-all duration-300 text-sm border ${
-                    !isGenerating
-                      ? 'bg-white/5 hover:bg-white/10 border-white/20 text-white'
-                      : 'bg-white/5 border-white/20 text-white/50 cursor-not-allowed'
+                  onClick={handleGenerate}
+                  disabled={!uploadedImage || isGenerating}
+                  className={`w-full mt-4 py-2 rounded-lg font-bold flex items-center justify-center gap-2 transition-all text-xs ${
+                    uploadedImage && !isGenerating
+                      ? `bg-gradient-to-r ${c.accent} text-white hover:shadow-lg`
+                      : 'bg-white/10 text-white/50 cursor-not-allowed'
                   }`}
                 >
                   {isGenerating ? (
                     <>
-                      <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
+                      <div className="w-3 h-3 border-2 border-white/30 border-t-white rounded-full animate-spin" />
                       Gerando...
                     </>
                   ) : (
                     <>
-                      <Wand2 className="w-4 h-4" />
-                      Gerar Outros Modelos
+                      <Zap className="w-3 h-3" />
+                      Gerar
                     </>
                   )}
                 </button>
-              )}
+              </motion.div>
 
-              {additionalImages.length > 0 && (
-                <div className="space-y-3 pt-4 border-t border-white/10">
-                  {additionalImages.map((img, i) => (
-                    <motion.img
-                      key={i}
-                      src={img}
-                      alt={`Model ${i + 1}`}
-                      className="w-full rounded-lg object-cover aspect-square"
-                      initial={{ opacity: 0, scale: 0.9 }}
-                      animate={{ opacity: 1, scale: 1 }}
-                      transition={{ delay: i * 0.1 }}
-                    />
+              {/* Tips section */}
+              <motion.div
+                initial={{ opacity: 0, x: 20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.3 }}
+                className={`rounded-2xl border ${c.border} bg-gradient-to-br from-white/5 to-white/[0.02] backdrop-blur-xl p-6 shadow-xl`}
+              >
+                <h3 className="text-lg font-bold mb-4 text-white flex items-center gap-2">
+                  <Check className="w-5 h-5" />
+                  Dicas
+                </h3>
+                <ul className="space-y-2">
+                  {style.tips.map((tip, i) => (
+                    <li key={i} className="flex gap-2 text-xs">
+                      <div className={`w-4 h-4 rounded-full bg-gradient-to-br ${c.accent} flex items-center justify-center flex-shrink-0 mt-0.5`}>
+                        <Check className="w-2 h-2 text-white" />
+                      </div>
+                      <span className="text-white/80">{tip}</span>
+                    </li>
                   ))}
-                </div>
+                </ul>
+              </motion.div>
+
+              {/* Generated image */}
+              {generatedImage && (
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  className={`rounded-2xl border ${c.border} bg-gradient-to-br from-white/5 to-white/[0.02] backdrop-blur-xl p-4 shadow-xl`}
+                >
+                  <h3 className="text-sm font-bold mb-3 text-white">Gerada</h3>
+                  <motion.img
+                    src={generatedImage}
+                    alt="Generated"
+                    className="w-full rounded-lg object-cover aspect-square mb-3"
+                    initial={{ opacity: 0, scale: 0.9 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                  />
+
+                  {additionalImages.length === 0 && (
+                    <button
+                      onClick={handleGenerateMore}
+                      disabled={isGenerating}
+                      className={`w-full py-2 rounded-lg font-bold flex items-center justify-center gap-2 transition-all text-xs border ${
+                        !isGenerating
+                          ? 'bg-white/5 hover:bg-white/10 border-white/20 text-white'
+                          : 'bg-white/5 border-white/20 text-white/50 cursor-not-allowed'
+                      }`}
+                    >
+                      {isGenerating ? (
+                        <>
+                          <div className="w-3 h-3 border-2 border-white/30 border-t-white rounded-full animate-spin" />
+                          Gerando...
+                        </>
+                      ) : (
+                        <>
+                          <Wand2 className="w-3 h-3" />
+                          Mais Modelos
+                        </>
+                      )}
+                    </button>
+                  )}
+
+                  {additionalImages.length > 0 && (
+                    <div className="space-y-2">
+                      {additionalImages.map((img, i) => (
+                        <motion.img
+                          key={i}
+                          src={img}
+                          alt={`Model ${i + 1}`}
+                          className="w-full rounded-lg object-cover aspect-square"
+                          initial={{ opacity: 0, scale: 0.9 }}
+                          animate={{ opacity: 1, scale: 1 }}
+                          transition={{ delay: i * 0.1 }}
+                        />
+                      ))}
+                    </div>
+                  )}
+                </motion.div>
               )}
             </div>
-          )}
-        </div>
+          </div>
+        </motion.div>
       </div>
     </div>
   );

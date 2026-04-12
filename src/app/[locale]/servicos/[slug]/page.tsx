@@ -361,7 +361,7 @@ export default function ServicePage() {
           </motion.div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {[0, 1, 2, 3, 4, 5].map((i) => (
+            {[0, 1, 2].map((i) => (
               <motion.div
                 key={i}
                 initial={{ opacity: 0, y: 30 }}
@@ -383,17 +383,7 @@ export default function ServicePage() {
                       className={`w-12 h-12 ${accent.text} opacity-40 group-hover:scale-110 group-hover:opacity-70 transition-all`}
                     />
                   </div>
-                  {/* Before/after mini labels */}
-                  <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between">
-                    <span className="text-[10px] font-bold text-white/70 bg-black/40 backdrop-blur-sm px-2 py-0.5 rounded-full uppercase tracking-wider">
-                      {ts('beforeLabel')}
-                    </span>
-                    <span
-                      className={`text-[10px] font-bold text-white ${accent.bg} backdrop-blur-sm px-2 py-0.5 rounded-full uppercase tracking-wider`}
-                    >
-                      {ts('afterLabel')}
-                    </span>
-                  </div>
+
                 </div>
               </motion.div>
             ))}

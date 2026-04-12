@@ -66,8 +66,8 @@ const serviceConfigs: ServiceConfig[] = [
     icon: Clock,
     gradient: 'from-amber-500/20 via-orange-500/10 to-accent-rose/20',
     iconBg: 'from-amber-500 to-orange-500',
-    beforeSrc: 'https://placehold.co/600x400/1a140e/888888?text=Antes',
-    afterSrc: 'https://placehold.co/600x400/1a140e/F59E0B?text=Depois',
+    beforeSrc: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663383332386/bqtyDmQVURyKynlK.jpg',
+    afterSrc: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663383332386/EuZTIHsbOhFfbEkY.png',
     borderColor: 'group-hover:border-amber-500/60',
   },
   {
